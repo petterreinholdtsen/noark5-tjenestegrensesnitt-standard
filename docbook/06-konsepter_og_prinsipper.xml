@@ -1,0 +1,2157 @@
+<chapter id="konsepter-og-prinsipper">
+  <title>Konsepter og prinsipper</title>
+  <sect1 id="utforming-av-tjenester">
+    <title>Utforming av tjenester</title>
+    <para>
+      Mandatet til prosjektgruppen var å etablere CRUD tjenester
+      (Create, Read, Update, Delete) for NOARK5 standarden. Både
+      tjenestene og datastrukturer er modellert i UML.
+    </para>
+    <para>
+      De aller fleste objekter i NOARK trenger operasjoner/tjenester for
+      å opprette objekt, finne objekter, oppdatere objekter og i noen
+      spesielle tilfeller slette objekter. I noen av kravene i NOARK er
+      det også beskrevet egne tjenester som skal kunne utføres.
+    </para>
+    <para>
+      Det er valgt å spesifisere REST for tjenestene. Prinsippene og
+      eksempler følger under, og ytterligere detaljer kan en finne i
+      vedlegg 3.
+    </para>
+    <sect2 id="rest-tjenestene">
+      <title>REST tjenestene</title>
+      <para>
+        For REST er HATEOAS prinsipper fulgt slik at en klient skal fra
+        en hoved-URL kunne navigere og oppdage selv alle mulig tjenester
+        som kjernen tilbyr.
+      </para>
+      <para>
+        Dette gjøres med ressurslenker og relasjonslenker som inneholder
+        beskrivelse av ressursen med eksempler på forespørsler, resultat
+        og statuskoder. Alle slike ressurslenker og relasjonslenker har
+        avsluttende skråstrek.
+      </para>
+      <para>
+        <inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="./media/uml-klasse-http-metoder.png" />
+          </imageobject>
+        </inlinemediaobject>
+      </para>
+      <para>
+        Under følger eksempler fra tjenestene.
+      </para>
+      <sect3 id="oppkobling-og-ressurslenker">
+        <title>Oppkobling og ressurslenker</title>
+        <para>
+          Oppkobling skjer mot en hoved-URL og er den eneste ressursen
+          klienten trenger å vite for å starte interaksjon. Resten av
+          endepunkter oppdages av klienten via relasjonsnøkler som
+          beskriver hva ressursen kan brukes til.
+        </para>
+        <para>
+          <emphasis role="strong">Request</emphasis>
+        </para>
+        <para>
+          GET
+          <ulink url="http://localhost:49708/api">http://localhost:49708/api</ulink>
+        </para>
+        <para>
+          Accept: application/vnd.noark5-v4+json
+        </para>
+        <para>
+          <emphasis role="strong">Response</emphasis>
+        </para>
+        <para>
+          Content-Type: application/vnd.noark5-v4+json
+        </para>
+        <programlisting language="python">
+{
+    &quot;_links&quot;: [
+        {
+            &quot;href&quot;: &quot;http://localhost:49708/api/arkivstruktur&quot;,
+            &quot;rel&quot;: &quot;http://rel.kxml.no/noark5/v4/api/arkivstruktur/&quot;
+        },
+        {
+            &quot;href&quot;: &quot;http://localhost:49708/api/sakarkiv&quot;,
+            &quot;rel&quot;: &quot;http://rel.kxml.no/noark5/v4/api/sakarkiv/&quot;
+        }
+    ]
+}
+</programlisting>
+        <para>
+          Eksempelet viser at denne arkivkjernen støtter arkivstruktur
+          (<ulink url="http://rel.kxml.no/noark5/v4/api/arkivstruktur/">http://rel.kxml.no/noark5/v4/api/arkivstruktur/</ulink>)
+          og sakarkiv
+          (<ulink url="http://rel.kxml.no/noark5/v4/api/sakarkiv/">http://rel.kxml.no/noark5/v4/api/sakarkiv/</ulink>).
+          Ved å følge <emphasis role="strong">href</emphasis> til disse
+          relasjonsnøkler vil tilgjengelige ressurser innen disse
+          områder annonseres på samme måte.
+        </para>
+        <para>
+          <emphasis role="strong">Resultatkoder</emphasis>
+        </para>
+        <informaltable>
+          <tgroup cols="2">
+            <colspec align="left" />
+            <colspec align="left" />
+            <thead>
+              <row>
+                <entry>
+                  Statuskode
+                </entry>
+                <entry>
+                  Beskrivelse
+                </entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>
+                  200
+                </entry>
+                <entry>
+                  OK
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  400
+                </entry>
+                <entry>
+                  BadRequest - ugyldig forespørsel
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  403
+                </entry>
+                <entry>
+                  Forbidden - ingen tilgang
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  404
+                </entry>
+                <entry>
+                  NotFound - ikke funnet
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  501
+                </entry>
+                <entry>
+                  NotImplemented - ikke implementert
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </informaltable>
+        <para>
+          Alternativt som XML
+        </para>
+        <para>
+          <emphasis role="strong">Request</emphasis>
+        </para>
+        <para>
+          GET
+          <ulink url="http://localhost:49708/api">http://localhost:49708/api</ulink>
+        </para>
+        <para>
+          Accept: application/vnd.noark5-v4+xml
+        </para>
+        <para>
+          <emphasis role="strong">Response</emphasis>
+        </para>
+        <para>
+          Content-Type: application/vnd.noark5-v4+xml
+        </para>
+        <programlisting language="xml">
+&lt;Links
+    xmlns:xsi=&quot;http://www.w3.org/2001/XMLSChema-instance&quot;
+    xmlns:xsd=&quot;http://www.w3.org/2001/XMLSChema&quot;
+    xmlns=&quot;http://www.kxml.no/rest/1.0&quot;&gt;
+    &lt;Links&gt;
+        &lt;link&gt;
+            &lt;rel&gt;http://rel.kxml.no/noark5/v4/api/arkivstruktur/&lt;/rel&gt;
+            &lt;href&gt;http://localhost:49708/api/arkivstruktur&lt;/href&gt;
+            &lt;type sxi:nil=&quot;true&quot; /&gt;
+            &lt;deprecation xsi:nil=&quot;true&quot; /&gt;
+            &lt;name xsi:nil=&quot;true&quot; /&gt;
+            &lt;title xsi:nil=&quot;true&quot; /&gt;
+        &lt;/link&gt;
+        &lt;link&gt;
+            &lt;rel&gt;http://rel.kxml.no/noark5/v4/api/sakarkiv/&lt;/rel&gt;
+            &lt;href&gt;http://localhost:49708/api/sakarkiv&lt;/href&gt;
+            &lt;type sxi:nil=&quot;true&quot; /&gt;
+            &lt;deprecation xsi:nil=&quot;true&quot; /&gt;
+            &lt;name xsi:nil=&quot;true&quot; /&gt;
+            &lt;title xsi:nil=&quot;true&quot; /&gt;
+        &lt;/link&gt;
+    &lt;/Links&gt;
+&lt;/Links&gt;
+</programlisting>
+        <para>
+          ­­­<emphasis role="strong">href</emphasis> kan være hva som
+          helst og trenger ikke følge noe fast mønster for oppbygning av
+          url. Mens <emphasis role="strong">rel</emphasis>
+          (relasjonsnøkkelen) har faste verdier som beskriver hva
+          ressursen kan brukes til. Denne kan klienten også åpne for å
+          vise beskrivelse, eksempel på bruk, statuskoder og annet som
+          er relevant for denne relasjonsnøkkelen.
+        </para>
+        <para>
+          <emphasis role="strong">Relasjonsnøkler på rotnivå</emphasis>
+        </para>
+        <informaltable>
+          <tgroup cols="2">
+            <colspec align="left" />
+            <colspec align="left" />
+            <thead>
+              <row>
+                <entry>
+                  Relasjonsnøkkel (rel)
+                </entry>
+                <entry>
+                  Beskrivelse
+                </entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>
+                  <ulink url="http://rel.kxml.no/noark5/v4/api/arkivstruktur/">http://rel.kxml.no/noark5/v4/api/arkivstruktur/</ulink>
+                </entry>
+                <entry>
+                  Arkivkjerne støtter konformitetsnivå 1 arkivstruktur
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <ulink url="http://rel.kxml.no/noark5/v4/api/sakarkiv/">http://rel.kxml.no/noark5/v4/api/sakarkiv/</ulink>
+                </entry>
+                <entry>
+                  Arkivkjerne støtter konformitetsnivå for sakarkiv (2a)
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </informaltable>
+        <para>
+          Relasjonsnøkler under de forskjellige konformitetsnivå listes
+          ut i kapittel 7 sammen med beskrivelse av klasser.
+        </para>
+        <para>
+          <emphasis role="strong">Spesielle relasjonsnøkler</emphasis>
+        </para>
+        <informaltable>
+          <tgroup cols="2">
+            <colspec align="left" />
+            <colspec align="left" />
+            <thead>
+              <row>
+                <entry>
+                  Relasjonsnøkkel (rel)
+                </entry>
+                <entry>
+                  Beskrivelse
+                </entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>
+                  self
+                </entry>
+                <entry>
+                  Brukes for å identifisere en ressurs, og kan brukes
+                  til oppdatering og sletting.
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  next
+                </entry>
+                <entry>
+                  Brukes for å angi neste side ved serverstyrt
+                  resultatoppdeling
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </informaltable>
+        <para>
+          Ressurser bør kun gjøres tilgjengelig i API når pålogget
+          bruker har tilgang til disse. Hvis en bruker ikke har tilgang
+          til å avslutte en mappe så bør ikke relasjonsnøkkel for dette
+          annonseres i API for å gjøre det lettere å navigere til
+          aktuelle funksjoner.
+        </para>
+      </sect3>
+      <sect3 id="finne-objekter-read">
+        <title>Finne objekter (Read)</title>
+        <para>
+          For filter skal syntaks fra oData standarden
+          (<ulink url="http://docs.oasis-open.org/odata/odata/v4.0/os/part2-url-conventions/odata-v4.0-os-part2-url-conventions.html\#\_Toc372793790">http://docs.oasis-open.org/odata/odata/v4.0/os/part2-url-conventions/odata-v4.0-os-part2-url-conventions.html\#\_Toc372793790</ulink>)
+          benyttes. De ressurser som støtter filter skal annonserer
+          dette under <emphasis role="strong">_links</emphasis> med
+          <emphasis role="strong">templated=true</emphasis> og parametre
+          som kan brukes til dette i
+          <emphasis role="strong">href</emphasis>. Feltet «templated» er
+          valgfritt og verdien skal antas å være «false» hvis det ikke
+          finnes. Typiske parametre er
+          <emphasis role="strong">$filter</emphasis>,
+          <emphasis role="strong">$top</emphasis>,
+          <emphasis role="strong">$skip</emphasis> og
+          <emphasis role="strong">$orderby</emphasis>. Alle lister med
+          data bør støtte søk og filtrering.
+        </para>
+        <programlisting language="python">
+{
+    &quot;_links&quot;: [
+        {
+            &quot;href&quot;: &quot;http://localhost:49708/api/arkivstruktur/arkiv{?$filter&amp;$orderby&amp;$top&amp;$skip&amp;$search}&quot;,
+            &quot;rel&quot;: &quot;http://rel.kxml.no/noark5/v4/api/arkivstruktur/arkiv/&quot;,
+            &quot;templated&quot;: true
+        },
+        {
+            &quot;href&quot;: &quot;http://localhost:49708/api/arkivstruktur/ny-arkivskaper&quot;,
+            &quot;rel&quot;: &quot;http://rel.kxml.no/noark5/v4/api/arkivstruktur/ny-arkivskaper/&quot;,
+            &quot;templated&quot;: false
+        },
+</programlisting>
+        <para>
+          Figur 1 anonsering av templated link for søk etter arkiv
+        </para>
+        <para>
+          Filter parametre som skal støttes er:
+        </para>
+        <itemizedlist spacing="compact">
+          <listitem>
+            <para>
+              $filter
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+              $top
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+              $skip
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+              $search
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+              $orderby
+            </para>
+          </listitem>
+        </itemizedlist>
+        <para>
+          <emphasis role="strong">Nivå på filter</emphasis>
+        </para>
+        <itemizedlist spacing="compact">
+          <listitem>
+            <para>
+              Nivå basis (påkrevd):
+            </para>
+            <itemizedlist spacing="compact">
+              <listitem>
+                <para>
+                  Filter på direkte felter.
+                </para>
+              </listitem>
+              <listitem>
+                <para>
+                  Filter på en-til-en gruppe relasjoner (blant annet
+                  kodelister)
+                </para>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+          <listitem>
+            <para>
+              Nivå utvidet:
+            </para>
+            <itemizedlist spacing="compact">
+              <listitem>
+                <para>
+                  Filter på en-til-mange relasjoner (vha. 'any' og 'all'
+                  odata funksjonene)
+                </para>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+        </itemizedlist>
+        <sect4 id="filtrering">
+          <title>Filtrering</title>
+          <para>
+            Filtrering støttes med $filter parameter. Nedenfor følger en
+            del eksempeler på ulike filtreringer med de innebygde
+            odata-operatorene. Flere filtre kan kombineres med
+            operatorene <emphasis role="strong">and</emphasis> og
+            <emphasis role="strong">or</emphasis>.
+          </para>
+          <para>
+            <emphasis>Begynner med</emphasis>
+          </para>
+          <para>
+            <emphasis role="strong">Syntaks:</emphasis>
+            startswith(feltnavn, ‘tekst’)
+          </para>
+          <para>
+            <emphasis role="strong">Eksempel:</emphasis>
+          </para>
+          <blockquote>
+            <para>
+              /api/arkivstruktur/mappe/?$filter=startswith(tittel,
+              'allergisk testmappe')
+            </para>
+          </blockquote>
+          <para>
+            <emphasis>Er lik</emphasis>
+          </para>
+          <para>
+            <emphasis>Syntaks:</emphasis> feltnavn eq verdi
+          </para>
+          <para>
+            <emphasis role="strong">Eksempel:</emphasis>
+          </para>
+          <blockquote>
+            <para>
+              /api/arkivstruktur/mappe/?$filter=systemID eq '1'
+            </para>
+          </blockquote>
+          <para>
+            <emphasis>Inneholder</emphasis>
+          </para>
+          <para>
+            <emphasis role="strong">Syntaks:</emphasis>
+            substringof(‘tekst’, feltnavn)
+          </para>
+          <para>
+            <emphasis role="strong">Eksempel:</emphasis>
+          </para>
+          <blockquote>
+            <para>
+              /api/arkivstruktur/mappe/?$filter=substringof('test',
+              tittel)
+            </para>
+          </blockquote>
+          <para>
+            <emphasis>Større enn</emphasis>
+          </para>
+          <para>
+            <emphasis role="strong">Syntaks:</emphasis> feltnavn gt
+            verdi
+          </para>
+          <para>
+            <emphasis role="strong">Eksempel:</emphasis>
+          </para>
+          <blockquote>
+            <para>
+              /api/arkivstruktur/registrering/?$filter=year(oppdatertDato)
+              gt 2012
+            </para>
+          </blockquote>
+          <blockquote>
+            <para>
+              /api/sakarkiv/saksmappe?$filter=saksdato gt
+              DateTime'2017-02-15'
+            </para>
+          </blockquote>
+          <para>
+            <emphasis>Mindre enn</emphasis>
+          </para>
+          <para>
+            <emphasis role="strong">Syntaks:</emphasis> feltnavn lt
+            verdi
+          </para>
+          <para>
+            <emphasis role="strong">Eksempel:</emphasis>
+          </para>
+          <blockquote>
+            <para>
+              /api/sakarkiv/saksmappe?$filter=saksdato lt
+              DateTime'2017-02-15'
+            </para>
+          </blockquote>
+          <para>
+            <emphasis>Større enn eller lik</emphasis>
+          </para>
+          <para>
+            <emphasis role="strong">Syntaks:</emphasis> feltnavn ge
+            verdi
+          </para>
+          <para>
+            <emphasis role="strong">Eksempel:</emphasis>
+          </para>
+          <blockquote>
+            <para>
+              /api/sakarkiv/saksmappe?$filter=saksdato ge
+              DateTime'2017-02-15'
+            </para>
+          </blockquote>
+          <para>
+            <emphasis>Mindre enn eller lik</emphasis>
+          </para>
+          <para>
+            <emphasis role="strong">Syntaks:</emphasis> feltnavn le
+            verdi
+          </para>
+          <para>
+            <emphasis role="strong">Eksempel:</emphasis>
+          </para>
+          <blockquote>
+            <para>
+              /api/sakarkiv/saksmappe?$filter=saksdato le
+              DateTime'2017-02-15'
+            </para>
+          </blockquote>
+          <para>
+            <emphasis>Og</emphasis>
+          </para>
+          <para>
+            <emphasis role="strong">Syntaks:</emphasis> uttrykk and
+            utrykk
+          </para>
+          <para>
+            <emphasis role="strong">Eksempel:</emphasis>
+          </para>
+          <blockquote>
+            <para>
+              /api/sakarkiv/saksmappe/?$filter=saksdato gt
+              DateTime'2017-02-10' and saksdato lt DateTime'2017-02-12'
+            </para>
+          </blockquote>
+          <para>
+            <emphasis>Eller</emphasis>
+          </para>
+          <para>
+            <emphasis role="strong">Syntaks:</emphasis> uttrykk or
+            utrykk
+          </para>
+          <para>
+            <emphasis role="strong">Eksempel:</emphasis>
+          </para>
+          <blockquote>
+            <para>
+              /api/sakarkiv/saksmappe/?$filter=year(saksdato) gt 2014 or
+              year(opprettetDato) gt 2014
+            </para>
+          </blockquote>
+          <para>
+            <emphasis role="strong">Flere eksempler på
+            filtrering</emphasis>
+          </para>
+          <para>
+            <emphasis>De to første mappene med test i
+            tittelen</emphasis>
+          </para>
+          <blockquote>
+            <para>
+              /api/arkivstruktur/mappe/?$top=2&amp;$filter=substringof('test',tittel)
+            </para>
+          </blockquote>
+          <para>
+            <emphasis>Mapper med graderingskode B</emphasis>
+          </para>
+          <blockquote>
+            <para>
+              /api/arkivstruktur/mappe/?$filter=gradering/graderingskode/kode
+              eq 'B'
+            </para>
+          </blockquote>
+          <para>
+            <emphasis>Mapper med merknader som har merknadstype
+            B</emphasis>
+          </para>
+          <informaltable>
+            <tgroup cols="3">
+              <colspec align="left" />
+              <colspec align="left" />
+              <colspec align="left" />
+              <thead>
+                <row>
+                  <entry>
+                    Eksempel
+                  </entry>
+                  <entry>
+                    Forklaring
+                  </entry>
+                  <entry>
+                    Nivå
+                  </entry>
+                </row>
+              </thead>
+              <tbody>
+                <row>
+                  <entry>
+                    ../arkivstruktur/mappe/?$expand=merknad&amp;$filter=merknad/any(m:
+                    m/merknadstype/kode eq 'B')
+                  </entry>
+                  <entry>
+                    Mapper med merknader som har merknadstype B
+                  </entry>
+                  <entry>
+                    utvidet
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    <ulink url="http://n5test.kxml.no/api/arkivstruktur/Arkivdel/1235/mappe?$top=2&amp;$filter=tittel%20eq%20%E2%80%98testmappe%E2%80%99">../arkivdel/1235/mappe?$top=2&amp;$filter=contains(‘testmappe’,
+                    tittel) eq true</ulink> $orderby=oppdatertDato desc
+                  </entry>
+                  <entry>
+                    De to første mapper hvor testmappe er en del av
+                    tittel sortert synkende på oppdatertDato
+                  </entry>
+                  <entry>
+                    basis
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    ../api/arkivstruktur/Mappe?$filter=klasse/klasseID
+                    eq '12/2' and
+                    klasse/klassifikasjonssystem/klassifikasjonstype/kode
+                    eq 'GBNR'
+                  </entry>
+                  <entry>
+                    Mappe med klassering på eiendom
+                  </entry>
+                  <entry>
+                    utvidet
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    ../api/arkivstruktur/Mappe?$filter=klasse/klasseID
+                    eq '12345678901' and
+                    klasse/klassifikasjonssystem/klassifikasjonstype/kode
+                    eq 'PNR'
+                  </entry>
+                  <entry>
+                    Mappe med klassering på fødselsnr
+                  </entry>
+                  <entry>
+                    utvidet
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    ../api/arkivstruktur/Mappe?$filter=klasse/klasseID
+                    eq '123456789' and
+                    klasse/klassifikasjonssystem/klassifikasjonstype/kode
+                    eq 'ORG'
+                  </entry>
+                  <entry>
+                    Mappe med klassering på organisasjonsnr
+                  </entry>
+                  <entry>
+                    utvidet
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    ../api/sakarkiv/Saksmappe/?$filter=sakspart/any(s:s/Default.SakspartPersonType/foedselsnummer
+                    eq '12334566')
+                  </entry>
+                  <entry>
+                    Saksmapper med sakspart(SakspartPerson) med gitt
+                    fødselsnr
+                  </entry>
+                  <entry>
+                    utvidet
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    ../api/sakarkiv/Saksmappe/?$filter=sakspart/any(s:s/Default.SakspartEnhetType/organisasjonsnummer
+                    eq '12334566')
+                  </entry>
+                  <entry>
+                    Sakspart med organisasjonsnr
+                  </entry>
+                  <entry>
+                    utvidet
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    ..api/sakarkiv/journalpost/?$filter=korrespondansepart/any(s:s/Default.KorrespondansepartPersonType/foedselsnummer
+                    eq '12334566')
+                  </entry>
+                  <entry>
+                    Korrespondansepart med fødselsnummer
+                  </entry>
+                  <entry>
+                    utvidet
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    ..api/arkivstruktur/mappe/?$filter=nasjonalidentifikator/any(i:
+                    i/Default.BygningType/byggidentifikator/bygningsNummer
+                    eq '12345678')
+                  </entry>
+                  <entry>
+                    Nasjonal identifikator med bygningsnr
+                  </entry>
+                  <entry>
+                    utvidet
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </informaltable>
+          <para>
+            <emphasis role="strong">Søk</emphasis>
+          </para>
+          <para>
+            $search brukes for generelt søk. Arkivkjernen bestemmer
+            hvordan denne er implementert med hensyn på hvilke felter
+            den inkluderer i søk og om for eksempel innhold i dokumenter
+            er med.
+          </para>
+          <para>
+            Eksempel på hvordan syntaks for et søk i et arkiv kan se ut:
+          </para>
+          <blockquote>
+            <para>
+              /api/arkivstruktur/arkiv?$search='test'
+            </para>
+          </blockquote>
+          <para>
+            <emphasis role="strong">Sortering</emphasis>
+          </para>
+          <para>
+            $orderby brukes for å angi sortering av resultat etter gitte
+            felter.
+          </para>
+          <para>
+            <emphasis role="strong">Resultatoppdeling
+            (Paginering)</emphasis>
+          </para>
+          <para>
+            På klientsiden kan $top og $skip brukes sammen for å angi
+            hvilken side av søkeresultatet en ønsker returnert. $top gir
+            antallet som skal returneres, og $skip gir antallet en skal
+            hoppe over og ikke inkludere i resultatet.
+          </para>
+          <para>
+            Serverstyrt resultatoppdeling kan settes av arkivkjernen med
+            PageSize. Pagesize setter max antall som kan returneres fra
+            arkivkjerne og kjerne må returnere en next link som gir
+            neste siden.
+          </para>
+          <para>
+            <emphasis role="strong">Filter på underobjekter</emphasis>
+          </para>
+          <para>
+            Any eller All brukes for å filtrere på navigerbare objekter.
+            Det kan være begrensninger på hvor mange nivå/dybde en
+            arkivkjerne støtter.
+          </para>
+          <informaltable>
+            <tgroup cols="1">
+              <colspec align="left" />
+              <thead>
+                <row>
+                  <entry>
+                    Eksempel:
+                  </entry>
+                </row>
+              </thead>
+              <tbody>
+                <row>
+                  <entry>
+                    localhost:49708/api/sakarkiv/saksmappe?$filter=nasjonalidentifikator/any(i:
+                    i/Default.BygningType/byggidentifikator/bygningsNummer
+                    eq '12345678')
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    localhost:49708/api/sakarkiv/saksmappe?$filter=nasjonalidentifikator/any(i:
+                    i/Default.BygningType/byggidentifikator/bygningsNummer
+                    eq '12345678')
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </informaltable>
+          <para>
+            <emphasis role="strong">Resultat med
+            underobjekter</emphasis>
+          </para>
+          <para>
+            $expand brukes for å inkludere underobjekter i resultat. Det
+            kan være begrensninger på hvor mange nivå en arkivkjerne
+            støtter. Som standard skal ikke underobjekter returneres
+            hvis dette ikke spesifiseres med $expand. Hvor mange nivåer
+            som støttes settes opp i kjernen med MaxExpansionDepth.
+          </para>
+          <para>
+            <emphasis role="strong">Filter og tilgangsstyring</emphasis>
+          </para>
+          <para>
+            Ved søk skal arkivkjernen ta hensyn til tilgangsrettigheter
+            slik at brukere ikke får uautorisert tilgang til
+            informasjon. Er informasjonen unntatt offentlighet, skjermet
+            eller gradert så skal ikke uautoriserte brukere få tilgang
+            til dette. Dette kan bety at en bruker har lov til å
+            registrere et objekt, men ikke rettigheter til å vise dette
+            etterpå.
+          </para>
+          <table>
+            <title>
+              Resultatkoder ved navigering/søk
+            </title>
+            <tgroup cols="2">
+              <colspec align="left" />
+              <colspec align="left" />
+              <thead>
+                <row>
+                  <entry>
+                    Statuskode
+                  </entry>
+                  <entry>
+                    Beskrivelse
+                  </entry>
+                </row>
+              </thead>
+              <tbody>
+                <row>
+                  <entry>
+                    200
+                  </entry>
+                  <entry>
+                    OK
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    400
+                  </entry>
+                  <entry>
+                    BadRequest - ugyldig forespørsel
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    403
+                  </entry>
+                  <entry>
+                    Forbidden - ingen tilgang
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    404
+                  </entry>
+                  <entry>
+                    NotFound - ikke funnet
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    500
+                  </entry>
+                  <entry>
+                    InternalServerError – generell feil på server
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    501
+                  </entry>
+                  <entry>
+                    NotImplemented - ikke implementert
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </sect4>
+      </sect3>
+      <sect3 id="opprette-objekter-create">
+        <title>Opprette objekter (Create)</title>
+        <para>
+          For å opprette objekter må først ressurslenke finnes basert på
+          relasjonsnøkkel.
+        </para>
+        <para>
+          For eksempel kan en opprette mapper på arkivdel, og da vil
+          _Links under en arkivdel inneholde relasjonsnøkkelen
+          rel=&quot;<ulink url="http://rel.kxml.no/noark5/v4/api/arkivstruktur/ny-mappe/">http://rel.kxml.no/noark5/v4/api/arkivstruktur/ny-mappe/</ulink>&quot;
+          om bruker har lov til å opprette mapper på denne arkivdelen.
+          Den aktuelle ressurslenke kan være
+          <ulink url="http://n5test.kxml.no/api/arkivstruktur/Arkivdel/12345/ny-mappe">http://n5test.kxml.no/api/arkivstruktur/Arkivdel/12345/ny-mappe</ulink>
+          . Denne kan brukes til både GET og POST forespørsel.
+        </para>
+        <para>
+          GET forespørselen forhåndsutfyller en lovlig objektstruktur og
+          gir relasjonslenker til aktuelle kodelister. En slik
+          forespørsel oppretter ikke noe objekt og returverdien
+          refererer ikke heller til et objekt i databasen, og er derfor
+          uten «self»-relasjon.
+        </para>
+        <para>
+          Ved registrering av objektet så skal kjernen fylle ut
+          systemid, opprettetAv og opprettetDato. OpprettetAv skal være
+          personnavn, referanseOpprettetAv skal være en systemID. NB!
+          Denne systemID-en kan være en entydig identifikator av
+          brukeren i fagsystemet, slik at personen ikke nødvendigvis må
+          være bruker i arkivkjernen. opprettetDato er datoen (eller
+          dataTime) enheten er opprettet i fagsystemet.
+        </para>
+        <programlisting language="python">
+{
+    &quot;mappetype&quot;: {
+        &quot;kode&quot;: &quot;BYGG&quot;,
+        &quot;beskrivelse&quot;: &quot;Byggesak&quot;
+    },
+    &quot;tittel&quot;: &quot;angi tittel på mappe&quot;,
+    &quot;dokumentmendium&quot;: {
+        &quot;kode&quot;: &quot;E&quot;,
+        &quot;beskrivelse&quot;: &quot;Elektronisk arkiv&quot;
+    },
+    &quot;_links&quot;: [
+        {
+            &quot;href&quot;: &quot;http://localhost:49708/api/kodelister/Dokumentmedium{?$filter&amp;$orderby&amp;$top&amp;$skip}&quot;,
+            &quot;rel&quot;: &quot;http://rel.kxml.no/noark5/v4/api/administrasjon/dokumentmedium/&quot;,
+            &quot;templated&quot;: true
+        },
+        {
+            &quot;href&quot;: &quot;http://localhost:49708/api/kodelister/Mapetype{?$filter&amp;$orderby&amp;$top&amp;$skip}&quot;,
+            &quot;rel&quot;: &quot;http://rel.kxml.no/noark5/v4/api/administrasjon/mappetype/&quot;,
+            &quot;templated&quot;: true
+        }
+    ]
+}
+</programlisting>
+        <para>
+          Klienten sender en POST forespørsel med en lovlig
+          objektstruktur til gitt url. Responsen gir statuskode 201
+          Created om objektet ble opprettet korrekt og komplett objekt
+          samt location header for lese eller endre url.
+        </para>
+        <para>
+          POST til
+          <ulink url="http://n5test.kxml.no/api/arkivstruktur/Arkivdel/12345/ny-mappe">http://n5test.kxml.no/api/arkivstruktur/Arkivdel/12345/ny-mappe</ulink>
+        </para>
+        <para>
+          Content-Type: application/vnd.noark5-v4+json
+        </para>
+        <programlisting language="python">
+{
+    &quot;mappetype&quot;: {
+        &quot;kode&quot;: &quot;BYGG&quot;,
+        &quot;beskrivelse&quot;: &quot;Byggesak&quot;
+    },
+    &quot;tittel&quot;, &quot;Testvegen 32, ny enebolig&quot;,
+    &quot;dokumentmendium&quot;: {
+        &quot;kode&quot;: &quot;E&quot;,
+        &quot;beskrivelse&quot;: &quot;Elektronisk arkiv&quot;
+    }
+}
+</programlisting>
+        <para>
+          <emphasis role="strong">Resultat</emphasis>
+        </para>
+        <para>
+          201 Opprettet
+        </para>
+        <para>
+          Location →
+        </para>
+        <para>
+          <ulink url="http://localhost:49708/api/arkivstruktur/Mappe/a043d07b-9641-44ad-85d8-056730bc89c8">http://localhost:49708/api/arkivstruktur/Mappe/a043d07b-9641-44ad-85d8-056730bc89c8</ulink>
+        </para>
+        <programlisting language="python">
+{
+    &quot;mappeID&quot;: &quot;123456/2016&quot;,
+    &quot;mappetype&quot;: {
+        &quot;kode&quot;: &quot;BYGG&quot;,
+        &quot;beskrivelse&quot;: &quot;Byggesak&quot;
+    },
+    &quot;tittel&quot;, &quot;Testvegen 32, ny enebolig&quot;,
+    &quot;dokumentmendium&quot;: {
+        &quot;kode&quot;: &quot;E&quot;,
+        &quot;beskrivelse&quot;: &quot;Elektronisk arkiv&quot;
+    },
+    &quot;systemID&quot;: &quot;515c45b5-e903-4320-a085-2a98813878ba&quot;,
+    &quot;opprettetDato&quot;: &quot;2016-04-03T15:45:28.4985538+02:00&quot;,
+    &quot;opprettetAv&quot;: &quot;pålogget bruker&quot;,
+    &quot;referanseOpprettetAv&quot;: &quot;4ff78c87-6e41-40cb-bc6b-edff1ce685b9&quot;,
+    &quot;_links&quot;: [
+        {
+            &quot;href&quot;: &quot;http://localhost:49708/api/arkivstruktur/Mappe/515c45b5-e903-4320-a085-2a98813878ba&quot;,
+            &quot;rel&quot;: &quot;self&quot;,
+            &quot;templated&quot;: false
+        },
+        {
+            &quot;href&quot;: &quot;http://localhost:49708/api/arkivstruktur/Mappe/515c45b5-e903-4320-a085-2a98813878ba&quot;,
+            &quot;rel&quot;: &quot;http://rel.kxml.no/noark5/v4/api/arkivstruktur/mappe/&quot;,
+            &quot;templated&quot;: false
+        },
+        {
+            &quot;href&quot;: &quot;http://localhost:49708/api/arkivstruktur/Mappe/515c45b5-e903-4320-a085-2a98813878ba/avslutt&quot;,
+            &quot;rel&quot;: &quot;http://rel.kxml.no/noark5/v4/api/arkivstruktur/avslutt-mappe/&quot;,
+            &quot;templated&quot;: false
+        },
+        {
+            &quot;href&quot;: &quot;http://localhost:49708/api/arkivstruktur/Mappe/515c45b5-e903-4320-a085-2a98813878ba/utvid-til-saksmappe&quot;,
+            &quot;rel&quot;: &quot;http://rel.kxml.no/noark5/v4/api/sakarkiv/utvid-til-saksmappe/&quot;,
+            &quot;templated&quot;: false
+        },
+</programlisting>
+        <para>
+          Figur 2 respons fra opprett mappe (eksempel avkortet for liste
+          over links)
+        </para>
+        <table>
+          <title>
+            Resultatkoder ved oppretting av objekt
+          </title>
+          <tgroup cols="2">
+            <colspec align="left" />
+            <colspec align="left" />
+            <thead>
+              <row>
+                <entry>
+                  Statuskode
+                </entry>
+                <entry>
+                  Beskrivelse
+                </entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>
+                  200
+                </entry>
+                <entry>
+                  OK
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  201
+                </entry>
+                <entry>
+                  Created - opprettet
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  400
+                </entry>
+                <entry>
+                  BadRequest - ugyldig forespørsel
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  403
+                </entry>
+                <entry>
+                  Forbidden - ingen tilgang
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  404
+                </entry>
+                <entry>
+                  NotFound - ikke funnet
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  409
+                </entry>
+                <entry>
+                  Conflict – objektet kan være endret av andre
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  500
+                </entry>
+                <entry>
+                  InternalServerError – generell feil på server
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  501
+                </entry>
+                <entry>
+                  NotImplemented - ikke implementert
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para>
+          Heleide objekter(komposisjoner) kan opprettes sammen med
+          hovedobjektet og inngår i dens lovlige objektstruktur. For
+          eksempel merknad på en mappe kan registreres sammen med
+          registreringen av mappe.
+        </para>
+      </sect3>
+      <sect3 id="preutfylling-av-objekt">
+        <title>Preutfylling av objekt</title>
+        <para>
+          Ved å bruke GET på for eksempel ny-mappe
+          (<ulink url="http://rel.kxml.no/noark5/v4/api/arkivstruktur/ny-mappe/">http://rel.kxml.no/noark5/v4/api/arkivstruktur/ny-mappe/</ulink>)
+          så kan arkivkjerne preutfylle og foreslå vanlige data for et
+          objekt basert på pålogget bruker samt annonsere hvor diverse
+          lovlige koder kan hentes fra slik som mappetype og
+          dokumentmedium.
+        </para>
+        <programlisting language="python">
+{
+    &quot;mappetype&quot;: {
+        &quot;kode&quot;: &quot;BYGG&quot;,
+        &quot;beskrivelse&quot;: &quot;Byggesak&quot;
+    },
+    &quot;tittel&quot;: &quot;angi tittel på mappe&quot;,
+    &quot;dokumentmendium&quot;: {
+        &quot;kode&quot;: &quot;E&quot;,
+        &quot;beskrivelse&quot;: &quot;Elektronisk arkiv&quot;
+    },
+    &quot;_links&quot;: [
+        {
+            &quot;href&quot;: &quot;http://localhost:49708/api/kodelister/Dokumentmedium{?$filter&amp;$orderby&amp;$top&amp;$skip}&quot;,
+            &quot;rel&quot;: &quot;http://rel.kxml.no/noark5/v4/api/administrasjon/dokumentmedium/&quot;,
+            &quot;templated&quot;: true
+        },
+        {
+            &quot;href&quot;: &quot;http://localhost:49708/api/kodelister/Mapetype{?$filter&amp;$orderby&amp;$top&amp;$skip}&quot;,
+            &quot;rel&quot;: &quot;http://rel.kxml.no/noark5/v4/api/administrasjon/mappetype/&quot;,
+            &quot;templated&quot;: true
+        }
+    ]
+}
+</programlisting>
+      </sect3>
+      <sect3 id="oppdatere-objekter-update">
+        <title>Oppdatere objekter (Update)</title>
+        <para>
+          Alle ressurser kan med sin relasjonslenke rel=&quot;self&quot;
+          og ressurslenke (href) benytte denne til oppdatering.
+        </para>
+        <para>
+          For oppdatering sender klienten en PUT forespørsel med alle
+          data for en lovlig objektstruktur. Alle egenskaper må være
+          med, med unntak av underobjekter som har en mange relasjon
+          (0..* eller 1..*) i oppdatering av et objekt. Underobjekter må
+          oppdateres separat med sine resurslenker.
+        </para>
+        <para>
+          For å hindre at data blir oppdatert samtidig av forskjellige
+          brukere og overskrevet med gamle data så må kjernen sjekke
+          innkomne objekt og lagret objekt. ETag
+          (<ulink url="http://en.wikipedia.org/wiki/HTTP_ETag">http://en.wikipedia.org/wiki/HTTP_ETag</ulink>)
+          skal benyttes for å støtte «optimistic concurrency control».
+          Om det oppstår konflikt så kan resultatkode 409 benyttes. Da
+          må klient hente opp ny versjon fra arkivkjerne og gjøre
+          fletting av data mellom server og klient. For å redusere
+          risikoen for konflikt bør derfor klienten alltid hente en
+          fersk utgave av objektet med en GET-forespørsel og deretter
+          oppdatere opbjektet med en PUT-forespørsel.
+        </para>
+        <para>
+          PUT til
+          <ulink url="http://n5test.kxml.no/api/arkivstruktur/Mappe/a043d07b-9641-44ad-85d8-056730bc89c8">http://n5test.kxml.no/api/arkivstruktur/Mappe/a043d07b-9641-44ad-85d8-056730bc89c8</ulink>
+        </para>
+        <para>
+          Content-Type: application/vnd.noark5-v4+json
+        </para>
+        <programlisting language="python">
+{
+    &quot;mappeID&quot;: &quot;123456/2016&quot;,
+    &quot;mappetype&quot;: {
+        &quot;kode&quot;: &quot;BYGG&quot;,
+        &quot;beskrivelse&quot;: &quot;Byggesak&quot;
+    },
+    &quot;tittel&quot;, &quot;Testvegen 32, ny enebolig&quot;,
+    &quot;dokumentmendium&quot;: {
+        &quot;kode&quot;: &quot;E&quot;,
+        &quot;beskrivelse&quot;: &quot;Elektronisk arkiv&quot;
+    },
+    &quot;systemID&quot;: &quot;515c45b5-e903-4320-a085-2a98813878ba&quot;,
+    &quot;opprettetDato&quot;: &quot;2016-04-03T15:45:28.4985538+02:00&quot;,
+    &quot;opprettetAv&quot;: &quot;pålogget bruker&quot;,
+    &quot;referanseOpprettetAv&quot;: &quot;4ff78c87-6e41-40cb-bc6b-edff1ce685b9&quot;,
+    &quot;gradering&quot;: {
+        &quot;graderingskode&quot;: {
+            &quot;kode&quot;: &quot;B&quot;
+        },
+        &quot;graderingsdato&quot;: &quot;2016-05-03T16:05:48.4966742+02:00&quot;
+    }
+}
+</programlisting>
+        <para>
+          <emphasis role="strong">Resultat</emphasis>
+        </para>
+        <para>
+          200 OK
+        </para>
+        <para>
+          Location →
+        </para>
+        <para>
+          <ulink url="http://localhost:49708/api/arkivstruktur/Mappe/a043d07b-9641-44ad-85d8-056730bc89c8">http://localhost:49708/api/arkivstruktur/Mappe/a043d07b-9641-44ad-85d8-056730bc89c8</ulink>
+        </para>
+        <programlisting language="python">
+{
+    &quot;mappeID&quot;: &quot;123456/2016&quot;,
+    &quot;mappetype&quot;: {
+        &quot;kode&quot;: &quot;BYGG&quot;,
+        &quot;beskrivelse&quot;: &quot;Byggesak&quot;
+    },
+    &quot;tittel&quot;, &quot;Testvegen 32, ny enebolig&quot;,
+    &quot;dokumentmendium&quot;: {
+        &quot;kode&quot;: &quot;E&quot;,
+        &quot;beskrivelse&quot;: &quot;Elektronisk arkiv&quot;
+    },
+    &quot;gradering&quot;: {
+        &quot;graderingskode&quot;: {
+            &quot;kode&quot;: &quot;B&quot;
+        },
+        &quot;graderingsdato&quot;: &quot;2016-05-03T16:05:48.4966742+02:00&quot;
+    },
+    &quot;systemID&quot;: &quot;515c45b5-e903-4320-a085-2a98813878ba&quot;,
+    &quot;oppdatertDato&quot;: &quot;2016-05-03T16:10:01.9386215+02:00&quot;,
+    &quot;opprettetDato&quot;: &quot;2016-04-03T15:45:28.4985538+02:00&quot;,
+    &quot;opprettetAv&quot;: &quot;pålogget bruker&quot;,
+    &quot;oppdatertAv&quot;: &quot;pålogget bruker&quot;,
+    &quot;referanseOppdatertAv&quot;: &quot;8f58d80c-9b5c-4ddf-af5a-764f08a7661e&quot;,
+    &quot;referanseOpprettetAv&quot;: &quot;4ff78c87-6e41-40cb-bc6b-edff1ce685b9&quot;,
+    &quot;_links&quot;: [
+        {
+            &quot;href&quot;: &quot;http://localhost:49708/api/arkivstruktur/Mappe/515c45b5-e903-4320-a085-2a98813878ba&quot;,
+            &quot;rel&quot;: &quot;self&quot;,
+            &quot;templated&quot;: false
+        },
+        {
+            &quot;href&quot;: &quot;http://localhost:49708/api/arkivstruktur/Mappe/515c45b5-e903-4320-a085-2a98813878ba&quot;,
+            &quot;rel&quot;: &quot;http://rel.kxml.no/noark5/v4/api/arkivstruktur/mappe/&quot;,
+            &quot;templated&quot;: false
+        },
+        {
+            &quot;href&quot;: &quot;http://localhost:49708/api/arkivstruktur/Mappe/515c45b5-e903-4320-a085-2a98813878ba/avslutt&quot;,
+            &quot;rel&quot;: &quot;http://rel.kxml.no/noark5/v4/api/arkivstruktur/avslutt-mappe/&quot;,
+            &quot;templated&quot;: false
+        },
+        {
+            &quot;href&quot;: &quot;http://localhost:49708/api/arkivstruktur/Mappe/515c45b5-e903-4320-a085-2a98813878ba/utvid-til-saksmappe&quot;,
+            &quot;rel&quot;: &quot;http://rel.kxml.no/noark5/v4/api/sakarkiv/utvid-til-saksmappe/&quot;,
+            &quot;templated&quot;: false
+        },
+</programlisting>
+        <para>
+          Figur 3 respons fra oppdatering av mappe med
+          graderingsinformasjon (eksempel avkortet ved links liste)
+        </para>
+        <table>
+          <title>
+            Resultatkoder ved oppdatering av objekt
+          </title>
+          <tgroup cols="2">
+            <colspec align="left" />
+            <colspec align="left" />
+            <thead>
+              <row>
+                <entry>
+                  Statuskode
+                </entry>
+                <entry>
+                  Beskrivelse
+                </entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>
+                  200
+                </entry>
+                <entry>
+                  OK
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  400
+                </entry>
+                <entry>
+                  BadRequest - ugyldig forespørsel
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  403
+                </entry>
+                <entry>
+                  Forbidden - ingen tilgang
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  404
+                </entry>
+                <entry>
+                  NotFound - ikke funnet
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  409
+                </entry>
+                <entry>
+                  Conflict – objektet kan være endret av andre
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  500
+                </entry>
+                <entry>
+                  InternalServerError – generell feil på server
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  501
+                </entry>
+                <entry>
+                  NotImplemented - ikke implementert
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </sect3>
+      <sect3 id="utvid-objekter-til-andre-typer">
+        <title>Utvid objekter til andre typer</title>
+        <para>
+          Noen objekter kan utvides fra sin basistype til en annen
+          subtype. Dette gjelder for eksempel Mappe og Saksmappe. Dette
+          annonseres ved hjelp av
+          <emphasis role="strong">utvid-til-xx</emphasis> metodene.
+        </para>
+        <para>
+          Ved uthenting av en mappe vil du få følgende relasjon tilbake:
+        </para>
+        <programlisting language="python">
+{
+    &quot;rel&quot;: &quot;http://rel.kxml.no/noark5/v4/api/sakarkiv/utvid-til-saksmappe/&quot;,
+    &quot;href&quot;: &quot;http://n5test.kxml.no/api/sakarkiv/Saksmappe/1/utvid-til-saksmappe&quot;,
+    &quot;templated&quot;: false
+}
+</programlisting>
+        <para>
+          Ved å kjøre PUT-forespørsel på angitt href med tilhørende
+          felter som er påkrevd for saksmappe så skal objektet utvides
+          til å bli en saksmappe.
+        </para>
+        <para>
+          <emphasis role="strong">PUT
+          <ulink url="http://n5test.kxml.no/api/sakarkiv/Saksmappe/1/utvid-til-saksmappe">http://n5test.kxml.no/api/sakarkiv/Saksmappe/1/utvid-til-saksmappe</ulink></emphasis>
+        </para>
+        <para>
+          Content-Type: application/vnd.noark5-v4+json
+        </para>
+        <programlisting language="python">
+{
+    &quot;saksansvarlig&quot;: &quot;Arne&quot;,
+    &quot;saksdato&quot;: &quot;2017-12-08T00:00:00&quot;,
+    &quot;saksstatus&quot;: { &quot;kode&quot;: &quot;R&quot;, &quot;beskrivelse&quot;: &quot;Opprettet av saksbehandler&quot;}
+}
+</programlisting>
+        <para>
+          Respons skal være den nye saksmappen. Merk at
+          <emphasis role="strong">self</emphasis> nå peker på saksmappe
+          og ikke mappe.
+        </para>
+        <programlisting language="python">
+{
+    &quot;saksdato&quot;: &quot;2017-12-08T00:00:00&quot;,
+    &quot;saksansvarlig&quot;: &quot;Henning&quot;,
+    &quot;saksstatus&quot;: {
+        &quot;kode&quot;: &quot;R&quot;,
+        &quot;beskrivelse&quot;: &quot;Opprettet av saksbehandler&quot;
+    },
+    &quot;mappeID&quot;: &quot;1/2014&quot;,
+    &quot;tittel&quot;: &quot;klok testmappe 1&quot;,
+    &quot;offentligTittel&quot;: &quot;Dette er en offentlig tittel ****&quot;,
+    &quot;gradering&quot;: {
+        &quot;graderingskode&quot;: {
+            &quot;kode&quot;: &quot;B&quot;
+        },
+        &quot;graderingsdato&quot;: &quot;2017-12-08T15:32:10.739027+01:00&quot;,
+        &quot;_links&quot;: []
+    },
+    /// Resten av objektet utelatt
+    &quot;_links&quot;: [
+        {
+            &quot;rel&quot;: &quot;self&quot;,
+            &quot;href&quot;: &quot;http://n5test.kxml.no/api/sakarkiv/saksmappe/1&quot;,
+            &quot;templated&quot;: false
+        },
+</programlisting>
+        <para>
+          Resultatkoder ved utvidelse av objekt
+        </para>
+        <informaltable>
+          <tgroup cols="2">
+            <colspec align="left" />
+            <colspec align="left" />
+            <thead>
+              <row>
+                <entry>
+                  Statuskode
+                </entry>
+                <entry>
+                  Beskrivelse
+                </entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>
+                  200
+                </entry>
+                <entry>
+                  OK
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  400
+                </entry>
+                <entry>
+                  BadRequest - ugyldig forespørsel
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </informaltable>
+        <para>
+          Resultatkode 400 leveres dersom id til eksterende mappe er
+          ugyldig eller det mangler påkrevde felter.
+        </para>
+      </sect3>
+      <sect3 id="oppdatere-referanser-mellom-objekter">
+        <title>Oppdatere referanser mellom objekter</title>
+        <para>
+          Relasjoner kan angis ved tildelte attributter eller via
+          plassering på gitt url. For eksempel ny mappe knyttes til
+          arkivdel ved at url til ny mappe også inneholder hvilke
+          arkivdel denne skal opprettes på. Egne attributter kan for
+          eksempel være referanseForeldremappe for å lage undermapper.
+        </para>
+        <para>
+          Mer generelt kan klienter benytte href for
+          rel=&quot;self&quot; for aktuelle objekter sammen med $ref
+          parameter for å slette, endre eller opprette referanser mellom
+          objekter.
+        </para>
+        <para>
+          <emphasis role="strong">For å opprette ny referanse</emphasis>
+        </para>
+        <para>
+          Her opprettes ny referanse mellom registrering og
+          dokumentbeskrivelse.
+        </para>
+        <para>
+          POST
+          <ulink url="http://localhost:49708/api/arkivstruktur/registrering/cf8e1d0d-e94d-4d07-b5ed-46ba2df0465e/dokumentbeskrivelse/$ref?$id=http://localhost:49708/api/arkivstruktur/Dokumentbeskrivelse/1fa94a89-3550-470b-a220-92dd4d709044">http://localhost:49708/api/arkivstruktur/registrering/cf8e1d0d-e94d-4d07-b5ed-46ba2df0465e/dokumentbeskrivelse/$ref?$id=http://localhost:49708/api/arkivstruktur/Dokumentbeskrivelse/1fa94a89-3550-470b-a220-92dd4d709044</ulink>
+        </para>
+        <para>
+          Resultatkode 204 – noContent
+        </para>
+        <para>
+          <emphasis role="strong">For å oppdatere/flytte
+          referanse</emphasis>
+        </para>
+        <para>
+          Her flyttes mappen fra en arkivdel til en annen.
+        </para>
+        <para>
+          PUT
+          <ulink url="http://localhost:49708/api/arkivstruktur/mappe/cf8e1d0d-e94d-4d07-b5ed-46ba2df0465e/arkivdel/$ref">http://localhost:49708/api/arkivstruktur/mappe/cf8e1d0d-e94d-4d07-b5ed-46ba2df0465e/arkivdel/$ref</ulink>
+        </para>
+        <para>
+          Body:
+        </para>
+        <para>
+          <ulink url="http://localhost:49708/api/arkivstruktur/arkivdel/092e497a-a528-4121-8f22-fbc78fa6c930">http://localhost:49708/api/arkivstruktur/arkivdel/092e497a-a528-4121-8f22-fbc78fa6c930</ulink>
+        </para>
+        <para>
+          Resultatkode 204 – No Content
+        </para>
+        <para>
+          <emphasis role="strong">For å slette referanser fra en
+          liste</emphasis>
+        </para>
+        <para>
+          Ved sletting av referanser i en liste skal $id-parameteren
+          benyttes. Her slettes referansen til dokumentbeskrivelse fra
+          registrering.
+        </para>
+        <para>
+          DELETE
+          <ulink url="http://localhost:49708/api/arkivstruktur/registrering/cf8e1d0d-e94d-4d07-b5ed-46ba2df0465e/dokumentbeskrivelse/$ref?$id=http://localhost:49708/api/arkivstruktur/Dokumentbeskrivelse/092e497a-a528-4121-8f22-fbc78fa6c930">http://localhost:49708/api/arkivstruktur/registrering/cf8e1d0d-e94d-4d07-b5ed-46ba2df0465e/dokumentbeskrivelse/$ref?$id=http://localhost:49708/api/arkivstruktur/Dokumentbeskrivelse/092e497a-a528-4121-8f22-fbc78fa6c930</ulink>
+        </para>
+        <para>
+          Resultatkode 204 – No Content
+        </para>
+        <para>
+          <emphasis role="strong">For å slette en
+          enkelt-referanse</emphasis>
+        </para>
+        <para>
+          Ved sletting av en enkelt-referanse så skal ikke
+          $id-parameteren benyttes. Her slettes referansen til
+          registrering fra dokumentbeskrivelse.
+        </para>
+        <para>
+          DELETE
+          <ulink url="http://localhost:49708/api/arkivstruktur/dokumentbeskrivelse/092e497a-a528-4121-8f22-fbc78fa6c930/registrering/$ref">http://localhost:49708/api/arkivstruktur/dokumentbeskrivelse/092e497a-a528-4121-8f22-fbc78fa6c930/registrering/$ref</ulink>
+        </para>
+        <para>
+          Resultatkode 204 – No Content
+        </para>
+        <table>
+          <title>
+            Resultatkoder ved oppdatering av referanser til objekt
+          </title>
+          <tgroup cols="2">
+            <colspec align="left" />
+            <colspec align="left" />
+            <thead>
+              <row>
+                <entry>
+                  Statuskode
+                </entry>
+                <entry>
+                  Beskrivelse
+                </entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>
+                  200
+                </entry>
+                <entry>
+                  OK
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  204
+                </entry>
+                <entry>
+                  NoContent
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  400
+                </entry>
+                <entry>
+                  BadRequest - ugyldig forespørsel
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  403
+                </entry>
+                <entry>
+                  Forbidden - ingen tilgang
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  404
+                </entry>
+                <entry>
+                  NotFound - ikke funnet
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  409
+                </entry>
+                <entry>
+                  Conflict - objektet kan være endret av andre
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  500
+                </entry>
+                <entry>
+                  InternalServerError – generell feil på server
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  501
+                </entry>
+                <entry>
+                  NotImplemented - ikke implementert
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </sect3>
+      <sect3 id="slette-objekter-delete">
+        <title>Slette objekter (Delete)</title>
+        <para>
+          Klienten sender en DELETE forespørsel på aktuell ressurs(url).
+          Alle ressurslenker med rel=&quot;self&quot; kan potensielt
+          slettes om bruker har nødvendige rettigheter. Respons gir
+          statuskode 204 om ressursen er korrekt slettet.
+        </para>
+        <para>
+          Et viktig krav i Noark 5 er at arkiverte elektroniske
+          dokumenter ikke skal kunne slettes. Kontrollert sletting skal
+          bare kunne foretas av autoriserte brukere i forbindelse med
+          kassasjon
+        </para>
+        <para>
+          Sletting av Arkivdel – Kan også gjøres med oppdatering av
+          arkivdel hvor det legges inn informasjon om sletting.
+        </para>
+        <para>
+          Sletting av Dokumentbeskrivelse – her er flere type sletting
+          så må gjøres med oppdatering?
+        </para>
+        <para>
+          De som ikke har sletting datatype, hvordan skal de
+          merkes/fjernes?Krav om logging nok?Skal ikke være mulig å
+          slette uansett hvor mye rettigheter en bruker har? –
+          Arkivverket må avklare dette
+        </para>
+        <programlisting language="python">
+{
+    &quot;tittel&quot;: &quot;Arkivdel byggesak&quot;,
+    &quot;beskrivelse&quot;: &quot;Lorem ipsum&quot;,
+    &quot;arkivdelstatus&quot;: {
+        &quot;kode&quot;: &quot;&quot;,
+        &quot;beskrivelse&quot;: &quot;&quot;
+    },
+    &quot;dokumentmedium&quot;: {
+        &quot;kode&quot;: &quot;&quot;,
+        &quot;beskrivelse&quot;: &quot;&quot;
+    },
+    &quot;avsluttetAv&quot;: &quot;&quot;,
+    &quot;referanseAvsluttetAv&quot;: &quot;&quot;,
+    &quot;referanseForloeper&quot;: &quot;&quot;,
+    &quot;referanseArvtaker&quot;: &quot;&quot;,
+    &quot;kassasjon&quot;: {
+        &quot;kassasjonsvedtak&quot;: {
+            &quot;kode&quot;: &quot;&quot;,
+            &quot;beskrivelse&quot;: &quot;&quot;
+        },
+        &quot;kassasjonshjemmel&quot;: &quot;&quot;,
+        &quot;bevaringstid&quot;: &quot;&quot;,
+        &quot;kassasjonsdato&quot;: &quot;0001-01-01T00:00:00&quot;
+    },
+    &quot;utfoertKassasjon&quot;: {
+        &quot;kassertDato&quot;: &quot;0001-01-01T00:00:00&quot;
+        &quot;kassertAv&quot;: &quot;&quot;,
+        &quot;referanseKassertAv&quot;: &quot;&quot;
+    },
+    &quot;sletting&quot;: {
+        &quot;slettingstype&quot;: {
+            &quot;kode&quot;: &quot;SA&quot;,
+            &quot;beskrivelse&quot;: &quot;Sletting av hele innholdet i arkivdelen&quot;
+        },
+        &quot;slettedato&quot;: &quot;2016-05-02T14:23:27.4065323+02:00&quot;,
+        &quot;slettetAv&quot;: &quot;pålogget bruker&quot;
+    },
+    &quot;skjerming&quot;: {
+        &quot;tilgangsrestrisjon&quot;: {
+            &quot;kode&quot;: &quot;&quot;,
+            &quot;beskrivelse&quot;: &quot;&quot;
+        },
+        &quot;skjermingshjemmel&quot;: &quot;&quot;,
+        &quot;skjermingsdokument&quot;: {
+            &quot;kode&quot;: &quot;&quot;,
+            &quot;beskrivelse&quot;: &quot;&quot;
+        },
+        &quot;skjermingsvarighet&quot;: &quot;&quot;
+    },
+    &quot;gradering&quot;: {
+        &quot;graderingskode&quot;: {
+            &quot;kode&quot;: &quot;&quot;,
+            &quot;beskrivelse&quot;: &quot;&quot;
+        },
+        &quot;graderingsdato&quot;: &quot;0001-01-01T00:00:00&quot;,
+</programlisting>
+        <table>
+          <title>
+            Resultatkoder ved sletting av objekt
+          </title>
+          <tgroup cols="2">
+            <colspec align="left" />
+            <colspec align="left" />
+            <thead>
+              <row>
+                <entry>
+                  Statuskode
+                </entry>
+                <entry>
+                  Beskrivelse
+                </entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>
+                  200
+                </entry>
+                <entry>
+                  OK
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  204
+                </entry>
+                <entry>
+                  NoContent – slettet ok
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  400
+                </entry>
+                <entry>
+                  BadRequest - ugyldig forespørsel
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  403
+                </entry>
+                <entry>
+                  Forbidden - ingen tilgang
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  404
+                </entry>
+                <entry>
+                  NotFound - ikke funnet
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  409
+                </entry>
+                <entry>
+                  Conflict - objektet kan være endret av andre
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  500
+                </entry>
+                <entry>
+                  InternalServerError – generell feil på server
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  501
+                </entry>
+                <entry>
+                  NotImplemented - ikke implementert
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </sect3>
+      <sect3 id="overfringsformat">
+        <title>Overføringsformat</title>
+        <para>
+          Innholdstyper(Content-Type) som skal brukes:
+        </para>
+        <informaltable>
+          <tgroup cols="1">
+            <colspec align="left" />
+            <thead>
+              <row>
+                <entry>
+                  Innholdstype (Content-Type)
+                </entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>
+                  application/vnd.noark5-v4+json
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  application/vnd.noark5-v4+xml
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </informaltable>
+        <para>
+          Overføringsformat skal være i henhold til følgende skjema for
+          begge innholdstyper:
+        </para>
+        <itemizedlist spacing="compact">
+          <listitem>
+            <para>
+              <ulink url="http://skjema.kxml.no/arkivverket/noark5/v4.0/">http://skjema.kxml.no/arkivverket/noark5/v4.0/</ulink>
+            </para>
+          </listitem>
+        </itemizedlist>
+        <para>
+          Datoformat skal være angitt ihht
+          <ulink url="http://www.w3.org/TR/NOTE-datetime">http://www.w3.org/TR/NOTE-datetime</ulink>
+        </para>
+      </sect3>
+      <sect3 id="hente-og-overfre-filer">
+        <title>Hente og overføre filer</title>
+        <para>
+          Ved navigering til dokumentobjekt så kan selve filen også
+          åpnes ved å følge referanseDokumentfil eller href til
+          relasjonsnøkkel
+          <ulink url="http://rel.kxml.no/noark5/v4/arkivstruktur/fil/">http://rel.kxml.no/noark5/v4/arkivstruktur/fil/</ulink>.
+        </para>
+        <para>
+          GET
+          <ulink url="http://localhost:49708/api/arkivstruktur/Dokumentobjekt/a895c8ed-c15a-43f6-86de-86a626433785">http://localhost:49708/api/arkivstruktur/Dokumentobjekt/a895c8ed-c15a-43f6-86de-86a626433785</ulink>
+        </para>
+        <programlisting language="python">
+{
+    &quot;systemID&quot;: &quot;a895c8ed-c15a-43f6-86de-86a626433785&quot;,
+    &quot;versjonsnummer&quot;: &quot;1&quot;,
+    &quot;variantformat&quot;: {
+        &quot;kode&quot;: &quot;A&quot;,
+        &quot;beskrivelse&quot;: &quot;Arkivformat&quot;
+    },
+    &quot;format&quot;: {
+        &quot;kode&quot;: &quot;RA-PDF&quot;,
+        &quot;beskrivelse&quot;: &quot;PDF/A - ISO 19005-1:2005&quot;
+    },
+    &quot;referanseDokumentfil&quot;: &quot;http://localhost:49708/api/arkivstruktur/Dokumentobjekt/a895c8ed-c15a-43f6-86de-86a626433785/referanseFil&quot;,
+    &quot;_links&quot;: [
+        {
+            &quot;href&quot;: &quot;http://localhost:49708/api/arkivstruktur/Dokumentobjekt/a895c8ed-c15a-43f6-86de-86a626433785&quot;,
+            &quot;rel&quot;: &quot;self&quot;,
+            &quot;templated&quot;: false
+        },
+        {
+            &quot;href&quot;: &quot;http://localhost:49708/api/arkivstruktur/Dokumentobjekt/a895c8ed-c15a-43f6-86de-86a626433785&quot;,
+            &quot;rel&quot;: &quot;http://rel.kxml.no/noark5/v4/api/arkivstruktur/dokumentobjekt/&quot;,
+            &quot;templated&quot;: false
+        },
+        {
+            &quot;href&quot;: &quot;http://localhost:49708/api/arkivstruktur/Dokumentobjekt/a895c8ed-c15a-43f6-86de-86a626433785/referanseFil&quot;,
+            &quot;rel&quot;: &quot;http://rel.kxml.no/noark5/v4/api/arkivstruktur/fil/&quot;,
+            &quot;templated&quot;: false
+        }
+    ]
+}
+</programlisting>
+        <para>
+          GET
+          <ulink url="http://localhost:49708/api/arkivstruktur/Dokumentobjekt/a895c8ed-c15a-43f6-86de-86a626433785/referanseFil">http://localhost:49708/api/arkivstruktur/Dokumentobjekt/a895c8ed-c15a-43f6-86de-86a626433785/referanseFil</ulink>
+        </para>
+        <para>
+          Gir Content-type=filens mime type feks “application/pdf” og
+          filen streames til klient
+        </para>
+        <para>
+          <emphasis role="strong">Overføre små filer</emphasis>
+        </para>
+        <para>
+          For å overføre en ny fil brukes POST til href til
+          rel=&quot;<ulink url="http://rel.kxml.no/noark5/v4/api/arkivstruktur/fil/">http://rel.kxml.no/noark5/v4/api/arkivstruktur/fil/</ulink>&quot;
+          med headere for content-type og content-length.
+        </para>
+        <programlisting>
+POST http://localhost:49708/api/arkivstruktur/Dokumentobjekt/a895c8ed-c15a-43f6-86de-86a626433785/referanseFil
+Content-Type: application/pdf
+Content-Length: 111111
+
+Pdf data
+</programlisting>
+        <para>
+          <emphasis role="strong">Overføre store filer</emphasis>
+        </para>
+        <para>
+          For store filer (over 150MB) så kan filen overføres i bolker.
+          Prosessen for å overføre store filer er inspirert av APIet til
+          Google Drive,
+          <ulink url="https://developers.google.com/drive/v3/web/resumable-upload">https://developers.google.com/drive/v3/web/resumable-upload</ulink>
+          .
+        </para>
+        <para>
+          For å starte en opplastingssesjon:
+        </para>
+        <orderedlist>
+          <listitem>
+            <para>
+              Send en POST til href til
+              rel=&quot;<ulink url="http://rel.kxml.no/noark5/v4/api/arkivstruktur/fil/">http://rel.kxml.no/noark5/v4/api/arkivstruktur/fil/</ulink>&quot;
+            </para>
+            <para>
+              Headeren Content-Length settes til 0
+            </para>
+            <para>
+              Headeren X-Upload-Content-Type settes til filens MIME-type
+            </para>
+            <para>
+              Headeren X-Upload-Content-Length settes til filens
+              totalstørrelse
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+              Responsen du mottar vil inneholde en Location-Header som
+              inneholder en sesjons-URI som skal benyttes i en
+              PUT-forespørsel for å overføre filen i bolker.
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+              Deretter overføres filen med en PUT-forespørsel. Responsen
+              fra serveren inneholder en Range-header, hvor øvre verdi
+              benyttes som start verdi i Content-Range i neste
+              oversending.
+            </para>
+            <para>
+              Headeren Content-Range settes for å angi hvor mye av filen
+              som blir oversendt.
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+              Når siste overføring er gjort så returneres statuskode 201
+              Created.
+            </para>
+          </listitem>
+        </orderedlist>
+        <para>
+          Komplett eksempel
+        </para>
+        <para>
+          Opprett sesjon:
+        </para>
+        <programlisting>
+POST http://localhost:49708/api/arkivstruktur/Dokumentobjekt/a895c8ed-c15a-43f6-86de-86a626433785/referanseFil
+Content-Length: 0
+X-Upload-Content-Type: image/jpeg
+X-Upload-Content-Length: 2000000
+
+Respons: 200 OK
+
+Location: http://localhost:49708/api/arkivstruktur/Dokumentobjekt/a895c8ed-c15a-43f6-86de-86a626433785/referanseFil?filsesjon=abc1234567
+</programlisting>
+        <para>
+          Last opp første del:
+        </para>
+        <programlisting>
+PUT http://localhost:49708/api/arkivstruktur/Dokumentobjekt/a895c8ed-c15a-43f6-86de-86a626433785/referanseFil?filsesjon=abc1234567
+Content-Length: 524288
+Content-Type: image/jpeg
+Content-Range: bytes 0-524287/2000000
+
+Respons: 200 OK
+
+Location: http://localhost:49708/api/arkivstruktur/Dokumentobjekt/a895c8ed-c15a-43f6-86de-86a626433785/referanseFil?filsesjon=abc1234567
+Range: bytes 0-524287
+</programlisting>
+        <para>
+          Last opp siste del:
+        </para>
+        <programlisting>
+PUT http://localhost:49708/api/arkivstruktur/Dokumentobjekt/a895c8ed-c15a-43f6-86de-86a626433785/referanseFil?filsesjon=abc1234567
+Content-Length: 524288
+Content-Type: image/jpeg
+Content-Range: bytes 524287-2000000/2000000
+
+Respons: 201 Created
+</programlisting>
+        <table>
+          <title>
+            Resultatkoder for opplasting av filer
+          </title>
+          <tgroup cols="2">
+            <colspec align="left" />
+            <colspec align="left" />
+            <thead>
+              <row>
+                <entry>
+                  Statuskode
+                </entry>
+                <entry>
+                  Beskrivelse
+                </entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>
+                  200
+                </entry>
+                <entry>
+                  OK
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  201
+                </entry>
+                <entry>
+                  Created - opprettet
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  204
+                </entry>
+                <entry>
+                  NoContent – slettet ok
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  400
+                </entry>
+                <entry>
+                  BadRequest - ugyldig forespørsel
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  403
+                </entry>
+                <entry>
+                  Forbidden - ingen tilgang
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  404
+                </entry>
+                <entry>
+                  NotFound - ikke funnet
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  409
+                </entry>
+                <entry>
+                  Conflict - objektet kan være endret av andre
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  415
+                </entry>
+                <entry>
+                  UnsupportedMediaType – filtypen støttes ikke
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  500
+                </entry>
+                <entry>
+                  InternalServerError – generell feil på server
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  501
+                </entry>
+                <entry>
+                  NotImplemented - ikke implementert
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  503
+                </entry>
+                <entry>
+                  ServiceUnavailable – tjeneste utilgjengelig
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </sect3>
+    </sect2>
+  </sect1>
+  <sect1 id="validering-av-data">
+    <title>Validering av data</title>
+    <para>
+      For de fleste objekter i NOARK5 så er det knyttet forskjellige
+      krav til hva som er lovlige verdier og strukturer. Disse kravene
+      må implementeres i tjenestegrensesnitt/arkivkjerne som
+      forretningsregler og sørge for at data er konsistente.
+    </para>
+    <para>
+      Restriksjoner som er dokumentert under hvert objekt i
+      informasjonsmodellen skal valideres av kjernen. For eksempel hvis
+      en mappe er avsluttet så skal det ikke være mulig å registrere
+      flere registreringer på denne (jfr krav 5.4.7).
+    </para>
+  </sect1>
+  <sect1 id="identifikatorer">
+    <title>Identifikatorer</title>
+    <para>
+      SystemID brukes som entydig identifikator for alle objekter
+    </para>
+    <para>
+      SystemID tildeles av kjernen og skal være konsistente over tid.
+      Arkivkjernen må sørge for at dette blir en unik og persistent
+      identifikator på tvers av andre system. Den skal kunne brukes til
+      å identifisere og referere til objekter liggende i andre filer
+      eller databaser.
+    </para>
+  </sect1>
+  <sect1 id="utvidelsesmuligheter">
+    <title>Utvidelsesmuligheter</title>
+    <para>
+      Virksomhetsspesifikke metadata kan brukes for å legge ved mer data
+      på enkelte objekter i kjernen.
+    </para>
+    <para>
+      Søk i virksomhetsspesifikke data dekkes ikke av NOARK 5
+      tjenestegrensesnitt, men den enkelte arkivleverandør kan tilby
+      tjenester som tilbyr søk i virksomhetsspesifikke data
+    </para>
+  </sect1>
+</chapter>

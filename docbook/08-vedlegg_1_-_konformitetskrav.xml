@@ -1,0 +1,13 @@
+<chapter id="vedlegg-1-konformitetskrav">
+  <title>Vedlegg 1 – Konformitetskrav</title>
+  <para>
+    Kravene i Noark5 v3.1 og v4.0 er lagt inn i konformitetsnivå for å
+    gjøre det enklere å dokumentere løsning og anskaffe med korrekte
+    krav. En del av testene har referanse i parentes til krav i Noark5
+    v3.1.
+  </para>
+  <para>
+    Foreløpig liste over nivåer er lagt ut på
+    <ulink url="http://rel.kxml.no/noark5/konformitetsniva/">http://rel.kxml.no/noark5/konformitetsniva/</ulink>
+  </para>
+</chapter>

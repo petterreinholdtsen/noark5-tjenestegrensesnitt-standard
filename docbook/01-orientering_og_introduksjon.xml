@@ -1,0 +1,358 @@
+<chapter id="orientering-og-introduksjon">
+  <title>Orientering og introduksjon</title>
+  <sect1 id="historikk-og-status">
+    <title>Historikk og status</title>
+    <para>
+    </para>
+  </sect1>
+  <sect1 id="noark">
+    <title>Noark</title>
+    <para>
+      Noark – Norsk arkivstandard – ble utarbeidet som kravspesifikasjon
+      for elektroniske journalsystemer i statsforvaltningen, og
+      etablerte seg raskt som en de facto standard, forvaltet av
+      Riksarkivet. Kommunal sektor utarbeidet en tilsvarende
+      kravspesifikasjon – Koark. Spesifikasjonene i Koark ble innlemmet
+      i Noark-4, og da arkivforskriften trådte i kraft ble det
+      obligatorisk for offentlig forvaltning å benytte et Noark-basert
+      system for elektronisk journalføring.
+    </para>
+    <para>
+      Gjeldende standard – Noark 5 skal benyttes for all elektronisk
+      arkivdanning – også fagsystemer med saksbehandling.
+    </para>
+  </sect1>
+  <sect1 id="noark-tjenestegrensesnitt">
+    <title>Noark tjenestegrensesnitt</title>
+    <para>
+      Teknisk grensesnitt mot kjernen er en del av standarden. Noark-4
+      Web Services ble utarbeidet i 2006 etter initiativ fra KS, og som
+      et resultat av behov hos kommunene. Formålet var å standardisere
+      og forenkle kommunikasjonen mellom de ulike systemene i
+      forvaltningen.
+    </para>
+    <para>
+      Statens Kartverk og KS gjennomførte i GeoIntegrasjonsprosjektet en
+      revisjon av Noark-4 Web Services. Tjenestene i Noark-4 Web
+      services er avgrenset ut fra behovene fagsystemene har for å
+      arkivere og gjenfinne data.
+    </para>
+    <para>
+      I nåværende form, og sett i lys av avgrensningene, mangler Noark
+      tjenestegrensesnittet funksjonalitet. Et utvidet standardisert
+      grensesnitt vil legge til rette for gode, sammenhengende tjenester
+      på tvers av virksomhetsgrensene i offentlig sektor. De ulike
+      leverandørene behøver ikke utvide tjenestene, eller benytte egne
+      grensesnitt.
+    </para>
+  </sect1>
+  <sect1 id="prosjekt-for-noark-5-tjenestegrensesnitt">
+    <title>Prosjekt for Noark 5 tjenestegrensesnitt</title>
+    <para>
+      Prosjekt for Noark 5 tjenestegrensesnitt ble satt i gang av
+      Riksarkivet og KS høsten 2013, og gjennomført i regi av KS KommIT.
+      Blant initiativtakere til prosjektet var også K10 – det kommunale
+      it-samarbeidet for landets 10 største kommuner.
+    </para>
+    <para>
+      Målsettingen for prosjektet har vært, sammen med
+      arkivleverandørene, å utvide det standardiserte grensesnittet mot
+      Noark 5 kjerne. Grensesnittet skal være tjenestebasert og bygge på
+      erfaringene fra Noark-4 med tilhørende web services,
+      GeoIntegrasjonsprosjektet og arkivleverandørenes utvidelser.
+    </para>
+    <para>
+      Prosjektgruppen ble etablert i november 2013. Prosjektets
+      arbeidsgruppe ble satt ned i januar 2014 og arbeidet med versjon
+      0.9 av tjenestegrensesnittet er avsluttet i oktober 2014.
+    </para>
+  </sect1>
+  <sect1 id="prosjektets-hovedmal">
+    <title>Prosjektets hovedmål</title>
+    <para>
+      Mandatet for prosjektet var
+    </para>
+    <itemizedlist spacing="compact">
+      <listitem>
+        <para>
+          å etablere en plattformuavhengig informasjonsmodell i UML for
+          arkivstrukturen i Noark 5
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          å definere CRUD tjenester (Create, Read, Update, Delete) for
+          objektene i informasjonsmodellen
+        </para>
+      </listitem>
+    </itemizedlist>
+    <para>
+      Mål og begrunnelse for prosjektet var videre
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          sammen med arkivleverandørindustrien å utvikle og levere et
+          tjenestegrensesnitt for Noark 5 som implementeres som et krav
+          i Noark-standarden, forvaltes av Riksarkivet og benyttes av
+          fagløsninger uavhengig av leverandør. Prosjektet skal også
+          levere et forslag til opplegg for test og godkjenning.
+          Prosjektet skal videre bidra til å skape en arena der
+          leverandørindustrien og bestillerne kan møtes og diskutere
+          behov og utfordringer.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Et standardisert Noark 5 tjenestegrensesnitt skal bidra til
+          gode, sammenhengende digitale tjenester på tvers av
+          virksomhetsgren­sene i offentlig sektor, støtte opp under
+          offentlige virksomheters ønske om leverandøruavhengighet, samt
+          fremme digitalisering og gi bedre tjenester.
+        </para>
+      </listitem>
+    </itemizedlist>
+  </sect1>
+  <sect1 id="prosjektets-organisering">
+    <title>Prosjektets organisering</title>
+    <para>
+      Prosjekteiere: Riksarkivet, KS, KMD og Kartverket
+    </para>
+    <para>
+      Styringsgruppe: SAMDOK sin strategigruppe Arkiv i e-forvaltning
+    </para>
+    <para>
+      Prosjektgruppen har bestått av:
+    </para>
+    <itemizedlist spacing="compact">
+      <listitem>
+        <para>
+          Hans Fredrik Berg (Riksarkivet), Rune Sandland (KommIT),
+          Michael Pande Rolfsen (KommIT), Anne Mette Dørum (KS), Line
+          Richardsen (KS), Tor Kjetil Nilsen (KommIT/Arkitektum as), Per
+          Arne Aass (Fredrikstad kommune), Atle Løvstakken (Bergen
+          Kommune). Prosjektleder Inger Berit Eidsten (KommIT/EKOR AS).
+        </para>
+      </listitem>
+    </itemizedlist>
+    <para>
+      Arbeidsgruppen har bestått av:
+    </para>
+    <itemizedlist spacing="compact">
+      <listitem>
+        <para>
+          Fra prosjektgruppen: Hans Fredrik Berg (Riksarkivet), Tor
+          Kjetil Nilsen (KommIT), Rune Sandland (KommIT) Inger Berit
+          Eidsten (KommIT).
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Fra leverandørene: ACOS - Trygve Håland, Ciber - Antony
+          Lærdahl / Kjetil Sahlberg, Evry - Ragnar Sturtzel, Gecko -
+          Haakon Johannessen / Steinar Herland, Documaster - Christian
+          Lundvang / Dimitar Ouzounov, Norconsult - Tor Olav Almås,
+          Oppad - Thor Arne Johnsen, Software Innovation - Bjørn Tore
+          Eriksen, Visma - Harry Myrene.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Trondheim kommune: Jean-Philippe Caquet
+        </para>
+      </listitem>
+    </itemizedlist>
+    <para>
+      Denne spesifikasjonen faller inn under unntakene i den norske
+      åndsverkslovens § 9, og er ikke opphavsrettslig vernet.
+    </para>
+  </sect1>
+  <sect1 id="endringslogg-for-dette-dokumentet">
+    <title>Endringslogg for dette dokumentet</title>
+    <informaltable>
+      <tgroup cols="4">
+        <colspec align="left" />
+        <colspec align="left" />
+        <colspec align="left" />
+        <colspec align="left" />
+        <thead>
+          <row>
+            <entry>
+              Versjon
+            </entry>
+            <entry>
+              Dato
+            </entry>
+            <entry>
+              Utført av
+            </entry>
+            <entry>
+              Endring
+            </entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+              0.9
+            </entry>
+            <entry>
+              26.08.2014
+            </entry>
+            <entry>
+              Tor Kjetil Nilsen
+            </entry>
+            <entry>
+              Første versjon
+            </entry>
+          </row>
+          <row>
+            <entry>
+              0.9.1
+            </entry>
+            <entry>
+              09.10.2014
+            </entry>
+            <entry>
+              Inger Berit Eidsten
+            </entry>
+            <entry>
+              Lagt inn kapittel om Orientering og introduksjon
+            </entry>
+          </row>
+          <row>
+            <entry>
+              0.9.2
+            </entry>
+            <entry>
+              10.10.2014
+            </entry>
+            <entry>
+              Tor Kjetil Nilsen
+            </entry>
+            <entry>
+              Flyttet kapittel om avgrensninger og utvidelser til
+              Vedlegg 5 Endringslogg fra NOARK 5 v3.1
+            </entry>
+          </row>
+          <row>
+            <entry>
+              0.9.3
+            </entry>
+            <entry>
+              30.10.2014
+            </entry>
+            <entry>
+              Tor Kjetil Nilsen
+            </entry>
+            <entry>
+              Oppdatert fra UML modell og eksempler
+            </entry>
+          </row>
+          <row>
+            <entry>
+              0.9.4
+            </entry>
+            <entry>
+              06.11.2014
+            </entry>
+            <entry>
+              Tor Kjetil Nilsen
+            </entry>
+            <entry>
+              Oppdatert bilde for oppdatering av mappe, fjernet
+              kommentarer
+            </entry>
+          </row>
+          <row>
+            <entry>
+              0.9.5
+            </entry>
+            <entry>
+              06.05.2015
+            </entry>
+            <entry>
+              Tor Kjetil Nilsen
+            </entry>
+            <entry>
+              Overskriftsnummerering, fjernet SOAP webservice, gått
+              tilbake på relasjon til sakspart og korrespondansepart
+            </entry>
+          </row>
+          <row>
+            <entry>
+              0.9.6
+            </entry>
+            <entry>
+              08.07.2015
+            </entry>
+            <entry>
+              Tor Kjetil Nilsen
+            </entry>
+            <entry>
+              Oppdatert etter konklusjoner på intern høring
+            </entry>
+          </row>
+          <row>
+            <entry>
+              0.9.7
+            </entry>
+            <entry>
+              14.01.2016
+            </entry>
+            <entry>
+              Tor Kjetil Nilsen
+            </entry>
+            <entry>
+              Oppdatert etter konklusjoner på høringskommentarer
+            </entry>
+          </row>
+          <row>
+            <entry>
+              0.9.8
+            </entry>
+            <entry>
+              03.05.2016
+            </entry>
+            <entry>
+              Tor Kjetil Nilsen
+            </entry>
+            <entry>
+              Oppdatert etter konklusjoner på høringskommentarer
+            </entry>
+          </row>
+          <row>
+            <entry>
+              0.9.8.1
+            </entry>
+            <entry>
+              31.05.2016
+            </entry>
+            <entry>
+              Tor Kjetil Nilsen
+            </entry>
+            <entry>
+              Oppdatert med flere filtereksempler, kapittel for
+              filopplasting og feilrettinger
+            </entry>
+          </row>
+          <row>
+            <entry>
+              1.0 beta
+            </entry>
+            <entry>
+              01.07.2016
+            </entry>
+            <entry>
+              Tor Kjetil Nilsen
+            </entry>
+            <entry>
+              Oppdatert etter avklaringsmøter – overlevering fra SAMDOK
+              til Arkivverket
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </informaltable>
+  </sect1>
+</chapter>

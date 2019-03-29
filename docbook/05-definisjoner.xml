@@ -1,0 +1,27 @@
+<chapter id="definisjoner">
+  <title>Definisjoner</title>
+  <para>
+    NOARK – Norsk Arkivstandard
+  </para>
+  <para>
+    UML – Unified Modeling Language
+  </para>
+  <para>
+    REST – Representational State Transfer
+  </para>
+  <para>
+    SAML – Security Assertion Markup Language
+  </para>
+  <para>
+    oData - Open Data Protocol
+  </para>
+  <para>
+    CRUD – forkortelse for Create, Read, Update, Delete
+  </para>
+  <para>
+    eTag – entity tag
+  </para>
+  <para>
+    HATEOAS – Hypermedia as the Engine of Application State
+  </para>
+</chapter>

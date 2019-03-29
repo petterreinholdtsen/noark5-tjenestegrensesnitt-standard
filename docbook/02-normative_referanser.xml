@@ -1,0 +1,27 @@
+<chapter id="normative-referanser">
+  <title>Normative referanser</title>
+  <para>
+    For den fulle forståelse av denne standarden bør en ha god kjennskap
+    til referansene under.
+  </para>
+  <para>
+    Norsk arkivstandard (Noark 5):
+    <ulink url="https://www.arkivverket.no/forvaltning-og-utvikling/noark-standarden/noark-5/noark5-standarden">https://www.arkivverket.no/forvaltning-og-utvikling/noark-standarden/noark-5/noark5-standarden</ulink>
+  </para>
+  <para>
+    Unified Modeling Language (UML) versjon 2 - er en industristandard
+    for datarelatert modellering, forvaltet av det internasjonale
+    konsortiumet
+    <ulink url="http://no.wikipedia.org/wiki/Object_Management_Group">Object
+    Management Group</ulink> (OMG) -
+    <ulink url="http://www.omg.org/spec/UML/">http://www.omg.org/spec/UML/</ulink>
+  </para>
+  <para>
+    Webtjenester med REST/HATEOAS -
+    <ulink url="https://tools.ietf.org/html/draft-kelly-json-hal-08">https://tools.ietf.org/html/draft-kelly-json-hal-08</ulink>
+  </para>
+  <para>
+    Sjekksumalgoritmen SHA-256 er definert i IETF RFC 4634 -
+    <ulink url="https://tools.ietf.org/html/rfc4634">https://tools.ietf.org/html/rfc4634</ulink>
+  </para>
+</chapter>

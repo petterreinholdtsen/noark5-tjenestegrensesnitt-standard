@@ -1,0 +1,71 @@
+<chapter id="konformitet">
+  <title>Konformitet</title>
+  <para>
+    <inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="./media/logo-noark5-kjerne.png" />
+      </imageobject>
+    </inlinemediaobject>
+  </para>
+  <para>
+    Bakgrunnen for konformitetsnivåene er behovet for å kunne gruppere
+    krav i NOARK standarden med aktuell modularitet i system som skal
+    anskaffes. Det vil også gjøre det enklere for leverandører å få
+    godkjenning for sine implementasjoner.
+  </para>
+  <para>
+    Anskaffelser av arkivkjerner kan tilpasses aktuelle
+    konformitetsnivå.
+  </para>
+  <para>
+    Anskaffelser av fagsystem bør opplyse om hvilket nivå som tilbys av
+    arkivkjerne, og fagsystem som integrerer seg med arkivkjerne bør
+    opplyse om hvilke nivå de krever for å kunne operere på aktuell
+    kjerne.
+  </para>
+  <para>
+    De grunnleggende krav er lagt i basiskrav og arkivstruktur og må
+    støttes av alle kjerner. Utvidelser skjer med egne moduler som er
+    delt mellom obligatoriske og valgfrie krav. Valgfrie krav må
+    spesifiseres særskilt.
+  </para>
+  <para>
+    Konformitetsnivåer er:
+  </para>
+  <itemizedlist spacing="compact">
+    <listitem>
+      <para>
+        Nivå 0 – Basiskrav
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        Nivå 1 – Arkivstruktur - obligatoriske krav
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        Nivå 1.1 – Arkivstruktur - valgfrie krav
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        Nivå 2a – Sakarkiv – obligatoriske krav
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        Nivå 2.1a – Sakarkiv - valgfrie krav
+      </para>
+    </listitem>
+  </itemizedlist>
+  <para>
+    For å være konform med standarden på aktuelle nivå må
+    implementasjonen støtte alle obligatoriske krav som er angitt for
+    nivået.
+  </para>
+  <para>
+    Se <ulink url="vedlegg-1--konformitetskrav">Vedlegg 1</ulink> for
+    liste over tester og krav som gjelder for de ulike nivåene.
+  </para>
+</chapter>
