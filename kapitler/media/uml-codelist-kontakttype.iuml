@@ -1,0 +1,7 @@
+@startuml
+class Sakarkiv.Kontakttype <<codelist>> {
+  +Enhet = E
+  +Intern = I
+  +Person = P
+}
+@enduml

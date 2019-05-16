@@ -2,6 +2,7 @@
 class Sakarkiv.Sakspart {
   +systemID : SystemID [0..1]
   +sakspartRolle : SakspartRolle
+  +kontakt : Kontakt
   +virksomhetsspesifikkeMetadata : any [0..1]
 }
 @enduml

@@ -2,6 +2,7 @@
 class Sakarkiv.Korrespondansepart {
   +systemID : SystemID [0..1]
   +korrespondanseparttype : Korrespondanseparttype
+  +kontakt : Kontakt
   +virksomhetsspesifikkeMetadata : any [0..1]
 }
 @enduml

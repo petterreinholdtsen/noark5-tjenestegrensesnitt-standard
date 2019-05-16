@@ -2784,11 +2784,127 @@ Table: Attributter
 | mobiltelefon     |             | \[0..1\]     |          | string   |
 | telefon          |             | \[0..1\]     |          | string   |
 
+#### Kontakttype
+
+*Type:* ***Class «codelist»***
+
+*Arver:* 
+
+Lukket kodeliste som identifiserer hvilken underentitet av Kontakt som er i bruk.
+
+Table: Relasjonsnøkler
+
+| **Tag**  | **Verdi**                                                         |
+| -------- | ----------------------------------------------------------------- |
+| codeList | http://rel.kxml.no/noark5/v4/api/metadata/kontakttype/            |
+
+Table: Attributter
+
+| **Navn**                | **Merknad** | **Multipl.** | **Kode** | **Type** |
+| ----------------------- | ----------- | ------------ | -------- | -------- |
+| Enhet                   |             |              | E        |          |
+| Intern                  |             |              | I        |          |
+| Person                  |             |              | P        |          |
+
+#### Kontakt
+
+*Type:* ***Class «dataType»***
+
+*Arver:*
+
+Table: Relasjoner
+
+| **Relasjon**                             | **Kilde**                                                | **Mål**                | **Merknad** |
+| ---------------------------------------- | -------------------------------------------------------- | ---------------------- | ----------- |
+| **Generalization** (Source → Destination)  | KontaktEnhet                                  | Kontakt     |             |
+| **Generalization** (Source → Destination)  | KontaktIntern                                 | Kontakt     |             |
+| **Generalization** (Source → Destination)  | KontaktPerson                                 | Kontakt     |             |
+| **Association** (Source → Destination)   | Kontakt                                         | Kontakttype |       |
+| **Association** (Source → Destination)   | Korrespondansepart                              | Kontakt |       |
+| **Association** (Source → Destination)   | Sakspart                                        | Kontakt |       |
+
+Table: Attributter
+
+| **Navn**         | **Merknad** | **Multipl.** | **Kode** | **Type**    |
+| ---------------- | ----------- | ------------ | -------- | ----------- |
+| kontakttype      |             | \[1..1\]     | 	   | Kontakttype |
+
+#### KontaktEnhet
+
+*Type:* ***Class «dataType»***
+
+*Arver:* ***Kontakt***
+
+Table: Relasjoner
+
+| **Relasjon**                             | **Kilde**                                                | **Mål**                | **Merknad** |
+| ---------------------------------------- | -------------------------------------------------------- | ---------------------- | ----------- |
+| **Generalization** (Source → Destination)  | KontaktEnhet                                  | Kontakt     |             |
+| **Association** (Source → Destination)   | KontaktEnhet                                   | EnkelAdresse |       |
+| **Association** (Source → Destination)   | KontaktEnhet                                   | Kontaktinformasjon |       |
+
+Table: Attributter
+
+| **Navn**                | **Merknad** | **Multipl.** | **Kode** | **Type**           |
+| ----------------------- | ----------- | ------------ | -------- | ------------------ |
+| organisasjonsnummer     |             | \[0..1\]     |          | string             |
+| navn                    |             | \[1..1\]     |          | string             |
+| forretningsadresse      | Avleveres ikke. | \[0..1\]     |          | EnkelAdresse       |
+| postadresse             |             | \[0..1\]     |          | EnkelAdresse       |
+| kontaktinformasjon      |             | \[0..1\]     |          | Kontaktinformasjon |
+| kontaktperson           |             | \[0..1\]     |          | string             |
+
+#### KontaktIntern
+
+*Type:* ***Class «dataType»***
+
+*Arver:* ***Kontakt***
+
+Table: Relasjoner
+
+| **Relasjon**                             | **Kilde**                                                | **Mål**                | **Merknad** |
+| ---------------------------------------- | -------------------------------------------------------- | ---------------------- | ----------- |
+| **Generalization** (Source → Destination)  | KontaktIntern                                 | Kontakt     |             |
+
+Table: Attributter
+
+| **Navn**                        | **Merknad**                                   | **Multipl.** | **Kode** | **Type** |
+| ------------------------------- | --------------------------------------------- | ------------ | -------- | -------- |
+| administrativEnhet              |                                               | \[0..1\]     |          | string   |
+| referanseAdministrativEnhet     | referanse til AdministrativEnhet sin systemID | \[0..1\]     |          | SystemID |
+| saksbehandler                   |                                               | \[0..1\]     |          | string   |
+| referanseSaksbehandler          | referanse til Bruker sin systemID             | \[0..1\]     |          | SystemID |
+
+#### KontaktPerson
+
+*Type:* ***Class «dataType»***
+
+*Arver:* ***Kontakt***
+
+Table: Relasjoner
+
+| **Relasjon**                             | **Kilde**                                                | **Mål**                | **Merknad** |
+| ---------------------------------------- | -------------------------------------------------------- | ---------------------- | ----------- |
+| **Generalization** (Source → Destination)  | KontaktPerson                                 | Kontakt     |             |
+| **Association** (Source → Destination)   | KontaktPerson                                   | EnkelAdresse |       |
+| **Association** (Source → Destination)   | KontaktPerson                                   | Kontaktinformasjon |       |
+
+Table: Attributter
+
+| **Navn**               | **Merknad** | **Multipl.** | **Kode** | **Type**           |
+| ---------------------- | ----------- | ------------ | -------- | ------------------ |
+| foedselsnummer         |             | \[0..1\]     |          | string             |
+| DNummer                |             | \[0..1\]     |          | string             |
+| navn                   |             | \[1..1\]     |          | string             |
+| bostedsadresse         | Avleveres ikke. | \[0..1\]     |          | EnkelAdresse       |
+| postadresse            |             | \[0..1\]     |          | EnkelAdresse       |
+| kontaktinformasjon     |             | \[0..1\]     |          | Kontaktinformasjon |
+
 #### Korrespondansepart
 
 *Type:* ***Class***
 
-*Arver:* 
+*Arver:*
 
 Korrespondansepart er obligatorisk, og skal forekomme en eller flere
 ganger i en journalpost.  Ved inngående dokumenter er det obligatorisk
@@ -2800,10 +2916,8 @@ Table: Relasjoner
 
 | **Relasjon**                             | **Kilde**                                                | **Mål**                | **Merknad** |
 | ---------------------------------------- | -------------------------------------------------------- | ---------------------- | ----------- |
-| **Generalization** (Source → Destination)  | KorrespondansepartEnhet                                  | Korrespondansepart     |             |
-| **Generalization** (Source → Destination)  | KorrespondansepartPerson                                 | Korrespondansepart     |             |
-| **Generalization** (Source → Destination)  | KorrespondansepartIntern                                 | Korrespondansepart     |             |
-| **Association** (Source → Destination)     | Journalpost                                              | korrespondansepart 0..* Korrespondansepart | | 
+| **Association** (Source → Destination)   | Korrespondansepart                                         | Kontakt |       |
+| **Association** (Source → Destination)     | Journalpost                                              | korrespondansepart 0..* Korrespondansepart | |
 
 Table: Relasjonsnøkler
 
@@ -2819,6 +2933,7 @@ Table: Attributter
 |-----------|---------------|---------------|-----------|-----------|
 | systemID                      | Definisjon: Entydig identifikasjon av arkivenheten innenfor det arkivskapende organet. Dersom organet har flere arkivsystemer, skal altså systemID være gjennomgående entydig. Systemidentifikasjonen vil som oftest være en nummerisk kode uten noe logisk meningsinnhold. Identifikasjonen trenger ikke å være synlig for brukerne. Kilde: Registreres automatisk av systemet Kommentarer: Alle referanser fra en arkivenhet til en annen skal peke til arkivenhetens systemidentifikasjon. Dette gjelder også referanser fra en arkivdel til en annen, f.eks. mellom to arkivperioder som avleveres på forskjellig tidspunkt. I et arkivuttrekk skal systemID være entydig (unik). Dokumentobjekt har ingen systemidentifikasjon fordi enheten kan være duplisert i et arkivuttrekk dersom samme dokumentfil er knyttet til flere forskjellige registreringer. M001 | \[0..1\] | | SystemID |
 | korrespondanseparttype        | Definisjon: Type korrespondansepart . Kilde: Registreres automatisk knyttet til funksjonalitet i forbindelse med opprettelse av journalpost, kan også registreres  manuelt. Kommentarer: Korrespondansetype forekommer én gang innenfor objektet korrespondansepart, men denne kan forekomme flere ganger innenfor en journalpost. M087 | \[1..1\] | | Korrespondanseparttype|
+| kontakt   |  | \[1..1\] | | Kontakt |
 | virksomhetsspesifikkeMetadata | Definisjon: Et overordnet metadataelement som kan inneholde egendefinerte metadata. Disse metadataene må da være spesifisert i et eller flere XML-skjema. Kilde: (ingen). Kommentar: (ingen). M711 virksomhetsspesifikkeMetadata | \[0..1\] | | any |
 
 Table: Restriksjoner
@@ -2826,97 +2941,6 @@ Table: Restriksjoner
 | **Navn**                              | **Merknad** |
 | ------------------------------------- | ----------- |
 | M001 systemID: Skal ikke kunne endres |             |
-
-#### KorrespondansepartEnhet
-
-*Type:* ***Class***
-
-*Arver:* ***Korrespondansepart***
-
-Table: Relasjoner
-
-| **Relasjon**                             | **Kilde**                                                | **Mål**                | **Merknad** |
-| ---------------------------------------- | -------------------------------------------------------- | ---------------------- | ----------- |
-| **Generalization** (Source → Destination)  | KorrespondansepartEnhet                                  | Korrespondansepart     |             | 
-
-Table: Relasjonsnøkler
-
-| **Tag**   | **Verdi**                                                             |
-| --------- | --------------------------------------------------------------------- |
-| REST\_REL | http://rel.kxml.no/noark5/v4/api/sakarkiv/korrespondansepartenhet/    |
-| REST\_REL | self                                                                  |
-| REST\_REL | http://rel.kxml.no/noark5/v4/api/sakarkiv/ny-korrespondansepartenhet/ |
-
-Table: Attributter
-
-| **Navn**                | **Merknad** | **Multipl.** | **Kode** | **Type**           |
-| ----------------------- | ----------- | ------------ | -------- | ------------------ |
-| organisasjonsnummer     |             | \[0..1\]     |          | string             |
-| navn                    |             | \[1..1\]     |          | string             |
-| forretningsadresse      |             | \[0..1\]     |          | EnkelAdresse       |
-| postadresse             |             | \[0..1\]     |          | EnkelAdresse       |
-| kontaktinformasjon      |             | \[0..1\]     |          | Kontaktinformasjon |
-| kontaktperson           |             | \[0..1\]     |          | string             |
-
-#### KorrespondansepartIntern
-
-*Type:* ***Class***
-
-*Arver:* ***Korrespondansepart***
-
-Table: Relasjoner
-
-| **Relasjon**                             | **Kilde**                                                | **Mål**                | **Merknad** |
-| ---------------------------------------- | -------------------------------------------------------- | ---------------------- | ----------- |
-| **Generalization** (Source → Destination)  | KorrespondansepartIntern                                 | Korrespondansepart     |             |
-
-Table: Relasjonsnøkler
-
-| **Tag**   | **Verdi**                                                              |
-| --------- | ---------------------------------------------------------------------- |
-| REST\_REL | http://rel.kxml.no/noark5/v4/api/sakarkiv/korrespondansepartintern/    |
-| REST\_REL | self                                                                   |
-| REST\_REL | http://rel.kxml.no/noark5/v4/api/sakarkiv/ny-korrespondansepartintern/ |
-
-Table: Attributter
-
-| **Navn**                        | **Merknad**                                   | **Multipl.** | **Kode** | **Type** |
-| ------------------------------- | --------------------------------------------- | ------------ | -------- | -------- |
-| administrativEnhet              |                                               | \[0..1\]     |          | string   |
-| referanseAdministrativEnhet     | referanse til AdministrativEnhet sin systemID | \[0..1\]     |          | SystemID |
-| saksbehandler                   |                                               | \[0..1\]     |          | string   |
-| referanseSaksbehandler          | referanse til Bruker sin systemID             | \[0..1\]     |          | SystemID |
-
-#### KorrespondansepartPerson
-
-*Type:* ***Class***
-
-*Arver:* ***Korrespondansepart***
-
-Table: Relasjoner
-
-| **Relasjon**                             | **Kilde**                                                | **Mål**                | **Merknad** |
-| ---------------------------------------- | -------------------------------------------------------- | ---------------------- | ----------- |
-| **Generalization** (Source → Destination)  | KorrespondansepartPerson                                 | Korrespondansepart     |             |
-
-Table: Relasjonsnøkler
-
-| **Tag**   | **Verdi**                                                              |
-| --------- | ---------------------------------------------------------------------- |
-| REST\_REL | self                                                                   |
-| REST\_REL | http://rel.kxml.no/noark5/v4/api/sakarkiv/korrespondansepartperson/    |
-| REST\_REL | http://rel.kxml.no/noark5/v4/api/sakarkiv/ny-korrespondansepartperson/ |
-
-Table: Attributter
-
-| **Navn**               | **Merknad** | **Multipl.** | **Kode** | **Type**           |
-| ---------------------- | ----------- | ------------ | -------- | ------------------ |
-| foedselsnummer         |             | \[0..1\]     |          | string             |
-| DNummer                |             | \[0..1\]     |          | string             |
-| navn                   |             | \[1..1\]     |          | string             |
-| postadresse            |             | \[0..1\]     |          | EnkelAdresse       |
-| bostedsadresse         |             | \[0..1\]     |          | EnkelAdresse       |
-| kontaktinformasjon     |             | \[0..1\]     |          | Kontaktinformasjon |
 
 #### Presedens
 
@@ -3093,9 +3117,8 @@ Table: Relasjoner
 
 | **Relasjon**                             | **Kilde**                                                | **Mål**                | **Merknad** |
 | ---------------------------------------- | -------------------------------------------------------- | ---------------------- | ----------- |
-| **Generalization** (Source → Destination)  | SakspartPerson                                           | Sakspart               |             |
 | **Association** (Source → Destination)     | Saksmappe                                                | sakspart  0..*  Sakspart |           |
-| **Generalization** (Source → Destination)  | SakspartEnhet                                            | Sakspart               |             |
+| **Association** (Source → Destination)   | Sakspart                                                   | Kontakt |       |
 
 Table: Relasjonsnøkler
 
@@ -3112,6 +3135,7 @@ Table: Attributter
 |-----------|---------------|---------------|-----------|-----------|
 | systemID                      | Definisjon: Entydig identifikasjon av arkivenheten innenfor det arkivskapende organet. Dersom organet har flere arkivsystemer, skal altså systemID være gjennomgående entydig. Systemidentifikasjonen vil som oftest være en nummerisk kode uten noe logisk meningsinnhold. Identifikasjonen trenger ikke å være synlig for brukerne. Kilde: Registreres automatisk av systemet Kommentarer: Alle referanser fra en arkivenhet til en annen skal peke til arkivenhetens systemidentifikasjon. Dette gjelder også referanser fra en arkivdel til en annen, f.eks. mellom to arkivperioder som avleveres på forskjellig tidspunkt. I et arkivuttrekk skal systemID være entydig (unik). Dokumentobjekt har ingen systemidentifikasjon fordi enheten kan være duplisert i et arkivuttrekk dersom samme dokumentfil er knyttet til flere forskjellige registreringer. M001 | \[0..1\] | | SystemID |
 | sakspartRolle                 | Definisjon: Angivelse av rollen til saksparten . Kilde: Registreres manuelt eller automatisk fra fagsystem. Kommentarer: (ingen). Betingelser: Her er det mange tenkelige roller avhengig av type sak, f.eks. Klient, Pårørende, Formynder, Advokat. M303 | \[1..1\] | | SakspartRolle |
+| kontakt |  | \[1..1\] | | Kontakt |
 | virksomhetsspesifikkeMetadata |  | \[0..1\] | | any |
 
 Table: Restriksjoner
@@ -3119,68 +3143,6 @@ Table: Restriksjoner
 | **Navn**                              | **Merknad** |
 | ------------------------------------- | ----------- |
 | M001 systemID: Skal ikke kunne endres |             |
-
-#### SakspartEnhet
-
-*Type:* ***Class***
-
-*Arver:* ***Sakspart***
-
-Table: Relasjoner
-
-| **Relasjon**                             | **Kilde**                                                | **Mål**                | **Merknad** |
-| ---------------------------------------- | -------------------------------------------------------- | ---------------------- | ----------- |
-| **Generalization** (Source → Destination)  | SakspartEnhet                                            | Sakspart               |             |
-
-Table: Relasjonsnøkler
-
-| **Tag**   | **Verdi**                                                   |
-| --------- | ----------------------------------------------------------- |
-| REST\_REL | self                                                        |
-| REST\_REL | http://rel.kxml.no/noark5/v4/api/sakarkiv/ny-sakspartenhet/ |
-| REST\_REL | http://rel.kxml.no/noark5/v4/api/sakarkiv/sakspartenhet/    |
-
-Table: Attributter
-
-| **Navn**                | **Merknad** | **Multipl.** | **Kode** | **Type**           |
-| ----------------------- | ----------- | ------------ | -------- | ------------------ |
-| organisasjonsnummer     |             | \[0..1\]     |          | string             |
-| navn                    |             | \[1..1\]     |          | string             |
-| forretningsadresse      |             | \[0..1\]     |          | EnkelAdresse       |
-| postadresse             |             | \[0..1\]     |          | EnkelAdresse       |
-| kontaktinformasjon      |             | \[0..1\]     |          | Kontaktinformasjon |
-| kontaktperson           |             | \[0..1\]     |          | string             |
-
-#### SakspartPerson
-
-*Type:* ***Class***
-
-*Arver:* ***Sakspart***
-
-Table: Relasjoner
-
-| **Relasjon**                             | **Kilde**                                                | **Mål**                | **Merknad** |
-| ---------------------------------------- | -------------------------------------------------------- | ---------------------- | ----------- |
-| **Generalization** (Source → Destination)  | SakspartPerson                                           | Sakspart               |             |
-
-Table: Relasjonsnøkler
-
-| **Tag**   | **Verdi**                                                    |
-| --------- | ------------------------------------------------------------ |
-| REST\_REL | self                                                         |
-| REST\_REL | http://rel.kxml.no/noark5/v4/api/sakarkiv/sakspartperson/    |
-| REST\_REL | http://rel.kxml.no/noark5/v4/api/sakarkiv/ny-sakspartperson/ |
-
-Table: Attributter
-
-| **Navn**               | **Merknad** | **Multipl.** | **Kode** | **Type**           |
-| ---------------------- | ----------- | ------------ | -------- | ------------------ |
-| foedselsnummer         |             | \[0..1\]     |          | string             |
-| DNummer                |             | \[0..1\]     |          | string             |
-| navn                   |             | \[1..1\]     |          | string             |
-| postadresse            |             | \[0..1\]     |          | EnkelAdresse       |
-| bostedsadresse         |             | \[0..1\]     |          | EnkelAdresse       |
-| kontaktinformasjon     |             | \[0..1\]     |          | Kontaktinformasjon |
 
 ### Admin 
 

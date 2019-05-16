@@ -1,0 +1,5 @@
+@startuml
+class Sakarkiv.Kontakt <<dataType>> {
+  +kontakttype : Kontakttype
+}
+@enduml
