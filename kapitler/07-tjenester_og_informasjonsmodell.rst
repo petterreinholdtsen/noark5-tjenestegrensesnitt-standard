@@ -308,38 +308,51 @@ laveste nivået av disse.
    - **Kilde**
    - **Mål**
    - **Merknad**
- * - **Aggregation** (Destination → Source)
-   - underarkiv 0..\* Arkiv
-   - overarkiv 0..1 Arkiv
+ * - **Aggregation** (Source → Destination)
+   - as/overarkiv 0..1 Arkiv
+   - as/underarkiv 0..\* Arkiv
    -
  * - **Generalization** (Source → Destination)
    - Arkiv
    - Arkivenhet
    -
  * - **Aggregation** (Bi-Directional)
-   - arkivskaper 1..\* Arkivskaper
-   - arkiv 0..\* Arkiv
+   - as/arkivskaper 1..\* Arkivskaper
+   - as/arkiv 0..\* Arkiv
    -
  * - **Aggregation** (Bi-Directional)
-   - arkivdel 0..\* Arkivdel
-   - arkiv 1 Arkiv
+   - as/arkivdel 0..\* Arkivdel
+   - as/arkiv 1 Arkiv
    -
 
 .. list-table:: Relasjonsnøkler
+   :widths: 3 10
    :header-rows: 1
 
- * - **Verdi**
- * - self
- * - https://rel.arkivverket.no/noark5/v5/api/arkivstruktur/arkiv/
- * - https://rel.arkivverket.no/noark5/v5/api/arkivstruktur/arkivdel/
- * - https://rel.arkivverket.no/noark5/v5/api/arkivstruktur/arkivskaper/
- * - https://rel.arkivverket.no/noark5/v5/api/arkivstruktur/ny-arkiv/
- * - https://rel.arkivverket.no/noark5/v5/api/arkivstruktur/ny-arkivdel/
- * - https://rel.arkivverket.no/noark5/v5/api/arkivstruktur/ny-arkivskaper/
- * - https://rel.arkivverket.no/noark5/v5/api/arkivstruktur/overarkiv/
- * - https://rel.arkivverket.no/noark5/v5/api/arkivstruktur/underarkiv/
- * - https://rel.arkivverket.no/noark5/v5/api/metadata/arkivstatus/
- * - https://rel.arkivverket.no/noark5/v5/api/metadata/dokumentmedium/
+ * - **Kilde/mål-kortnavn**
+   - **Relasjonsnøkkel**
+ * -
+   - self
+ * - as/arkiv
+   - https://rel.arkivverket.no/noark5/v5/api/arkivstruktur/arkiv/
+ * - as/arkivdel
+   - https://rel.arkivverket.no/noark5/v5/api/arkivstruktur/arkivdel/
+ * - as/arkivskaper
+   - https://rel.arkivverket.no/noark5/v5/api/arkivstruktur/arkivskaper/
+ * - as/ny-arkiv
+   - https://rel.arkivverket.no/noark5/v5/api/arkivstruktur/ny-arkiv/
+ * - as/ny-arkivdel
+   - https://rel.arkivverket.no/noark5/v5/api/arkivstruktur/ny-arkivdel/
+ * - as/ny-arkivskaper
+   - https://rel.arkivverket.no/noark5/v5/api/arkivstruktur/ny-arkivskaper/
+ * - as/overarkiv
+   - https://rel.arkivverket.no/noark5/v5/api/arkivstruktur/overarkiv/
+ * - as/underarkiv
+   - https://rel.arkivverket.no/noark5/v5/api/arkivstruktur/underarkiv/
+ * - md/arkivstatus
+   - https://rel.arkivverket.no/noark5/v5/api/metadata/arkivstatus/
+ * - md/dokumentmedium
+   - https://rel.arkivverket.no/noark5/v5/api/metadata/dokumentmedium/
 
 .. list-table:: Attributter
    :widths: 4 10 1 1 4
