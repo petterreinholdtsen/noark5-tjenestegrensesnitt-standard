@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="279px" preserveAspectRatio="none" style="width:288px;height:279px;" version="1.1" viewBox="0 0 288 279" width="288px" zoomAndPan="magnify"><defs><filter height="300%" id="f14677j997v9os" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[fae53719828d8975cada50749df5e1ce]
+cluster LoggingOgSporing--><polygon fill="#FFFFFF" filter="url(#f14677j997v9os)" points="22,24,159,24,166,49.0679,266,49.0679,266,267,22,267,22,24" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="22" x2="166" y1="49.0679" y2="49.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="131" x="26" y="40.9659">LoggingOgSporing</text><!--MD5=[2ba520c76cf4982898023b199abde661]
+class LoggingOgSporing.Hendelseslogg--><rect fill="#FEFECE" filter="url(#f14677j997v9os)" height="87.2898" id="LoggingOgSporing.Hendelseslogg" style="stroke: #A80036; stroke-width: 1.5;" width="211" x="38.5" y="164"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="83" x="65" y="181.8281">Hendelseslogg</text><rect fill="#FFFFFF" height="18.3441" style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" width="73" x="179.5" y="161"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="71" x="180.5" y="174.8281">Endringslogg</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="39.5" x2="248.5" y1="190.3441" y2="190.3441"/><ellipse cx="49.5" cy="201.3441" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="150" x="58.5" y="206.103">hendelsetype : Hendelsetype</text><ellipse cx="49.5" cy="216.326" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="127" x="58.5" y="221.0849">beskrivelse : string [0..1]</text><ellipse cx="49.5" cy="231.3079" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="185" x="58.5" y="236.0668">hendelseDato : datetime [0..1] [1..1]</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="39.5" x2="248.5" y1="243.2898" y2="243.2898"/><!--MD5=[5f0344ec513b1fc7836a789fba495278]
+class LoggingOgSporing.Endringslogg--><rect fill="#FEFECE" filter="url(#f14677j997v9os)" height="42.3441" id="LoggingOgSporing.Endringslogg" style="stroke: #A80036; stroke-width: 1.5;" width="79" x="104.5" y="62"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="73" x="107.5" y="79.8281">Endringslogg</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="105.5" x2="182.5" y1="88.3441" y2="88.3441"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="105.5" x2="182.5" y1="96.3441" y2="96.3441"/><!--MD5=[beed085d5fd681cff38a53fb440d63ac]
+reverse link LoggingOgSporing.Endringslogg to LoggingOgSporing.Hendelseslogg--><path d="M144,124.4 C144,137.06 144,151.07 144,163.88 " fill="none" id="LoggingOgSporing.Endringslogg&lt;-LoggingOgSporing.Hendelseslogg" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="none" points="137,124.23,144,104.23,151,124.23,137,124.23" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[8401ba3c04d7dab218dc779eb1e3b4a0]
+@startuml
+skinparam nodesep 100
+hide circle
+class LoggingOgSporing.Hendelseslogg <Endringslogg> {
+  +hendelsetype : Hendelsetype
+  +beskrivelse : string [0..1]
+  +hendelseDato : datetime [0..1] [1..1]
+}
+class LoggingOgSporing.Endringslogg {
+}
+LoggingOgSporing.Endringslogg <|- - LoggingOgSporing.Hendelseslogg
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 11:22:07 CET 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 17.0.6+10-Debian-1
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

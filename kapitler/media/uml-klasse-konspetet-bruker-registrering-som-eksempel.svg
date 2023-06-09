@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="464px" preserveAspectRatio="none" style="width:348px;height:464px;" version="1.1" viewBox="0 0 348 464" width="348px" zoomAndPan="magnify"><defs><filter height="300%" id="frzbjyti5t0l8" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[232c485b1f52e07d9ce0910f7499e2a6]
+cluster Arkivstruktur--><polygon fill="#FFFFFF" filter="url(#frzbjyti5t0l8)" points="22,24,123,24,130,49.0679,326,49.0679,326,452,22,452,22,24" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="22" x2="130" y1="49.0679" y2="49.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="95" x="26" y="40.9659">Arkivstruktur</text><!--MD5=[5eeb008ce2ba569ad4cb3c09c2ca4370]
+class Arkivstruktur.Registrering--><rect fill="#FEFECE" filter="url(#frzbjyti5t0l8)" height="373.6015" id="Arkivstruktur.Registrering" style="stroke: #A80036; stroke-width: 1.5;" width="272" x="38" y="62"/><ellipse cx="102.25" cy="78" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M101.7188,84.9219 Q99.9688,84.9219 98.8281,84.1875 Q97.7031,83.4375 97.1406,82.0938 Q96.5938,80.7344 96.5938,78.9375 Q96.5938,76.9063 97.25,75.4531 Q97.9063,74 99.1875,73.2188 Q100.4688,72.4375 102.3438,72.4375 Q103.2344,72.4375 103.9063,72.625 Q104.5781,72.7969 105.2656,73.1406 L104.4531,75.1563 Q103.8281,74.8438 103.2813,74.7188 Q102.75,74.5938 102.2656,74.5938 Q101.0938,74.5938 100.3906,75.125 Q99.6875,75.6563 99.3906,76.6094 Q99.0938,77.5625 99.0938,78.8281 Q99.0938,80.8438 99.8125,81.8125 Q100.5313,82.7656 102.125,82.7656 Q102.7188,82.7656 103.3438,82.6094 Q103.9688,82.4531 104.7969,82.0781 L104.7969,84.2969 Q104.0625,84.6094 103.2656,84.7656 Q102.4844,84.9219 101.7188,84.9219 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="68" x="122.75" y="82.656">Registrering</text><rect fill="#FFFFFF" height="18.3441" style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" width="65" x="248" y="59"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="57" x="252" y="72.8281">Arkivenhet</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="39" x2="309" y1="94" y2="94"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="156" x="44" y="109.7589">+arkivertDato : datetime [0..1]</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="129" x="44" y="124.7408">+arkivertAv : string [0..1]</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="198" x="44" y="139.7227">+referanseArkivertAv : SystemID [0..1]</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="145" x="44" y="154.7046">+kassasjon : Kassasjon [0..1]</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="149" x="44" y="169.6865">+skjerming : Skjerming [0..1]</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="151" x="44" y="184.6684">+gradering : Gradering [0..1]</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="186" x="44" y="199.6502">+referanseArkivdel : SystemID [0..1]</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="155" x="44" y="214.6321">+registreringsID : string [0..1]</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="70" x="44" y="229.614">+tittel : string</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="146" x="44" y="244.5959">+offentligTittel : string [0..1]</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="133" x="44" y="259.5778">+beskrivelse : string [0..1]</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="135" x="44" y="274.5597">+noekkelord : string [0..*]</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="120" x="44" y="289.5416">+forfatter : string [0..*]</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="239" x="44" y="304.5235">+dokumentmedium : Dokumentmedium [0..1]</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="170" x="44" y="319.5053">+oppbevaringssted : string [0..*]</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="227" x="44" y="334.4872">+virksomhetsspesifikkeMetadata : any [0..1]</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="0" x="47" y="349.4691"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="260" x="44" y="383.4329">En registrering inneholder bare de metadata som</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="259" x="44" y="398.4148">er nødvendig dersom dokumentet arkiveres uten</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="219" x="44" y="413.3967">journalføring.  Dette kalles også forenklet</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="63" x="44" y="428.3786">registrering</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="39" x2="159.5" y1="364.183" y2="364.183"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="29" x="159.5" y="367.951">notes</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="188.5" x2="309" y1="364.183" y2="364.183"/><!--MD5=[4cf847ec277013a9a5ea06660f7eec6e]
+@startuml
+skinparam classAttributeIconSize 0
+class Arkivstruktur.Registrering < Arkivenhet > {
+  +arkivertDato : datetime [0..1]
+  +arkivertAv : string [0..1]
+  +referanseArkivertAv : SystemID [0..1]
+  +kassasjon : Kassasjon [0..1]
+  +skjerming : Skjerming [0..1]
+  +gradering : Gradering [0..1]
+  +referanseArkivdel : SystemID [0..1]
+  +registreringsID : string [0..1]
+  +tittel : string
+  +offentligTittel : string [0..1]
+  +beskrivelse : string [0..1]
+  +noekkelord : string [0..*]
+  +forfatter : string [0..*]
+  +dokumentmedium : Dokumentmedium [0..1]
+  +oppbevaringssted : string [0..*]
+  +virksomhetsspesifikkeMetadata : any [0..1]
+
+  __ notes __
+  En registrering inneholder bare de metadata som
+  er nødvendig dersom dokumentet arkiveres uten
+  journalføring.  Dette kalles også forenklet
+  registrering
+}
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 11:22:07 CET 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 17.0.6+10-Debian-1
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

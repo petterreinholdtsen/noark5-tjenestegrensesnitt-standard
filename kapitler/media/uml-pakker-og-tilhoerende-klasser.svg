@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="2220px" preserveAspectRatio="none" style="width:1038px;height:2220px;" version="1.1" viewBox="0 0 1038 2220" width="1038px" zoomAndPan="magnify"><defs><filter height="300%" id="f8y95dfj9a1pm" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[232c485b1f52e07d9ce0910f7499e2a6]
+cluster Arkivstruktur--><polygon fill="#FFFFFF" filter="url(#f8y95dfj9a1pm)" points="22,24,123,24,130,49.0679,256,49.0679,256,1358,22,1358,22,24" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="22" x2="130" y1="49.0679" y2="49.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="95" x="26" y="40.9659">Arkivstruktur</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="133" x="76.5" y="66.0339">«applicationSchema»</text><!--MD5=[9b3576d9e31bf4d673b8d6c4aad6c30f]
+cluster NasjonaleIdentifikatorer--><polygon fill="#FFFFFF" filter="url(#f8y95dfj9a1pm)" points="46,1064,222,1064,229,1089.0679,232,1089.0679,232,1334,46,1334,46,1064" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="46" x2="229" y1="1089.0679" y2="1089.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="170" x="50" y="1080.9659">NasjonaleIdentifikatorer</text><!--MD5=[069ea117d8bb01159729074d99b1e334]
+cluster Sakarkiv--><polygon fill="#FFFFFF" filter="url(#f8y95dfj9a1pm)" points="43,1382,109,1382,116,1407.0679,235,1407.0679,235,2012,43,2012,43,1382" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="43" x2="116" y1="1407.0679" y2="1407.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="60" x="47" y="1398.9659">Sakarkiv</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="133" x="76.5" y="1424.0339">«applicationSchema»</text><!--MD5=[da0cc52003e83f0d614cc4ab23641ff5]
+cluster Admin--><polygon fill="#FFFFFF" filter="url(#f8y95dfj9a1pm)" points="372,24,424,24,431,49.0679,521,49.0679,521,199,372,199,372,24" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="372" x2="431" y1="49.0679" y2="49.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="46" x="376" y="40.9659">Admin</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="133" x="384" y="66.0339">«applicationSchema»</text><!--MD5=[fae53719828d8975cada50749df5e1ce]
+cluster LoggingOgSporing--><polygon fill="#FFFFFF" filter="url(#f8y95dfj9a1pm)" points="380,223,517,223,524,248.0679,529,248.0679,529,322,380,322,380,223" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="380" x2="524" y1="248.0679" y2="248.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="131" x="384" y="239.9659">LoggingOgSporing</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="133" x="392" y="265.0339">«applicationSchema»</text><!--MD5=[68eac0387a028fbb729470faa528465a]
+cluster Kodelister--><polygon fill="#FFFFFF" filter="url(#f8y95dfj9a1pm)" points="556,24,632,24,639,49.0679,790,49.0679,790,1671,556,1671,556,24" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="556" x2="639" y1="49.0679" y2="49.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="70" x="560" y="40.9659">Kodelister</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="133" x="610.5" y="66.0339">«applicationSchema»</text><!--MD5=[3184fdea4783831117657b3137453a0b]
+cluster GeoIntegrasjon--><polygon fill="#FFFFFF" filter="url(#f8y95dfj9a1pm)" points="259,1695,372,1695,379,1720.0679,1016,1720.0679,1016,2208,259,2208,259,1695" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="259" x2="379" y1="1720.0679" y2="1720.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="107" x="263" y="1711.9659">GeoIntegrasjon</text><!--MD5=[6c23e42f078bfe7aa5af6f7a257588a7]
+cluster Felles.Geometri--><polygon fill="#FFFFFF" filter="url(#f8y95dfj9a1pm)" points="832,1741,946,1741,953,1766.0679,992,1766.0679,992,2184,832,2184,832,1741" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="832" x2="953" y1="1766.0679" y2="1766.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="108" x="836" y="1757.9659">Felles.Geometri</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="133" x="849.5" y="1783.0339">«applicationSchema»</text><!--MD5=[7ef315a986ea414aa4cfc930be686a8d]
+cluster Matrikkel.Applikasjonsskjema.Felles--><polygon fill="#FFFFFF" filter="url(#f8y95dfj9a1pm)" points="539,1741,798,1741,805,1766.0679,808,1766.0679,808,1878,539,1878,539,1741" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="539" x2="805" y1="1766.0679" y2="1766.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="253" x="543" y="1757.9659">Matrikkel.Applikasjonsskjema.Felles</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="133" x="611" y="1783.0339">«applicationSchema»</text><!--MD5=[dd45bbd3ce9255c17cc1446435883288]
+cluster Plan.Applikasjonsskjema.Felles--><polygon fill="#FFFFFF" filter="url(#f8y95dfj9a1pm)" points="283,1741,505,1741,512,1766.0679,515,1766.0679,515,2012,283,2012,283,1741" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="283" x2="512" y1="1766.0679" y2="1766.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="216" x="287" y="1757.9659">Plan.Applikasjonsskjema.Felles</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="133" x="336.5" y="1783.0339">«applicationSchema»</text><!--MD5=[f67102ff729ff7beaa2002b03a7b0177]
+class Arkiv--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Arkiv" style="stroke: #A80036; stroke-width: 1.5;" width="34" x="122" y="81"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="28" x="125" y="98.8281">Arkiv</text><!--MD5=[cba5b646dac908aad9f560ff94dc3aca]
+class Arkivdel--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Arkivdel" style="stroke: #A80036; stroke-width: 1.5;" width="51" x="113.5" y="119"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="45" x="116.5" y="136.8281">Arkivdel</text><!--MD5=[9a979a974862cd0698d42c9bd2e03ee2]
+class Arkivenhet--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Arkivenhet" style="stroke: #A80036; stroke-width: 1.5;" width="63" x="107.5" y="157"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="57" x="110.5" y="174.8281">Arkivenhet</text><!--MD5=[fc902d55fc57c5b093fbf00190d07177]
+class Dokumentbeskrivelse--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Dokumentbeskrivelse" style="stroke: #A80036; stroke-width: 1.5;" width="127" x="75.5" y="338"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="121" x="78.5" y="355.8281">Dokumentbeskrivelse</text><!--MD5=[a1dc11cd626d9f07d117bbbb4be67a29]
+class Dokumentobjekt--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Dokumentobjekt" style="stroke: #A80036; stroke-width: 1.5;" width="98" x="90" y="376"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="92" x="93" y="393.8281">Dokumentobjekt</text><!--MD5=[026330dd0bc445a5afc121d5c35f0516]
+class ElektroniskSignatur--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="ElektroniskSignatur" style="stroke: #A80036; stroke-width: 1.5;" width="114" x="82" y="414"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="108" x="85" y="431.8281">ElektroniskSignatur</text><!--MD5=[ea4104b77d5f5f68230154fc22ec7cdf]
+class Gradering--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Gradering" style="stroke: #A80036; stroke-width: 1.5;" width="63" x="107.5" y="452"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="57" x="110.5" y="469.8281">Gradering</text><!--MD5=[6db1632e21469fa69d4a92403cfa2860]
+class Hendelseslogg--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Hendelseslogg" style="stroke: #A80036; stroke-width: 1.5;" width="89" x="94.5" y="490"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="83" x="97.5" y="507.8281">Hendelseslogg</text><!--MD5=[2f8e8da17211b138cbcd4bf978e0edf6]
+class Kassasjon--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Kassasjon" style="stroke: #A80036; stroke-width: 1.5;" width="62" x="108" y="528"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="56" x="111" y="545.8281">Kassasjon</text><!--MD5=[b26cda18e5901a24d4899da4e59e719e]
+class Klasse--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Klasse" style="stroke: #A80036; stroke-width: 1.5;" width="42" x="118" y="566"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="36" x="121" y="583.8281">Klasse</text><!--MD5=[99c158e635c2c951cfbf53f0f59ec824]
+class Klassifikasjonssystem--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Klassifikasjonssystem" style="stroke: #A80036; stroke-width: 1.5;" width="127" x="75.5" y="604"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="121" x="78.5" y="621.8281">Klassifikasjonssystem</text><!--MD5=[30f593616f6d089a516d563b4a19ed68]
+class Konvertering--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Konvertering" style="stroke: #A80036; stroke-width: 1.5;" width="78" x="100" y="642"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="72" x="103" y="659.8281">Konvertering</text><!--MD5=[1728d4b8f20f9c003ef9dee4abaf4044]
+class Kryssreferanse--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Kryssreferanse" style="stroke: #A80036; stroke-width: 1.5;" width="91" x="93.5" y="680"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="85" x="96.5" y="697.8281">Kryssreferanse</text><!--MD5=[f4da49656a3ceb8c5fa95d60555ec2e8]
+class Mappe--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Mappe" style="stroke: #A80036; stroke-width: 1.5;" width="45" x="116.5" y="718"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="39" x="119.5" y="735.8281">Mappe</text><!--MD5=[6c11516a5600b02d02bec5551b645149]
+class Part--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Part" style="stroke: #A80036; stroke-width: 1.5;" width="29" x="124.5" y="756"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="23" x="127.5" y="773.8281">Part</text><!--MD5=[d6b17148381f34b8f3a441e31fd7a2f8]
+class PartEnhet--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="PartEnhet" style="stroke: #A80036; stroke-width: 1.5;" width="61" x="108.5" y="794"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="55" x="111.5" y="811.8281">PartEnhet</text><!--MD5=[3f5cd62197eaf2fe990291ef65b87f62]
+class PartPerson--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="PartPerson" style="stroke: #A80036; stroke-width: 1.5;" width="68" x="105" y="832"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="62" x="108" y="849.8281">PartPerson</text><!--MD5=[7a913eed22b25a7f44a71756c19eec60]
+class Merknad--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Merknad" style="stroke: #A80036; stroke-width: 1.5;" width="56" x="111" y="870"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="50" x="114" y="887.8281">Merknad</text><!--MD5=[458f39cbc51dbf686cb3772c0e8a20af]
+class Registrering--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Registrering" style="stroke: #A80036; stroke-width: 1.5;" width="74" x="102" y="908"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="68" x="105" y="925.8281">Registrering</text><!--MD5=[514c4103b08021bee0a959b787abd73f]
+class Skjerming--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Skjerming" style="stroke: #A80036; stroke-width: 1.5;" width="62" x="108" y="946"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="56" x="111" y="963.8281">Skjerming</text><!--MD5=[f48d3cbce74e9fb9104234ded4121ad5]
+class UtfoertKassasjon--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="UtfoertKassasjon" style="stroke: #A80036; stroke-width: 1.5;" width="102" x="88" y="984"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="96" x="91" y="1001.8281">UtfoertKassasjon</text><!--MD5=[39d3ee282b61141a4c7a5cbbc496fa8f]
+class Arkivnotat--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Arkivnotat" style="stroke: #A80036; stroke-width: 1.5;" width="63" x="107.5" y="280"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="57" x="110.5" y="297.8281">Arkivnotat</text><!--MD5=[90250af9520880dd2cb19c751fea3215]
+class Bygning--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Bygning" style="stroke: #A80036; stroke-width: 1.5;" width="51" x="113.5" y="1022"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="45" x="116.5" y="1039.8281">Bygning</text><!--MD5=[ae3ff71eb4500d157a562bef9003f9f6]
+class Enhetsidentifikator--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Enhetsidentifikator" style="stroke: #A80036; stroke-width: 1.5;" width="111" x="83.5" y="1102"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="105" x="86.5" y="1119.8281">Enhetsidentifikator</text><!--MD5=[362b7058baaf699becaaf5232ade3bb0]
+class Matrikkel--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Matrikkel" style="stroke: #A80036; stroke-width: 1.5;" width="58" x="110" y="1140"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="52" x="113" y="1157.8281">Matrikkel</text><!--MD5=[5f2022ea16b9679d9ff61c4f5e6c5675]
+class NasjonalIdentifikator--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="NasjonalIdentifikator" style="stroke: #A80036; stroke-width: 1.5;" width="120" x="79" y="1178"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="114" x="82" y="1195.8281">NasjonalIdentifikator</text><!--MD5=[3d68c0edc68b1cf14fef7ccccabc9303]
+class Personidentifikator--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Personidentifikator" style="stroke: #A80036; stroke-width: 1.5;" width="112" x="83" y="1216"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="106" x="86" y="1233.8281">Personidentifikator</text><!--MD5=[b3be63f686ea56a43222251ea576b753]
+class Plan--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Plan" style="stroke: #A80036; stroke-width: 1.5;" width="30" x="124" y="1254"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="24" x="127" y="1271.8281">Plan</text><!--MD5=[cde2eecb9f5d7295d252ee1fabc4ec18]
+class Posisjon--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Posisjon" style="stroke: #A80036; stroke-width: 1.5;" width="52" x="113" y="1292"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="46" x="116" y="1309.8281">Posisjon</text><!--MD5=[36707cc5f82e3fea99fd98119e4c1b09]
+class Avskrivning--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Avskrivning" style="stroke: #A80036; stroke-width: 1.5;" width="70" x="104" y="1439"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="64" x="107" y="1456.8281">Avskrivning</text><!--MD5=[01418b6039f727291bef65fb0644c097]
+class Dokumentflyt--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Dokumentflyt" style="stroke: #A80036; stroke-width: 1.5;" width="81" x="98.5" y="1477"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="75" x="101.5" y="1494.8281">Dokumentflyt</text><!--MD5=[59fd388976d26ed8fa4ab9f4304235ec]
+class EnkelAdresse--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="EnkelAdresse" style="stroke: #A80036; stroke-width: 1.5;" width="82" x="98" y="1515"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="76" x="101" y="1532.8281">EnkelAdresse</text><!--MD5=[9cd21f4cd8f4d3a7e2c3118af4b209ad]
+class Journalpost--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Journalpost" style="stroke: #A80036; stroke-width: 1.5;" width="69" x="104.5" y="1553"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="63" x="107.5" y="1570.8281">Journalpost</text><!--MD5=[544c9cc111b10fd1abfbddf1fa0da711]
+class Kontaktinformasjon--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Kontaktinformasjon" style="stroke: #A80036; stroke-width: 1.5;" width="115" x="81.5" y="1591"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="109" x="84.5" y="1608.8281">Kontaktinformasjon</text><!--MD5=[d23e32fdb9c3b92a6230d0a699b3f0d2]
+class Korrespondansepart--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Korrespondansepart" style="stroke: #A80036; stroke-width: 1.5;" width="117" x="80.5" y="1629"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="111" x="83.5" y="1646.8281">Korrespondansepart</text><!--MD5=[b27a00f418fa5146795932aaf01c5751]
+class KorrespondansepartEnhet--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="KorrespondansepartEnhet" style="stroke: #A80036; stroke-width: 1.5;" width="153" x="62.5" y="1798"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="147" x="65.5" y="1815.8281">KorrespondansepartEnhet</text><!--MD5=[10457af577d8bf3a09a1034be91742c7]
+class KorrespondansepartIntern--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="KorrespondansepartIntern" style="stroke: #A80036; stroke-width: 1.5;" width="155" x="61.5" y="1836"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="149" x="64.5" y="1853.8281">KorrespondansepartIntern</text><!--MD5=[5d63978bc1dd33b2b7f2db07aed92fa4]
+class KorrespondansepartPerson--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="KorrespondansepartPerson" style="stroke: #A80036; stroke-width: 1.5;" width="160" x="59" y="1894"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="154" x="62" y="1911.8281">KorrespondansepartPerson</text><!--MD5=[f45df404215be361c60998c0d865f14c]
+class Presedens--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Presedens" style="stroke: #A80036; stroke-width: 1.5;" width="65" x="106.5" y="1932"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="59" x="109.5" y="1949.8281">Presedens</text><!--MD5=[86d4f75013bc748b205fe35ae44e9a5d]
+class Saksmappe--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Saksmappe" style="stroke: #A80036; stroke-width: 1.5;" width="71" x="103.5" y="1970"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="65" x="106.5" y="1987.8281">Saksmappe</text><!--MD5=[09ce1f699a2d3487d93d62384d2a164e]
+class AdministrativEnhet--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="AdministrativEnhet" style="stroke: #A80036; stroke-width: 1.5;" width="112" x="390" y="81"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="106" x="393" y="98.8281">AdministrativEnhet</text><!--MD5=[99269d291391b13beb69e24bef295060]
+class Bruker--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Bruker" style="stroke: #A80036; stroke-width: 1.5;" width="44" x="424" y="119"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="38" x="427" y="136.8281">Bruker</text><!--MD5=[df7f6dc1577b7257b3f9e9eef5668e04]
+class Tilgang--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Tilgang" style="stroke: #A80036; stroke-width: 1.5;" width="47" x="422.5" y="157"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="41" x="425.5" y="174.8281">Tilgang</text><!--MD5=[8f4d792e11aba6ec4ae5ebca5734724f]
+class EndringsLogg--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="EndringsLogg" style="stroke: #A80036; stroke-width: 1.5;" width="82" x="405" y="280"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="76" x="408" y="297.8281">EndringsLogg</text><!--MD5=[49706f47a502697e8d538c8c34e621ec]
+class Arkivdelstatus--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Arkivdelstatus" style="stroke: #A80036; stroke-width: 1.5;" width="85" x="630.5" y="81"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="79" x="633.5" y="98.8281">Arkivdelstatus</text><!--MD5=[ba48b17b723daa688305756249d796e7]
+class Arkivstatus--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Arkivstatus" style="stroke: #A80036; stroke-width: 1.5;" width="68" x="639" y="119"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="62" x="642" y="136.8281">Arkivstatus</text><!--MD5=[aa1b47a807ea3aee98c6fa2de632cb08]
+class Avskrivningsmaate--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Avskrivningsmaate" style="stroke: #A80036; stroke-width: 1.5;" width="112" x="617" y="157"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="106" x="620" y="174.8281">Avskrivningsmaate</text><!--MD5=[76b1e2a46c1a32aad2e5f0fd2fcb04e6]
+class Dokumentmedium--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Dokumentmedium" style="stroke: #A80036; stroke-width: 1.5;" width="110" x="618" y="280"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="104" x="621" y="297.8281">Dokumentmedium</text><!--MD5=[630644a5ccfb98f1040973c0d56a619a]
+class Dokumentstatus--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Dokumentstatus" style="stroke: #A80036; stroke-width: 1.5;" width="98" x="624" y="338"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="92" x="627" y="355.8281">Dokumentstatus</text><!--MD5=[7aa430170ecd87afd832ebbbf28b271c]
+class Dokumenttype--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Dokumenttype" style="stroke: #A80036; stroke-width: 1.5;" width="88" x="629" y="376"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="82" x="632" y="393.8281">Dokumenttype</text><!--MD5=[143ff642e3e48b5fccc6d0463a3cddf3]
+class ElektroniskSignaturSikkerhetsnivaa--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="ElektroniskSignaturSikkerhetsnivaa" style="stroke: #A80036; stroke-width: 1.5;" width="202" x="572" y="414"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="196" x="575" y="431.8281">ElektroniskSignaturSikkerhetsnivaa</text><!--MD5=[e6d76bf55f453e6ffee00b5c790f4967]
+class ElektroniskSignaturVerifisert--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="ElektroniskSignaturVerifisert" style="stroke: #A80036; stroke-width: 1.5;" width="165" x="590.5" y="452"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="159" x="593.5" y="469.8281">ElektroniskSignaturVerifisert</text><!--MD5=[66d52ddacb6d8910fd849d64f5369f4e]
+class FlytStatus--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="FlytStatus" style="stroke: #A80036; stroke-width: 1.5;" width="60" x="643" y="490"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="54" x="646" y="507.8281">FlytStatus</text><!--MD5=[f144808e0e29279a3117e64f7a82a4df]
+class Format--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Format" style="stroke: #A80036; stroke-width: 1.5;" width="46" x="650" y="528"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="40" x="653" y="545.8281">Format</text><!--MD5=[28247e2965f3a21d3af352b77a7ebed5]
+class Graderingskode--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Graderingskode" style="stroke: #A80036; stroke-width: 1.5;" width="96" x="625" y="566"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="90" x="628" y="583.8281">Graderingskode</text><!--MD5=[fa17a0f209c2912c374fba8fa52874c8]
+class Hendelsetype--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Hendelsetype" style="stroke: #A80036; stroke-width: 1.5;" width="83" x="631.5" y="604"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="77" x="634.5" y="621.8281">Hendelsetype</text><!--MD5=[e0453773cfcc35c5c06b9fc9597696dc]
+class Journalposttype--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Journalposttype" style="stroke: #A80036; stroke-width: 1.5;" width="93" x="626.5" y="642"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="87" x="629.5" y="659.8281">Journalposttype</text><!--MD5=[964d3b6206dcc59a6eec19bf2d8524b8]
+class Kassasjonsvedtak--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Kassasjonsvedtak" style="stroke: #A80036; stroke-width: 1.5;" width="105" x="620.5" y="680"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="99" x="623.5" y="697.8281">Kassasjonsvedtak</text><!--MD5=[ded91677cf34bf8a57e0a23e53f81b8b]
+class Klassifikajonstype--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Klassifikajonstype" style="stroke: #A80036; stroke-width: 1.5;" width="105" x="620.5" y="718"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="99" x="623.5" y="735.8281">Klassifikajonstype</text><!--MD5=[060641c4729b760edcf67429ac5f9d89]
+class Korrespondanseparttype--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Korrespondanseparttype" style="stroke: #A80036; stroke-width: 1.5;" width="145" x="600.5" y="756"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="139" x="603.5" y="773.8281">Korrespondanseparttype</text><!--MD5=[3b2ebc2a82a6ca42650088e4a2410713]
+class Land--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Land" style="stroke: #A80036; stroke-width: 1.5;" width="33" x="656.5" y="794"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="27" x="659.5" y="811.8281">Land</text><!--MD5=[9f20ecfe5429b2d97384043f53bd80ca]
+class Mappetype--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Mappetype" style="stroke: #A80036; stroke-width: 1.5;" width="69" x="638.5" y="832"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="63" x="641.5" y="849.8281">Mappetype</text><!--MD5=[dc39227e1a158d4a19c01a01620e2649]
+class Merknadstype--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Merknadstype" style="stroke: #A80036; stroke-width: 1.5;" width="86" x="630" y="870"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="80" x="633" y="887.8281">Merknadstype</text><!--MD5=[07eb277d48bb299f9d7f802153610d4c]
+class MoetedeltagerFunksjon--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="MoetedeltagerFunksjon" style="stroke: #A80036; stroke-width: 1.5;" width="138" x="604" y="908"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="132" x="607" y="925.8281">MoetedeltagerFunksjon</text><!--MD5=[a87b645822e44f7d6fd21de6d14a3c6b]
+class Moeteregistreringsstatus--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Moeteregistreringsstatus" style="stroke: #A80036; stroke-width: 1.5;" width="148" x="599" y="946"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="142" x="602" y="963.8281">Moeteregistreringsstatus</text><!--MD5=[00b8691506be46fc4a82ebbd53c06cfd]
+class Moeteregistreringstype--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Moeteregistreringstype" style="stroke: #A80036; stroke-width: 1.5;" width="138" x="604" y="984"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="132" x="607" y="1001.8281">Moeteregistreringstype</text><!--MD5=[53e0241efb048a84d75dbdb8e4ac954c]
+class Moetesakstype--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Moetesakstype" style="stroke: #A80036; stroke-width: 1.5;" width="91" x="627.5" y="1022"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="85" x="630.5" y="1039.8281">Moetesakstype</text><!--MD5=[ef57846b5c3e41455166c70ae366eb2d]
+class Postnummer--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Postnummer" style="stroke: #A80036; stroke-width: 1.5;" width="78" x="634" y="1102"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="72" x="637" y="1119.8281">Postnummer</text><!--MD5=[69d7acb4277e499a3d95711d3ad65c0c]
+class PresedensStatus--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="PresedensStatus" style="stroke: #A80036; stroke-width: 1.5;" width="100" x="623" y="1140"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="94" x="626" y="1157.8281">PresedensStatus</text><!--MD5=[aaa07ad8ef9fe8267e350cc410922882]
+class Partrolle--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Partrolle" style="stroke: #A80036; stroke-width: 1.5;" width="54" x="646" y="1178"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="48" x="649" y="1195.8281">Partrolle</text><!--MD5=[c8e37671f25ebe30cc03dbab632281e8]
+class Saksstatus--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Saksstatus" style="stroke: #A80036; stroke-width: 1.5;" width="66" x="640" y="1216"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="60" x="643" y="1233.8281">Saksstatus</text><!--MD5=[f4e2d08e03b4cc644efbbf3c292950ec]
+class SkjermingDokument--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="SkjermingDokument" style="stroke: #A80036; stroke-width: 1.5;" width="120" x="613" y="1254"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="114" x="616" y="1271.8281">SkjermingDokument</text><!--MD5=[e20415138b68563c8239eb71d3fb970b]
+class SkjermingMetadata--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="SkjermingMetadata" style="stroke: #A80036; stroke-width: 1.5;" width="116" x="615" y="1292"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="110" x="618" y="1309.8281">SkjermingMetadata</text><!--MD5=[2b4092a298e59f49cb0b40f0292a302c]
+class Slettingstype--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Slettingstype" style="stroke: #A80036; stroke-width: 1.5;" width="78" x="634" y="1439"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="72" x="637" y="1456.8281">Slettingstype</text><!--MD5=[56017f12a7bc799e3ec8ed42ece366ed]
+class SystemID--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="SystemID" style="stroke: #A80036; stroke-width: 1.5;" width="60" x="643" y="1477"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="54" x="646" y="1494.8281">SystemID</text><!--MD5=[90b856989f56f50531418ca6b780bccc]
+class Tilgangskategori--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Tilgangskategori" style="stroke: #A80036; stroke-width: 1.5;" width="99" x="623.5" y="1515"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="93" x="626.5" y="1532.8281">Tilgangskategori</text><!--MD5=[77a0a28983d60ce3ef1f71c05959a6f0]
+class Tilgangsrestriksjon--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Tilgangsrestriksjon" style="stroke: #A80036; stroke-width: 1.5;" width="112" x="617" y="1553"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="106" x="620" y="1570.8281">Tilgangsrestriksjon</text><!--MD5=[96cc527acb2b539ce4aabda7e1251625]
+class TilknyttetRegistreringSom--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="TilknyttetRegistreringSom" style="stroke: #A80036; stroke-width: 1.5;" width="150" x="598" y="1591"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="144" x="601" y="1608.8281">TilknyttetRegistreringSom</text><!--MD5=[fa3142bfe5b2e736b78f50711d7461dd]
+class Variantformat--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Variantformat" style="stroke: #A80036; stroke-width: 1.5;" width="84" x="631" y="1629"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="78" x="634" y="1646.8281">Variantformat</text><!--MD5=[22a2eb8e0f4f925accdd017068379a14]
+class KoordinatsystemKode--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="KoordinatsystemKode" style="stroke: #A80036; stroke-width: 1.5;" width="128" x="848" y="1798"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="122" x="851" y="1815.8281">KoordinatsystemKode</text><!--MD5=[89af9d944edb26584875f39aaebb9346]
+class Flate--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Flate" style="stroke: #A80036; stroke-width: 1.5;" width="33" x="895.5" y="1836"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="27" x="898.5" y="1853.8281">Flate</text><!--MD5=[f24f9a3ee98f010244462d9938033333]
+class Geometri--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Geometri" style="stroke: #A80036; stroke-width: 1.5;" width="56" x="884" y="1894"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="50" x="887" y="1911.8281">Geometri</text><!--MD5=[fcc7c9bbd1dda6737d21f28b4639b8f9]
+class Koordinat--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Koordinat" style="stroke: #A80036; stroke-width: 1.5;" width="60" x="882" y="1932"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="54" x="885" y="1949.8281">Koordinat</text><!--MD5=[6b86b1b3a38040a263bf8dcd0385baee]
+class Kurve--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Kurve" style="stroke: #A80036; stroke-width: 1.5;" width="38" x="893" y="1970"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="32" x="896" y="1987.8281">Kurve</text><!--MD5=[3def58987d297269ba039c9582a17307]
+class Punkt--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Punkt" style="stroke: #A80036; stroke-width: 1.5;" width="37" x="893.5" y="2028"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="31" x="896.5" y="2045.8281">Punkt</text><!--MD5=[3fdda2b21354ce4f4119709bccb2aac0]
+class Ring--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Ring" style="stroke: #A80036; stroke-width: 1.5;" width="30" x="897" y="2066"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="24" x="900" y="2083.8281">Ring</text><!--MD5=[9570212cf18de6ac3ffc4d61e04f6b79]
+class Bbox--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Bbox" style="stroke: #A80036; stroke-width: 1.5;" width="34" x="895" y="2104"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="28" x="898" y="2121.8281">Bbox</text><!--MD5=[053ee5a267eb1bc755006ed28d3c0076]
+class Område--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Område" style="stroke: #A80036; stroke-width: 1.5;" width="52" x="886" y="2142"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="46" x="889" y="2159.8281">Område</text><!--MD5=[433a5637a873fac9b5c414f240bfeaba]
+class ByggIdent--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="ByggIdent" style="stroke: #A80036; stroke-width: 1.5;" width="63" x="641.5" y="1798"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="57" x="644.5" y="1815.8281">ByggIdent</text><!--MD5=[e9119db214c971bcca7959a6583bce63]
+class Matrikkelnummer--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Matrikkelnummer" style="stroke: #A80036; stroke-width: 1.5;" width="106" x="620" y="1836"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="100" x="623" y="1853.8281">Matrikkelnummer</text><!--MD5=[743ee023024cdaa30d1d8700a424f2a4]
+class Administrativenhetsnummer--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Administrativenhetsnummer" style="stroke: #A80036; stroke-width: 1.5;" width="160" x="339" y="1798"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="154" x="342" y="1815.8281">Administrativenhetsnummer</text><!--MD5=[39bb2f46fc9536f797b8ae81fc1ef4ba]
+class Fylke--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Fylke" style="stroke: #A80036; stroke-width: 1.5;" width="34" x="402" y="1836"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="28" x="405" y="1853.8281">Fylke</text><!--MD5=[b8d83b2c66fe9cd388b0b52dce7ee31c]
+class Kommune--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Kommune" style="stroke: #A80036; stroke-width: 1.5;" width="63" x="387.5" y="1894"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="57" x="390.5" y="1911.8281">Kommune</text><!--MD5=[ea058e52ca60edab00183841fbdc69b5]
+class NasjonalArealplanId--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="NasjonalArealplanId" style="stroke: #A80036; stroke-width: 1.5;" width="120" x="359" y="1932"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="114" x="362" y="1949.8281">NasjonalArealplanId</text><!--MD5=[6c1c2f321d0e67d301519d175ee6c3c1]
+class Stat--><rect fill="#FEFECE" filter="url(#f8y95dfj9a1pm)" height="26.3441" id="Stat" style="stroke: #A80036; stroke-width: 1.5;" width="28" x="405" y="1970"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="22" x="408" y="1987.8281">Stat</text><!--MD5=[fb94d80e2399e179bc575cff09dba7d1]
+link Arkiv to Arkivdel--><!--MD5=[2b3402b8e7e1352874ee1de0cc114f15]
+link Arkivdel to Arkivenhet--><!--MD5=[04a7e24614b5d84858879fcf6970f937]
+link Arkivenhet to Arkivnotat--><!--MD5=[07ae297be75abc1d13e6c87635e1c924]
+link Arkivnotat to Dokumentbeskrivelse--><!--MD5=[ada5d611f612a8add145b012fd4c9317]
+link Dokumentbeskrivelse to Dokumentobjekt--><!--MD5=[5c9a77289a8d1ebf1bf5f682aa3d6ae6]
+link Dokumentobjekt to ElektroniskSignatur--><!--MD5=[8b11b3b99548f77c25d12c45b4894f83]
+link ElektroniskSignatur to Gradering--><!--MD5=[024818171f55180331c34a3520b7eb82]
+link Gradering to Hendelseslogg--><!--MD5=[4eddaf098db8ea013a422c314ff620ac]
+link Hendelseslogg to Kassasjon--><!--MD5=[f91863f91688faac7ceb447d8c8799ae]
+link Kassasjon to Klasse--><!--MD5=[76e16cb8ccbbe1501b0af90ee7c6ee1d]
+link Klasse to Klassifikasjonssystem--><!--MD5=[f340556a122232b60c6efd2367049a13]
+link Klassifikasjonssystem to Konvertering--><!--MD5=[37f18b266cacc286f11e35a8bba9a1fa]
+link Konvertering to Kryssreferanse--><!--MD5=[7933c1018e6c31ead888163c9ee84e9b]
+link Kryssreferanse to Mappe--><!--MD5=[f852e02642a18ad5318317a30ab92e5c]
+link Mappe to Part--><!--MD5=[a7e270cf648efafba14006f4b7784b69]
+link Part to PartEnhet--><!--MD5=[5a7a3c3a00c06c387fabd29ca62ddcb1]
+link PartEnhet to PartPerson--><!--MD5=[915e853d63961b640b0e82fcd848b4c5]
+link PartPerson to Merknad--><!--MD5=[da236d6fc53a1087af87e48f51405608]
+link Merknad to Registrering--><!--MD5=[d58443492e523e14e144a01c15dc173e]
+link Registrering to Skjerming--><!--MD5=[9079318198589ac3fbb11983e9b3b2ec]
+link Skjerming to UtfoertKassasjon--><!--MD5=[2a1765a8be30521057d226317b2c7abb]
+link UtfoertKassasjon to Bygning--><!--MD5=[48d579ffdd9b50bc12d5e2e5571fba26]
+link Bygning to Enhetsidentifikator--><!--MD5=[a2dd3f5bcbea1e10e5ca7851c26ef225]
+link Enhetsidentifikator to Matrikkel--><!--MD5=[38e821d808823ac6348532547839b719]
+link Matrikkel to NasjonalIdentifikator--><!--MD5=[bb93df1264e689dab36b59d7406bb565]
+link NasjonalIdentifikator to Personidentifikator--><!--MD5=[985a25e54a4d8fe3d3a1d2d20e2e99fa]
+link Personidentifikator to Plan--><!--MD5=[700c595ce1403a8f93da6f079d68b918]
+link Plan to Posisjon--><!--MD5=[bc23b58e51d5dbddff9dad1a0db0f2e0]
+link Posisjon to Avskrivning--><!--MD5=[6c06e47906e86d97be136b855cf272c8]
+link Avskrivning to Dokumentflyt--><!--MD5=[8c30302c52fc12262179d14c8fa25f86]
+link Dokumentflyt to EnkelAdresse--><!--MD5=[625e984a3495d153e0d9b9e642e6a634]
+link EnkelAdresse to Journalpost--><!--MD5=[3f4e0e21e5f511a9477988a41bfb625c]
+link Journalpost to Kontaktinformasjon--><!--MD5=[bff31527bbf9aa4b4fafc48b5940734d]
+link Kontaktinformasjon to Korrespondansepart--><!--MD5=[4df7d174c0e09019d3cb1981bc6c8346]
+link Korrespondansepart to KorrespondansepartEnhet--><!--MD5=[50cb28e12d9c38e87f5fdf7b3370d3da]
+link KorrespondansepartEnhet to KorrespondansepartIntern--><!--MD5=[42a480a364007e63f3d6220eef7c788d]
+link KorrespondansepartIntern to KorrespondansepartPerson--><!--MD5=[e7cc5ea3c37970057e14f1469f6e8299]
+link KorrespondansepartPerson to Presedens--><!--MD5=[0a622376e06408f8f76dca3aee39afe6]
+link Presedens to Saksmappe--><!--MD5=[d0bc7b09383899db1e0d61c07689f3a5]
+link AdministrativEnhet to Bruker--><!--MD5=[c595888d3834fa64f84a9d31d1b93bdb]
+link Bruker to Tilgang--><path d="M446,145.19 C446,148.94 446,153.07 446,156.82 " fill="none" id="Bruker-Tilgang" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[0187d8e5cc2a6ab124609e7bf2ad5f09]
+link Tilgang to EndringsLogg--><!--MD5=[423bfebb99acfd96cba2bcadcb78313e]
+link Arkivdelstatus to Arkivstatus--><!--MD5=[18d6a1dac30050235aaf2386e609cca3]
+link Arkivstatus to Avskrivningsmaate--><!--MD5=[4a725fffcff000c833c6a97a08bd96cd]
+link Avskrivningsmaate to Dokumentmedium--><!--MD5=[3db179a6f56a7e914c8ae10db2bbbf76]
+link Dokumentmedium to Dokumentstatus--><!--MD5=[398edbe0f803a4625856096dc7503767]
+link Dokumentstatus to Dokumenttype--><!--MD5=[cab8a8fc3ec84f0878aee43479b4a1bc]
+link Dokumenttype to ElektroniskSignaturSikkerhetsnivaa--><!--MD5=[69b27999894f3bc30c239ee8304871f0]
+link ElektroniskSignaturSikkerhetsnivaa to ElektroniskSignaturVerifisert--><!--MD5=[98306eebd5dac62996e3d96d65409f86]
+link ElektroniskSignaturVerifisert to FlytStatus--><!--MD5=[06de9d099d2852afb3f0021e5c89bfa3]
+link FlytStatus to Format--><!--MD5=[5220c43d5b373fcf1e8c975c0f2cea49]
+link Format to Graderingskode--><!--MD5=[b8b4b8a0fbd54aac04e47517081a4555]
+link Graderingskode to Hendelsetype--><!--MD5=[e3bee0d25de9414ecd9abee6e66af2d4]
+link Hendelsetype to Journalposttype--><!--MD5=[66df14c1b6b1de62fc417c267fbf7d0f]
+link Journalposttype to Kassasjonsvedtak--><!--MD5=[353173b03abfcea591a7e21f95379a44]
+link Kassasjonsvedtak to Klassifikajonstype--><!--MD5=[45c59ff0ee7cadb94e64413abd0f4d4a]
+link Klassifikajonstype to Korrespondanseparttype--><!--MD5=[4e13ffae969f2087947b2027db590c4a]
+link Korrespondanseparttype to Land--><!--MD5=[20b06e78a26defe5cdbd11f94790259c]
+link Land to Mappetype--><!--MD5=[252c5fde5e168da1b92ce8e23a56205f]
+link Mappetype to Merknadstype--><!--MD5=[77f17894fda2147dc0a3ac2539c29808]
+link Merknadstype to MoetedeltagerFunksjon--><!--MD5=[da24b4acd27099441ff8ed7785c73382]
+link MoetedeltagerFunksjon to Moeteregistreringsstatus--><!--MD5=[6a521cb77e95be6a0fbf2343272ade64]
+link Moeteregistreringsstatus to Moeteregistreringstype--><!--MD5=[1beccd60ef0dd577d8fa17350ab038e6]
+link Moeteregistreringstype to Moetesakstype--><!--MD5=[7ffa0204ad162d4139f87534c859304a]
+link Moetesakstype to Postnummer--><!--MD5=[e3a7df37007e3bceae30ab38a98770e6]
+link Postnummer to PresedensStatus--><!--MD5=[c26b0ff39e0991f0972ba85a6052773b]
+link PresedensStatus to Partrolle--><!--MD5=[800e5041f86b24a25ff770df5eeecd8e]
+link Partrolle to Saksstatus--><!--MD5=[71508a528230c7ea7305f0f71d7baed0]
+link Saksstatus to SkjermingDokument--><!--MD5=[01fe676839435d74c6abbb450077eb2d]
+link SkjermingDokument to SkjermingMetadata--><!--MD5=[19b3abb77d845c4403cef3101b091997]
+link SkjermingMetadata to Slettingstype--><!--MD5=[66f022b9b003abbbd0af74ab32f6d45a]
+link Slettingstype to SystemID--><!--MD5=[63e05bf17f95b50058871aaf97a8f7d8]
+link SystemID to Tilgangskategori--><!--MD5=[30b4562d00e00b4c9307bac87c02e04c]
+link Tilgangskategori to Tilgangsrestriksjon--><!--MD5=[ab3317dbf40e7cfe9f1a1ae2f01682f9]
+link Tilgangsrestriksjon to TilknyttetRegistreringSom--><!--MD5=[9b4c643a39eb3f5177550ff38b40c22a]
+link TilknyttetRegistreringSom to Variantformat--><!--MD5=[ef38f5582aea99f31b8f90a1244f1029]
+link KoordinatsystemKode to Flate--><!--MD5=[d19a791a2ad9c46a5f58bf1553fabbab]
+link Flate to Geometri--><!--MD5=[5aeebe8dd38c979a79005ab87b5e6e09]
+link Geometri to Koordinat--><!--MD5=[4913c8a3bb4951b742da8a5259dce1c0]
+link Koordinat to Kurve--><!--MD5=[91160b0c63eedc9f40332f25d37f74ad]
+link Kurve to Punkt--><!--MD5=[6bfafdac4d247aaab3371d358ae7f0ca]
+link Punkt to Ring--><!--MD5=[1266d67221790833de87d4b6ddcd9ac2]
+link Ring to Bbox--><!--MD5=[8da213fb4b2650c8866a883a7ddc2b59]
+link Bbox to Område--><!--MD5=[c9eedc2d71b816af770c42b1a54659d6]
+link ByggIdent to Matrikkelnummer--><!--MD5=[5822808b477bd78cd5e7388558f1a6e1]
+link Administrativenhetsnummer to Fylke--><!--MD5=[f0a6f7ab17a3f71b02a49b53467c6a29]
+link Fylke to Kommune--><!--MD5=[9fb16cb5c584a74b90f48a5b72ce2b0d]
+link Kommune to NasjonalArealplanId--><!--MD5=[eaeb906d41da535f4cf85365e77ebfd1]
+link NasjonalArealplanId to Stat--><!--MD5=[5bad21ac689efaf64e0ee8aec1e0db75]
+link Variantformat to KoordinatsystemKode--><!--MD5=[c1e9b10ad965ff7f890a0457c3e54244]
+link Variantformat to ByggIdent--><!--MD5=[acbe64bc616224b78f65b0ecef13a236]
+link Variantformat to Administrativenhetsnummer--><!--MD5=[c79d2d981a80e8cadcb766ab6bf51593]
+@startuml
+hide circle
+hide empty members
+skinparam ranksep 12
+
+package Arkivstruktur <<applicationSchema>> {
+  class Arkiv
+  class Arkivdel
+  abstract class Arkivenhet
+  class Dokumentbeskrivelse
+  class Dokumentobjekt
+  class ElektroniskSignatur
+  class Gradering
+  class Hendelseslogg
+  class Kassasjon
+  class Klasse
+  class Klassifikasjonssystem
+  class Konvertering
+  class Kryssreferanse
+  class Mappe
+  abstract class Part
+  class PartEnhet
+  class PartPerson
+  class Merknad
+  class Registrering
+  class Skjerming
+  class UtfoertKassasjon
+
+  Arkiv -[hidden]- Arkivdel
+  Arkivdel -[hidden]- Arkivenhet
+  Arkivenhet -[hidden]- Arkivnotat
+  Arkivnotat -[hidden]- Dokumentbeskrivelse
+  Dokumentbeskrivelse -[hidden]-  Dokumentobjekt
+  Dokumentobjekt -[hidden]-  ElektroniskSignatur
+  ElektroniskSignatur -[hidden]-  Gradering
+  Gradering -[hidden]-  Hendelseslogg
+  Hendelseslogg -[hidden]-  Kassasjon
+  Kassasjon -[hidden]-  Klasse
+  Klasse -[hidden]-  Klassifikasjonssystem
+  Klassifikasjonssystem -[hidden]-  Konvertering
+  Konvertering -[hidden]-  Kryssreferanse
+  Kryssreferanse -[hidden]-  Mappe
+  Mappe -[hidden]- Part
+  Part -[hidden]- PartEnhet
+  PartEnhet -[hidden]- PartPerson
+  PartPerson -[hidden]- Merknad
+  Merknad -[hidden]-  Registrering
+  Registrering -[hidden]-  Skjerming
+  Skjerming -[hidden]-  UtfoertKassasjon
+  UtfoertKassasjon -[hidden]- Bygning
+
+  package NasjonaleIdentifikatorer {
+    class Bygning
+    class Enhetsidentifikator
+    class Matrikkel
+    abstract class NasjonalIdentifikator
+    class Personidentifikator
+    class Plan
+    class Posisjon
+
+    Bygning -[hidden]- Enhetsidentifikator
+    Enhetsidentifikator -[hidden]- Matrikkel
+    Matrikkel -[hidden]- NasjonalIdentifikator
+    NasjonalIdentifikator -[hidden]- Personidentifikator
+    Personidentifikator -[hidden]- Plan
+    Plan -[hidden]- Posisjon
+  }
+}
+package Sakarkiv <<applicationSchema>> {
+  class Avskrivning
+  class Dokumentflyt
+  class EnkelAdresse
+  class Arkivnotat
+  class Journalpost
+  class Kontaktinformasjon
+  abstract class Korrespondansepart
+  class KorrespondansepartEnhet
+  class KorrespondansepartIntern
+  class KorrespondansepartPerson
+  class Presedens
+  class Saksmappe
+
+  Posisjon -[hidden]- Avskrivning
+  Avskrivning -[hidden]- Dokumentflyt
+  Dokumentflyt -[hidden]- EnkelAdresse
+  EnkelAdresse -[hidden]- Journalpost
+  Journalpost -[hidden]- Kontaktinformasjon
+  Kontaktinformasjon -[hidden]- Korrespondansepart
+  Korrespondansepart -[hidden]- KorrespondansepartEnhet
+  KorrespondansepartEnhet -[hidden]- KorrespondansepartIntern
+  KorrespondansepartIntern -[hidden]- KorrespondansepartPerson
+  KorrespondansepartPerson -[hidden]- Presedens
+  Presedens -[hidden]- Saksmappe
+}
+package Admin <<applicationSchema>> {
+  class AdministrativEnhet
+  class Bruker
+  class Tilgang
+
+  AdministrativEnhet -[hidden]- Bruker
+  Bruker - -Tilgang
+}
+package LoggingOgSporing <<applicationSchema>> {
+  class EndringsLogg
+
+  Tilgang -[hidden]- EndringsLogg
+}
+package Kodelister <<applicationSchema>> {
+  class Arkivdelstatus
+  class Arkivstatus
+  class Avskrivningsmaate
+  class Dokumentmedium
+  class Dokumentstatus
+  class Dokumenttype
+  class ElektroniskSignaturSikkerhetsnivaa
+  class ElektroniskSignaturVerifisert
+  class FlytStatus
+  class Format
+  class Graderingskode
+  class Hendelsetype
+  class Journalposttype
+  class Kassasjonsvedtak
+  class Klassifikajonstype
+  class Korrespondanseparttype
+  class Land
+  class Mappetype
+  class Merknadstype
+  class MoetedeltagerFunksjon
+  class Moeteregistreringsstatus
+  class Moeteregistreringstype
+  class Moetesakstype
+  class Postnummer
+  class PresedensStatus
+  class Partrolle
+  class Saksstatus
+  class SkjermingDokument
+  class SkjermingMetadata
+  class Slettingstype
+  class SystemID
+  class Tilgangskategori
+  class Tilgangsrestriksjon
+  class TilknyttetRegistreringSom
+  class Variantformat
+
+  Arkivdelstatus -[hidden]- Arkivstatus
+  Arkivstatus -[hidden]- Avskrivningsmaate
+  Avskrivningsmaate -[hidden]- Dokumentmedium
+  Dokumentmedium -[hidden]- Dokumentstatus
+  Dokumentstatus -[hidden]- Dokumenttype
+  Dokumenttype -[hidden]- ElektroniskSignaturSikkerhetsnivaa
+  ElektroniskSignaturSikkerhetsnivaa -[hidden]- ElektroniskSignaturVerifisert
+  ElektroniskSignaturVerifisert -[hidden]- FlytStatus
+  FlytStatus -[hidden]- Format
+  Format -[hidden]- Graderingskode
+  Graderingskode -[hidden]- Hendelsetype
+  Hendelsetype -[hidden]- Journalposttype
+  Journalposttype -[hidden]- Kassasjonsvedtak
+  Kassasjonsvedtak -[hidden]- Klassifikajonstype
+  Klassifikajonstype -[hidden]- Korrespondanseparttype
+  Korrespondanseparttype -[hidden]- Land
+  Land -[hidden]- Mappetype
+  Mappetype -[hidden]- Merknadstype
+  Merknadstype -[hidden]- MoetedeltagerFunksjon
+  MoetedeltagerFunksjon -[hidden]- Moeteregistreringsstatus
+  Moeteregistreringsstatus -[hidden]- Moeteregistreringstype
+  Moeteregistreringstype -[hidden]- Moetesakstype
+  Moetesakstype -[hidden]- Postnummer
+  Postnummer -[hidden]- PresedensStatus
+  PresedensStatus -[hidden]- Partrolle
+  Partrolle -[hidden]- Saksstatus
+  Saksstatus -[hidden]- SkjermingDokument
+  SkjermingDokument -[hidden]- SkjermingMetadata
+  SkjermingMetadata -[hidden]- Slettingstype
+  Slettingstype -[hidden]- SystemID
+  SystemID -[hidden]- Tilgangskategori
+  Tilgangskategori -[hidden]- Tilgangsrestriksjon
+  Tilgangsrestriksjon -[hidden]- TilknyttetRegistreringSom
+  TilknyttetRegistreringSom -[hidden]- Variantformat
+}
+package GeoIntegrasjon {
+
+  package Felles.Geometri <<applicationSchema>> {
+    class KoordinatsystemKode
+    class Flate
+    abstract class Geometri
+    class Koordinat
+    class Kurve
+    class Punkt
+    class Ring
+    class Bbox
+    class Område
+
+    KoordinatsystemKode -[hidden]- Flate
+    Flate -[hidden]- Geometri
+    Geometri -[hidden]- Koordinat
+    Koordinat -[hidden]- Kurve
+    Kurve -[hidden]- Punkt
+    Punkt -[hidden]- Ring
+    Ring -[hidden]- Bbox
+    Bbox -[hidden]- Område
+  }
+
+  package Matrikkel.Applikasjonsskjema.Felles <<applicationSchema>> {
+    class ByggIdent
+    class Matrikkelnummer
+
+    ByggIdent -[hidden]- Matrikkelnummer
+  }
+
+  package Plan.Applikasjonsskjema.Felles <<applicationSchema>> {
+    abstract class Administrativenhetsnummer
+    class Fylke
+    class Kommune
+    class NasjonalArealplanId
+    class Stat
+
+    Administrativenhetsnummer -[hidden]- Fylke
+    Fylke -[hidden]- Kommune
+    Kommune -[hidden]- NasjonalArealplanId
+    NasjonalArealplanId -[hidden]- Stat
+  }
+
+  Variantformat -[hidden]- KoordinatsystemKode
+  Variantformat -[hidden]- ByggIdent
+  Variantformat -[hidden]- Administrativenhetsnummer
+}
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 11:22:07 CET 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 17.0.6+10-Debian-1
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

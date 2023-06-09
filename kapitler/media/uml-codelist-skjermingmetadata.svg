@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="328px" preserveAspectRatio="none" style="width:388px;height:328px;" version="1.1" viewBox="0 0 388 328" width="388px" zoomAndPan="magnify"><defs><filter height="300%" id="fanasof4nyccd" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[68eac0387a028fbb729470faa528465a]
+cluster Kodelister--><polygon fill="#FFFFFF" filter="url(#fanasof4nyccd)" points="22,24,98,24,105,49.0679,366,49.0679,366,316,22,316,22,24" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="22" x2="105" y1="49.0679" y2="49.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="70" x="26" y="40.9659">Kodelister</text><!--MD5=[079119592cfd2c4654260c54bc1f6f5e]
+class Kodelister.SkjermingMetadata--><rect fill="#FEFECE" filter="url(#fanasof4nyccd)" height="238.4709" id="Kodelister.SkjermingMetadata" style="stroke: #A80036; stroke-width: 1.5;" width="311" x="38.5" y="62"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="52" x="168" y="79.8281">«codelist»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="110" x="139" y="96.1722">SkjermingMetadata</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="39.5" x2="348.5" y1="104.6882" y2="104.6882"/><ellipse cx="49.5" cy="115.6882" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="130" x="58.5" y="120.4471">Skjerming klasseID = KID</text><ellipse cx="49.5" cy="130.6701" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="145" x="58.5" y="135.429">Skjerming tittel klasse = TKL</text><ellipse cx="49.5" cy="145.652" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="261" x="58.5" y="150.4109">Skjerming tittel mappe - unntatt første linje = TM1</text><ellipse cx="49.5" cy="160.6339" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="231" x="58.5" y="165.3928">Skjerming tittel mappe - utvalgte ord = TMO</text><ellipse cx="49.5" cy="175.6158" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="166" x="58.5" y="180.3747">Skjerming navn part i sak = NPS</text><ellipse cx="49.5" cy="190.5977" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="285" x="58.5" y="195.3566">Skjerming tittel registrering - unntatt første linje = TR1</text><ellipse cx="49.5" cy="205.5796" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="255" x="58.5" y="210.3385">Skjerming tittel registrering - utvalgte ord = TRO</text><ellipse cx="49.5" cy="220.5614" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="160" x="58.5" y="225.3204">Skjerming navn avsender = NA</text><ellipse cx="49.5" cy="235.5433" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="163" x="58.5" y="240.3022">Skjerming navn mottaker = NM</text><ellipse cx="49.5" cy="250.5252" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="221" x="58.5" y="255.2841">Skjerming tittel dokumentbeskrivelse = TD</text><ellipse cx="49.5" cy="265.5071" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="161" x="58.5" y="270.266">Skjerming merknadstekst = MT</text><ellipse cx="49.5" cy="280.489" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="135" x="58.5" y="285.2479">Midlertidig skjerming = M</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="39.5" x2="348.5" y1="292.4709" y2="292.4709"/><!--MD5=[087632cf3b78660e9fdee537ea576b5f]
+@startuml
+skinparam nodesep 100
+hide circle
+class Kodelister.SkjermingMetadata <<codelist>> {
+  +Skjerming klasseID = KID
+  +Skjerming tittel klasse = TKL
+  +Skjerming tittel mappe - unntatt første linje = TM1
+  +Skjerming tittel mappe - utvalgte ord = TMO
+  +Skjerming navn part i sak = NPS
+  +Skjerming tittel registrering - unntatt første linje = TR1
+  +Skjerming tittel registrering - utvalgte ord = TRO
+  +Skjerming navn avsender = NA
+  +Skjerming navn mottaker = NM
+  +Skjerming tittel dokumentbeskrivelse = TD
+  +Skjerming merknadstekst = MT
+  +Midlertidig skjerming = M
+}
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 11:22:07 CET 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 17.0.6+10-Debian-1
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

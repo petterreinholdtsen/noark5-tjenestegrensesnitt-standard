@@ -1,0 +1,1053 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="987.5508px" preserveAspectRatio="none" style="width:4086px;height:987px;" version="1.1" viewBox="0 0 4086 987" width="4086.3339px" zoomAndPan="magnify"><defs><filter height="300%" id="f1xtipgdblgjaw" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="1.6110127826941987"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="3.2220255653883974" dy="3.2220255653883974" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[da0cc52003e83f0d614cc4ab23641ff5]
+cluster Admin--><polygon fill="#FFFFFF" filter="url(#f1xtipgdblgjaw)" points="973.8572,587.6169,1015.7436,587.6169,1021.3821,607.8093,1209.0651,607.8093,1209.0651,728.1778,973.8572,728.1778,973.8572,587.6169" style="stroke: #000000; stroke-width: 1.208259587020649;"/><line style="stroke: #000000; stroke-width: 1.208259587020649;" x1="973.8572" x2="1021.3821" y1="607.8093" y2="607.8093"/><text fill="#000000" font-family="sans-serif" font-size="11.2771" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="37.0533" x="977.0793" y="601.2831">Admin</text><!--MD5=[232c485b1f52e07d9ce0910f7499e2a6]
+cluster Arkivstruktur--><polygon fill="#FFFFFF" filter="url(#f1xtipgdblgjaw)" points="1577.987,19.7349,1659.3432,19.7349,1664.9817,39.9273,3519.2574,39.9273,3519.2574,908.6112,1577.987,908.6112,1577.987,19.7349" style="stroke: #000000; stroke-width: 1.208259587020649;"/><line style="stroke: #000000; stroke-width: 1.208259587020649;" x1="1577.987" x2="1664.9817" y1="39.9273" y2="39.9273"/><text fill="#000000" font-family="sans-serif" font-size="11.2771" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="76.5231" x="1581.209" y="33.4011">Arkivstruktur</text><!--MD5=[6f57009a4a608e6bd88d18f07024e663]
+cluster Arkivstruktur.NasjonaleIdentifikatorer--><polygon fill="#FFFFFF" filter="url(#f1xtipgdblgjaw)" points="17.7211,747.5099,239.2354,747.5099,244.8739,767.7023,1346.0012,767.7023,1346.0012,977.8848,17.7211,977.8848,17.7211,747.5099" style="stroke: #000000; stroke-width: 1.208259587020649;"/><line style="stroke: #000000; stroke-width: 1.208259587020649;" x1="17.7211" x2="244.8739" y1="767.7023" y2="767.7023"/><text fill="#000000" font-family="sans-serif" font-size="11.2771" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="216.6812" x="20.9432" y="761.1761">Arkivstruktur.NasjonaleIdentifikatorer</text><!--MD5=[68eac0387a028fbb729470faa528465a]
+cluster Kodelister--><polygon fill="#FFFFFF" filter="url(#f1xtipgdblgjaw)" points="269.0391,89.0085,330.2576,89.0085,335.8962,109.2008,1307.3369,109.2008,1307.3369,499.0112,269.0391,499.0112,269.0391,89.0085" style="stroke: #000000; stroke-width: 1.208259587020649;"/><line style="stroke: #000000; stroke-width: 1.208259587020649;" x1="269.0391" x2="335.8962" y1="109.2008" y2="109.2008"/><text fill="#000000" font-family="sans-serif" font-size="11.2771" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="56.3854" x="272.2612" y="102.6746">Kodelister</text><!--MD5=[fae53719828d8975cada50749df5e1ce]
+cluster LoggingOgSporing--><polygon fill="#FFFFFF" filter="url(#f1xtipgdblgjaw)" points="3538.5896,95.8553,3648.944,95.8553,3654.5825,116.0476,3696.4688,116.0476,3696.4688,243.2629,3538.5896,243.2629,3538.5896,95.8553" style="stroke: #000000; stroke-width: 1.208259587020649;"/><line style="stroke: #000000; stroke-width: 1.208259587020649;" x1="3538.5896" x2="3654.5825" y1="116.0476" y2="116.0476"/><text fill="#000000" font-family="sans-serif" font-size="11.2771" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="105.5213" x="3541.8116" y="109.5214">LoggingOgSporing</text><!--MD5=[069ea117d8bb01159729074d99b1e334]
+cluster Sakarkiv--><polygon fill="#FFFFFF" filter="url(#f1xtipgdblgjaw)" points="3574.0319,518.3434,3627.1953,518.3434,3632.8338,538.5357,4068.6128,538.5357,4068.6128,728.1778,3574.0319,728.1778,3574.0319,518.3434" style="stroke: #000000; stroke-width: 1.208259587020649;"/><line style="stroke: #000000; stroke-width: 1.208259587020649;" x1="3574.0319" x2="3632.8338" y1="538.5357" y2="538.5357"/><text fill="#000000" font-family="sans-serif" font-size="11.2771" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="48.3304" x="3577.2539" y="532.0095">Sakarkiv</text><!--MD5=[4a4c6b7d1aba32735577c90ce419470a]
+cluster VirksomhetsspesifikkeMetadata--><polygon fill="#FFFFFF" filter="url(#f1xtipgdblgjaw)" points="1365.3333,747.5099,1550.5998,747.5099,1556.2383,767.7023,1558.6549,767.7023,1558.6549,825.6441,1365.3333,825.6441,1365.3333,747.5099" style="stroke: #000000; stroke-width: 1.208259587020649;"/><line style="stroke: #000000; stroke-width: 1.208259587020649;" x1="1365.3333" x2="1556.2383" y1="767.7023" y2="767.7023"/><text fill="#000000" font-family="sans-serif" font-size="11.2771" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="180.4334" x="1368.5554" y="761.1761">VirksomhetsspesifikkeMetadata</text><!--MD5=[b6496e801dfbc8364f77908df8c9f721]
+class Admin.AdministrativEnhet--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="21.2204" id="Admin.AdministrativEnhet" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="90.2167" x="1105.9603" y="618.2262"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="85.3837" x="1108.3768" y="632.5868">AdministrativEnhet</text><!--MD5=[c75b00a26ab827d6545fa97ea5aa8791]
+class Admin.Bruker--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="21.2204" id="Admin.Bruker" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="35.4423" x="1149.4576" y="694.3465"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="30.6092" x="1151.8741" y="708.7071">Bruker</text><!--MD5=[b0c07475e2391f95e5a92a06f51d8ef0]
+class Admin.Tilgang--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="21.2204" id="Admin.Tilgang" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="37.8588" x="987.1481" y="618.2262"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="33.0258" x="989.5646" y="632.5868">Tilgang</text><!--MD5=[eda94d7323bcebfbdddd0a5056cad0ff]
+class Arkivstruktur.Arkiv--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="21.2204" id="Arkivstruktur.Arkiv" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="76.5231" x="2462.0303" y="126.4645"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="22.5542" x="2464.4468" y="140.8251">Arkiv</text><rect fill="#FFFFFF" height="14.7763" style="stroke: #000000; stroke-width: 0.8055063913470993; stroke-dasharray: 2.0,2.0;" width="47.5249" x="2493.445" y="124.048"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="45.9139" x="2494.2505" y="135.1866">Arkivenhet</text><!--MD5=[7aad5f711e1ff9ffc23e4b1d771a24c1]
+class Arkivstruktur.Arkivdel--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="21.2204" id="Arkivstruktur.Arkivdel" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="90.2167" x="2560.7048" y="209.4317"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="36.2478" x="2563.1213" y="223.7923">Arkivdel</text><rect fill="#FFFFFF" height="14.7763" style="stroke: #000000; stroke-width: 0.8055063913470993; stroke-dasharray: 2.0,2.0;" width="47.5249" x="2605.8132" y="207.0151"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="45.9139" x="2606.6187" y="218.1538">Arkivenhet</text><!--MD5=[5361e6f8e145469a00ddfe2005186efd]
+class Arkivstruktur.Arkivenhet--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="21.2204" id="Arkivstruktur.Arkivenhet" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="53.1634" x="2473.7101" y="50.3441"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="48.3304" x="2476.1266" y="64.7048">Arkivenhet</text><!--MD5=[e577f11d43eeda59aac7f146d515c68a]
+class Arkivstruktur.Arkivskaper--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="21.2204" id="Arkivstruktur.Arkivskaper" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="107.1324" x="2350.0649" y="209.4317"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="53.1634" x="2352.4814" y="223.7923">Arkivskaper</text><rect fill="#FFFFFF" height="14.7763" style="stroke: #000000; stroke-width: 0.8055063913470993; stroke-dasharray: 2.0,2.0;" width="47.5249" x="2412.0889" y="207.0151"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="45.9139" x="2412.8944" y="218.1538">Arkivenhet</text><!--MD5=[92ed2197edf38a39acf5ab443fdd08de]
+class Arkivstruktur.Dokumentbeskrivelse--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="21.2204" id="Arkivstruktur.Dokumentbeskrivelse" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="151.4352" x="1919.5217" y="618.2262"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="97.4663" x="1921.9382" y="632.5868">Dokumentbeskrivelse</text><rect fill="#FFFFFF" height="14.7763" style="stroke: #000000; stroke-width: 0.8055063913470993; stroke-dasharray: 2.0,2.0;" width="47.5249" x="2025.8486" y="615.8096"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="45.9139" x="2026.6541" y="626.9483">Arkivenhet</text><!--MD5=[29d823b28f6505dc34d33e3bc54abc2a]
+class Arkivstruktur.Dokumentobjekt--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="21.2204" id="Arkivstruktur.Dokumentobjekt" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="128.0755" x="2011.7522" y="694.3465"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="74.1066" x="2014.1687" y="708.7071">Dokumentobjekt</text><rect fill="#FFFFFF" height="14.7763" style="stroke: #000000; stroke-width: 0.8055063913470993; stroke-dasharray: 2.0,2.0;" width="47.5249" x="2094.7194" y="691.93"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="45.9139" x="2095.5249" y="703.0686">Arkivenhet</text><!--MD5=[f7503d591851d2fa8a95c0a17885f877]
+class Arkivstruktur.ElektroniskSignatur--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="34.3856" id="Arkivstruktur.ElektroniskSignatur" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="91.8277" x="2029.8761" y="778.1192"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49.9414" x="2050.8193" y="792.4798">«dataType»</text><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="86.9947" x="2032.2926" y="805.6451">ElektroniskSignatur</text><!--MD5=[d903e4d79540f4ad66f38119aac08e6f]
+class Arkivstruktur.EnkelAdresse--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="34.3856" id="Arkivstruktur.EnkelAdresse" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="66.0515" x="2445.5174" y="861.0863"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49.9414" x="2453.5725" y="875.447">«dataType»</text><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="61.2185" x="2447.9339" y="888.6123">EnkelAdresse</text><!--MD5=[3d4783542a6aba5bb9f20d74c774f5a6]
+class Arkivstruktur.Gradering--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="34.3856" id="Arkivstruktur.Gradering" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="51.5524" x="2865.9917" y="687.4997"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49.9414" x="2866.7972" y="701.8603">«dataType»</text><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="45.9139" x="2868.811" y="715.0256">Gradering</text><!--MD5=[b5ffafd4a567228755c4d3977cbfc8b1]
+class Arkivstruktur.Kassasjon--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="34.3856" id="Arkivstruktur.Kassasjon" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="51.5524" x="2407.6586" y="687.4997"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49.9414" x="2408.4641" y="701.8603">«dataType»</text><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="45.1084" x="2410.8806" y="715.0256">Kassasjon</text><!--MD5=[73df33951f5eee41985998203ae583aa]
+class Arkivstruktur.Klasse--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="21.2204" id="Arkivstruktur.Klasse" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="82.9672" x="3217.5953" y="375.366"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="28.9982" x="3220.0118" y="389.7266">Klasse</text><rect fill="#FFFFFF" height="14.7763" style="stroke: #000000; stroke-width: 0.8055063913470993; stroke-dasharray: 2.0,2.0;" width="47.5249" x="3255.4541" y="372.9495"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="45.9139" x="3256.2596" y="384.0881">Arkivenhet</text><!--MD5=[644cbb5ff8138c2f81e04d7f63002f47]
+class Arkivstruktur.Klassifikasjonssystem--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="21.2204" id="Arkivstruktur.Klassifikasjonssystem" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="151.4352" x="3209.943" y="292.3988"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="97.4663" x="3212.3595" y="306.7595">Klassifikasjonssystem</text><rect fill="#FFFFFF" height="14.7763" style="stroke: #000000; stroke-width: 0.8055063913470993; stroke-dasharray: 2.0,2.0;" width="47.5249" x="3316.2698" y="289.9823"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="45.9139" x="3317.0753" y="301.1209">Arkivenhet</text><!--MD5=[e9f483b569bf7a876543837f527b5ff2]
+class Arkivstruktur.Kontaktinformasjon--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="34.3856" id="Arkivstruktur.Kontaktinformasjon" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="92.6332" x="2625.5481" y="861.0863"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49.9414" x="2646.894" y="875.447">«dataType»</text><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="87.8002" x="2627.9646" y="888.6123">Kontaktinformasjon</text><!--MD5=[97cc30a51343b046f3c83a4bc51cb117]
+class Arkivstruktur.Konvertering--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="21.2204" id="Arkivstruktur.Konvertering" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="62.8295" x="1886.496" y="784.966"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="57.9965" x="1888.9125" y="799.3266">Konvertering</text><!--MD5=[4df5b11f766642853213221570ce3455]
+class Arkivstruktur.Korrespondansepart--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="21.2204" id="Arkivstruktur.Korrespondansepart" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="97.4663" x="2540.1644" y="694.3465"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="92.6332" x="2542.5809" y="708.7071">Korrespondansepart</text><!--MD5=[bff338df9be1ad89eba6d47e996b9a32]
+class Arkivstruktur.KorrespondansepartEnhet--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="21.2204" id="Arkivstruktur.KorrespondansepartEnhet" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="215.8757" x="2353.6897" y="784.966"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="118.4094" x="2356.1062" y="799.3266">KorrespondansepartEnhet</text><rect fill="#FFFFFF" height="14.7763" style="stroke: #000000; stroke-width: 0.8055063913470993; stroke-dasharray: 2.0,2.0;" width="91.0222" x="2480.9597" y="782.5495"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="89.4112" x="2481.7652" y="793.6881">Korrespondansepart</text><!--MD5=[2d807decc9a4d6481c29364c218366db]
+class Arkivstruktur.KorrespondansepartIntern--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="21.2204" id="Arkivstruktur.KorrespondansepartIntern" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="217.4867" x="2807.9953" y="784.966"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="120.0205" x="2810.4118" y="799.3266">KorrespondansepartIntern</text><rect fill="#FFFFFF" height="14.7763" style="stroke: #000000; stroke-width: 0.8055063913470993; stroke-dasharray: 2.0,2.0;" width="91.0222" x="2936.8763" y="782.5495"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="89.4112" x="2937.6818" y="793.6881">Korrespondansepart</text><!--MD5=[e57ba8e319aec23dd4c832889dbc88b1]
+class Arkivstruktur.KorrespondansepartPerson--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="21.2204" id="Arkivstruktur.KorrespondansepartPerson" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="221.5143" x="3106.4354" y="784.966"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="124.048" x="3108.8519" y="799.3266">KorrespondansepartPerson</text><rect fill="#FFFFFF" height="14.7763" style="stroke: #000000; stroke-width: 0.8055063913470993; stroke-dasharray: 2.0,2.0;" width="91.0222" x="3239.344" y="782.5495"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="89.4112" x="3240.1495" y="793.6881">Korrespondansepart</text><!--MD5=[789c1e76f3fd06e52ddfd1f5832ec9f2]
+class Arkivstruktur.Kryssreferanse--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="21.2204" id="Arkivstruktur.Kryssreferanse" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="122.437" x="2973.1241" y="618.2262"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="68.468" x="2975.5406" y="632.5868">Kryssreferanse</text><rect fill="#FFFFFF" height="14.7763" style="stroke: #000000; stroke-width: 0.8055063913470993; stroke-dasharray: 2.0,2.0;" width="47.5249" x="3050.4527" y="615.8096"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="45.9139" x="3051.2582" y="626.9483">Arkivenhet</text><!--MD5=[7ac5167187dc7f1acc74fcb89e1dc205]
+class Arkivstruktur.Mappe--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="21.2204" id="Arkivstruktur.Mappe" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="85.3837" x="2424.5742" y="458.3331"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="31.4147" x="2426.9908" y="472.6938">Mappe</text><rect fill="#FFFFFF" height="14.7763" style="stroke: #000000; stroke-width: 0.8055063913470993; stroke-dasharray: 2.0,2.0;" width="47.5249" x="2464.8496" y="455.9166"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="45.9139" x="2465.6551" y="467.0552">Arkivenhet</text><!--MD5=[e3d7666df93e3e02c847c049474a14c9]
+class Arkivstruktur.Merknad--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="21.2204" id="Arkivstruktur.Merknad" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="45.1084" x="1885.6905" y="694.3465"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="40.2753" x="1888.107" y="708.7071">Merknad</text><!--MD5=[969f15578b48b8a37f6dcb3b1c0b6253]
+class Arkivstruktur.Part--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="21.2204" id="Arkivstruktur.Part" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="23.3597" x="2303.3455" y="694.3465"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="18.5266" x="2305.762" y="708.7071">Part</text><!--MD5=[c2e68dbe04ae443379d6787a7c0483e9]
+class Arkivstruktur.PartEnhet--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="21.2204" id="Arkivstruktur.PartEnhet" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="70.8846" x="2202.2545" y="784.966"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="44.3029" x="2204.671" y="799.3266">PartEnhet</text><rect fill="#FFFFFF" height="14.7763" style="stroke: #000000; stroke-width: 0.8055063913470993; stroke-dasharray: 2.0,2.0;" width="20.1377" x="2255.4179" y="782.5495"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="18.5266" x="2256.2234" y="793.6881">Part</text><!--MD5=[7ea2f26eb13848376c878053cfcf93d0]
+class Arkivstruktur.PartPerson--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="21.2204" id="Arkivstruktur.PartPerson" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="76.5231" x="2650.5188" y="784.966"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="49.9414" x="2652.9353" y="799.3266">PartPerson</text><rect fill="#FFFFFF" height="14.7763" style="stroke: #000000; stroke-width: 0.8055063913470993; stroke-dasharray: 2.0,2.0;" width="20.1377" x="2709.3207" y="782.5495"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="18.5266" x="2710.1263" y="793.6881">Part</text><!--MD5=[5eeb008ce2ba569ad4cb3c09c2ca4370]
+class Arkivstruktur.Registrering--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="21.2204" id="Arkivstruktur.Registrering" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="108.7434" x="2481.3624" y="548.9526"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="54.7744" x="2483.779" y="563.3132">Registrering</text><rect fill="#FFFFFF" height="14.7763" style="stroke: #000000; stroke-width: 0.8055063913470993; stroke-dasharray: 2.0,2.0;" width="47.5249" x="2544.9974" y="546.5361"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="45.9139" x="2545.8029" y="557.6747">Arkivenhet</text><!--MD5=[5d5cde9b9f9a55207202ed5867b8249d]
+class Arkivstruktur.Skjerming--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="34.3856" id="Arkivstruktur.Skjerming" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="51.5524" x="2718.5841" y="687.4997"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49.9414" x="2719.3896" y="701.8603">«dataType»</text><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="45.1084" x="2721.8061" y="715.0256">Skjerming</text><!--MD5=[be7f0df5549e13ad04f91f11dc5a6349]
+class Arkivstruktur.Sletting--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="34.3856" id="Arkivstruktur.Sletting" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="51.5524" x="1590.8751" y="687.4997"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49.9414" x="1591.6806" y="701.8603">«dataType»</text><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="33.8313" x="1599.7357" y="715.0256">Sletting</text><!--MD5=[f46ec140c7955aeb4943f8872f29cabd]
+class Arkivstruktur.UtfoertKassasjon--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="34.3856" id="Arkivstruktur.UtfoertKassasjon" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="82.1617" x="1722.9782" y="687.4997"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="49.9414" x="1739.0883" y="701.8603">«dataType»</text><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="77.3286" x="1725.3947" y="715.0256">UtfoertKassasjon</text><!--MD5=[2d014d047ed1f139ecc2908aaf48a38e]
+class Arkivstruktur.NasjonaleIdentifikatorer.Bygning--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="21.2204" id="Arkivstruktur.NasjonaleIdentifikatorer.Bygning" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="135.3251" x="30.6092" y="867.9331"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="36.2478" x="33.0258" y="882.2938">Bygning</text><rect fill="#FFFFFF" height="14.7763" style="stroke: #000000; stroke-width: 0.8055063913470993; stroke-dasharray: 2.0,2.0;" width="92.6332" x="75.7176" y="865.5166"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="91.0222" x="76.5231" y="876.6552">Nasjonalidentifikator</text><!--MD5=[f47f5f02315622cb3f39247195cd20a5]
+class Arkivstruktur.NasjonaleIdentifikatorer.DNummer--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="21.2204" id="Arkivstruktur.NasjonaleIdentifikatorer.DNummer" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="138.5471" x="373.755" y="944.0535"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="47.5249" x="376.1715" y="958.4141">DNummer</text><rect fill="#FFFFFF" height="14.7763" style="stroke: #000000; stroke-width: 0.8055063913470993; stroke-dasharray: 2.0,2.0;" width="84.5782" x="430.1404" y="941.637"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="82.9672" x="430.9459" y="952.7756">Personidentifikator</text><!--MD5=[1b889474428b6b05094f0be1c3245208]
+class Arkivstruktur.NasjonaleIdentifikatorer.Enhetsidentifikator--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="21.2204" id="Arkivstruktur.NasjonaleIdentifikatorer.Enhetsidentifikator" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="183.6555" x="1149.4576" y="867.9331"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="84.5782" x="1151.8741" y="882.2938">Enhetsidentifikator</text><rect fill="#FFFFFF" height="14.7763" style="stroke: #000000; stroke-width: 0.8055063913470993; stroke-dasharray: 2.0,2.0;" width="92.6332" x="1242.8964" y="865.5166"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="91.0222" x="1243.7019" y="876.6552">Nasjonalidentifikator</text><!--MD5=[df2f20222b3dbbfc72ff081fea832a02]
+class Arkivstruktur.NasjonaleIdentifikatorer.Foedselsnummer--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="21.2204" id="Arkivstruktur.NasjonaleIdentifikatorer.Foedselsnummer" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="169.1563" x="592.8527" y="944.0535"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="78.1341" x="595.2692" y="958.4141">Foedselsnummer</text><rect fill="#FFFFFF" height="14.7763" style="stroke: #000000; stroke-width: 0.8055063913470993; stroke-dasharray: 2.0,2.0;" width="84.5782" x="679.8474" y="941.637"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="82.9672" x="680.6529" y="952.7756">Personidentifikator</text><!--MD5=[24e93cbd327a761ba0c3a82ef78f3a42]
+class Arkivstruktur.NasjonaleIdentifikatorer.Koordinatsystem--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="34.3856" id="Arkivstruktur.NasjonaleIdentifikatorer.Koordinatsystem" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="80.5506" x="1024.6041" y="778.1192"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="41.8863" x="1043.9363" y="792.4798">«codelist»</text><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="75.7176" x="1027.0206" y="805.6451">Koordinatsystem</text><!--MD5=[44d0a951b029a96c9d995730245a0b93]
+class Arkivstruktur.NasjonaleIdentifikatorer.Matrikkel--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="21.2204" id="Arkivstruktur.NasjonaleIdentifikatorer.Matrikkel" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="140.9636" x="246.8877" y="867.9331"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="41.8863" x="249.3042" y="882.2938">Matrikkel</text><rect fill="#FFFFFF" height="14.7763" style="stroke: #000000; stroke-width: 0.8055063913470993; stroke-dasharray: 2.0,2.0;" width="92.6332" x="297.6346" y="865.5166"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="91.0222" x="298.4401" y="876.6552">Nasjonalidentifikator</text><!--MD5=[74ecef535dd541f2f04dce997e1cccc6]
+class Arkivstruktur.NasjonaleIdentifikatorer.Nasjonalidentifikator--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="21.2204" id="Arkivstruktur.NasjonaleIdentifikatorer.Nasjonalidentifikator" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="98.2718" x="582.3811" y="784.966"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="93.4387" x="584.7976" y="799.3266">Nasjonalidentifikator</text><!--MD5=[6ac09c7c3a5f5ac7cdbb9928f99a08a2]
+class Arkivstruktur.NasjonaleIdentifikatorer.Personidentifikator--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="21.2204" id="Arkivstruktur.NasjonaleIdentifikatorer.Personidentifikator" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="184.461" x="468.402" y="867.9331"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="85.3837" x="470.8185" y="882.2938">Personidentifikator</text><rect fill="#FFFFFF" height="14.7763" style="stroke: #000000; stroke-width: 0.8055063913470993; stroke-dasharray: 2.0,2.0;" width="92.6332" x="562.6462" y="865.5166"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="91.0222" x="563.4517" y="876.6552">Nasjonalidentifikator</text><!--MD5=[9086fce0d5497b18414d870820a76275]
+class Arkivstruktur.NasjonaleIdentifikatorer.Plan--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="21.2204" id="Arkivstruktur.NasjonaleIdentifikatorer.Plan" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="118.4094" x="733.4136" y="867.9331"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="19.3322" x="735.8301" y="882.2938">Plan</text><rect fill="#FFFFFF" height="14.7763" style="stroke: #000000; stroke-width: 0.8055063913470993; stroke-dasharray: 2.0,2.0;" width="92.6332" x="761.6063" y="865.5166"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="91.0222" x="762.4118" y="876.6552">Nasjonalidentifikator</text><!--MD5=[bb604dccc78c75f9e0135ca02bcade77]
+class Arkivstruktur.NasjonaleIdentifikatorer.Posisjon--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="21.2204" id="Arkivstruktur.NasjonaleIdentifikatorer.Posisjon" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="136.1306" x="932.3736" y="867.9331"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="37.0533" x="934.7902" y="882.2938">Posisjon</text><rect fill="#FFFFFF" height="14.7763" style="stroke: #000000; stroke-width: 0.8055063913470993; stroke-dasharray: 2.0,2.0;" width="92.6332" x="978.2875" y="865.5166"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="91.0222" x="979.093" y="876.6552">Nasjonalidentifikator</text><!--MD5=[cc444745e18dc036c241a5cb268c730f]
+class Kodelister.Arkivdelstatus--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="34.3856" id="Kodelister.Arkivdelstatus" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="68.468" x="439.4037" y="119.6177"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="41.8863" x="452.6946" y="133.9783">«codelist»</text><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="63.635" x="441.8203" y="147.1436">Arkivdelstatus</text><!--MD5=[58eab8feb940f3ae577c9fde9dfbd1e7]
+class Kodelister.Arkivstatus--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="34.3856" id="Kodelister.Arkivstatus" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="54.7744" x="588.8252" y="119.6177"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="41.8863" x="595.2692" y="133.9783">«codelist»</text><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="49.9414" x="591.2417" y="147.1436">Arkivstatus</text><!--MD5=[ec4b57182ea40acbf4d690d9274a0e99]
+class Kodelister.Avskrivningsmaate--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="34.3856" id="Kodelister.Avskrivningsmaate" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="90.2167" x="724.1502" y="119.6177"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="41.8863" x="748.3154" y="133.9783">«codelist»</text><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="85.3837" x="726.5668" y="147.1436">Avskrivningsmaate</text><!--MD5=[6c58be02b000a26b92eca35b4b92bcd4]
+class Kodelister.Dokumentmedium--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="34.3856" id="Kodelister.Dokumentmedium" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="88.6057" x="894.9176" y="119.6177"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="41.8863" x="918.2773" y="133.9783">«codelist»</text><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="83.7727" x="897.3341" y="147.1436">Dokumentmedium</text><!--MD5=[c0870d02ad2298088ed5e31af92704b7]
+class Kodelister.Dokumentstatus--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="34.3856" id="Kodelister.Dokumentstatus" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="78.9396" x="1064.0739" y="119.6177"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="41.8863" x="1082.6006" y="133.9783">«codelist»</text><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="74.1066" x="1066.4905" y="147.1436">Dokumentstatus</text><!--MD5=[ca97b5c958ebb7c7295e109f54675afe]
+class Kodelister.Dokumenttype--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="34.3856" id="Kodelister.Dokumenttype" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="70.8846" x="1223.5642" y="119.6177"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="41.8863" x="1238.0633" y="133.9783">«codelist»</text><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="66.0515" x="1225.9807" y="147.1436">Dokumenttype</text><!--MD5=[bb3db6cede731bd6cbeef29cafa46baa]
+class Kodelister.ElektroniskSignaturSikkerhetsnivaa--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="34.3856" id="Kodelister.ElektroniskSignaturSikkerhetsnivaa" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="162.7123" x="356.0338" y="202.5849"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="41.8863" x="416.4468" y="216.9455">«codelist»</text><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="157.8793" x="358.4503" y="230.1108">ElektroniskSignaturSikkerhetsnivaa</text><!--MD5=[afee00097159df987b218c8e46dc7bf8]
+class Kodelister.ElektroniskSignaturVerifisert--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="34.3856" id="Kodelister.ElektroniskSignaturVerifisert" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="132.9086" x="599.6995" y="202.5849"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="41.8863" x="645.2106" y="216.9455">«codelist»</text><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="128.0755" x="602.116" y="230.1108">ElektroniskSignaturVerifisert</text><!--MD5=[3127db0296e8a8d516cdec4cb5cae7ee]
+class Kodelister.FlytStatus--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="34.3856" id="Kodelister.FlytStatus" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="48.3304" x="813.5615" y="202.5849"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="41.8863" x="816.7835" y="216.9455">«codelist»</text><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="43.4973" x="815.978" y="230.1108">FlytStatus</text><!--MD5=[e7cddc63128564f6560b8f415049c75a]
+class Kodelister.Format--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="34.3856" id="Kodelister.Format" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="43.4973" x="942.4425" y="202.5849"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="41.8863" x="943.248" y="216.9455">«codelist»</text><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="32.2203" x="948.081" y="230.1108">Format</text><!--MD5=[cc6b5ef23d99536e85e508dadfef6b54]
+class Kodelister.Graderingskode--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="34.3856" id="Kodelister.Graderingskode" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="77.3286" x="1066.4905" y="202.5849"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="41.8863" x="1084.2116" y="216.9455">«codelist»</text><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="72.4956" x="1068.907" y="230.1108">Graderingskode</text><!--MD5=[333ed201fa7103c246a2d95835e1e714]
+class Kodelister.Hendelsetype--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="34.3856" id="Kodelister.Hendelsetype" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="66.857" x="1224.7725" y="202.5849"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="41.8863" x="1237.2578" y="216.9455">«codelist»</text><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="62.024" x="1227.189" y="230.1108">Hendelsetype</text><!--MD5=[81c1213fc4713bb18437fef78e8beaff]
+class Kodelister.Journalposttype--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="34.3856" id="Kodelister.Journalposttype" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="74.9121" x="395.9064" y="285.552"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="41.8863" x="412.4193" y="299.9127">«codelist»</text><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="70.0791" x="398.3229" y="313.0779">Journalposttype</text><!--MD5=[13c0c61b981c0812641826782d8ab335]
+class Kodelister.Journalstatus--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="34.3856" id="Kodelister.Journalstatus" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="63.635" x="551.3691" y="285.552"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="41.8863" x="562.2435" y="299.9127">«codelist»</text><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="58.802" x="553.7856" y="313.0779">Journalstatus</text><!--MD5=[5afe30a6fa3c5fd9259922c0fd36d317]
+class Kodelister.Kassasjonsvedtak--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="34.3856" id="Kodelister.Kassasjonsvedtak" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="84.5782" x="695.5548" y="285.552"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="41.8863" x="716.9007" y="299.9127">«codelist»</text><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="79.7451" x="697.9713" y="313.0779">Kassasjonsvedtak</text><!--MD5=[a0e24f03ca385950f2efbb328efd7e1e]
+class Kodelister.Klassifikasjonstype--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="34.3856" id="Kodelister.Klassifikasjonstype" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="89.4112" x="860.6836" y="285.552"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="41.8863" x="884.446" y="299.9127">«codelist»</text><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="84.5782" x="863.1001" y="313.0779">Klassifikasjonstype</text><!--MD5=[d8db57179b90b4f9685426dde859f1ad]
+class Kodelister.Korrespondanseparttype--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="34.3856" id="Kodelister.Korrespondanseparttype" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="116.7984" x="1030.6454" y="285.552"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="41.8863" x="1068.1015" y="299.9127">«codelist»</text><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="111.9654" x="1033.0619" y="313.0779">Korrespondanseparttype</text><!--MD5=[defe9d5a10e10180f07a7b60f2fc68af]
+class Kodelister.Land--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="34.3856" id="Kodelister.Land" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="43.4973" x="1228.3972" y="285.552"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="41.8863" x="1229.2028" y="299.9127">«codelist»</text><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="21.7487" x="1239.2716" y="313.0779">Land</text><!--MD5=[59ea0e456dbaf6be88bff6b3d7e2c096]
+class Kodelister.Merknadstype--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="34.3856" id="Kodelister.Merknadstype" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="69.2735" x="390.6706" y="368.5192"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="41.8863" x="404.3642" y="382.8798">«codelist»</text><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="64.4405" x="393.0871" y="396.0451">Merknadstype</text><!--MD5=[a1581a8d0759d8dd89f27f5b9ca7b162]
+class Kodelister.PartRolle--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="34.3856" id="Kodelister.PartRolle" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="45.1084" x="540.4948" y="368.5192"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="41.8863" x="542.1058" y="382.8798">«codelist»</text><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="40.2753" x="542.9113" y="396.0451">PartRolle</text><!--MD5=[b70f0e92d0bea3334c43bf505a5ce97c]
+class Kodelister.Postnummer--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="34.3856" id="Kodelister.Postnummer" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="62.8295" x="666.1538" y="368.5192"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="41.8863" x="676.6254" y="382.8798">«codelist»</text><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="57.9965" x="668.5703" y="396.0451">Postnummer</text><!--MD5=[92cd51bd7e0f3497316839ceceaa21eb]
+class Kodelister.PresedensStatus--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="34.3856" id="Kodelister.PresedensStatus" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="80.5506" x="809.5339" y="368.5192"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="41.8863" x="828.8661" y="382.8798">«codelist»</text><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="75.7176" x="811.9504" y="396.0451">PresedensStatus</text><!--MD5=[cb9bdb208549cbda01cf0afa8655f6b5]
+class Kodelister.Saksstatus--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="34.3856" id="Kodelister.Saksstatus" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="53.1634" x="970.6352" y="368.5192"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="41.8863" x="976.2737" y="382.8798">«codelist»</text><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="48.3304" x="973.0517" y="396.0451">Saksstatus</text><!--MD5=[f7754d33e40c327eb1c6d3838cc8c4a9]
+class Kodelister.SkjermingDokument--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="34.3856" id="Kodelister.SkjermingDokument" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="96.6608" x="1104.3493" y="368.5192"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="41.8863" x="1131.7365" y="382.8798">«codelist»</text><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="91.8277" x="1106.7658" y="396.0451">SkjermingDokument</text><!--MD5=[079119592cfd2c4654260c54bc1f6f5e]
+class Kodelister.SkjermingMetadata--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="34.3856" id="Kodelister.SkjermingMetadata" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="93.4387" x="376.1715" y="451.4863"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="41.8863" x="401.9477" y="465.847">«codelist»</text><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="88.6057" x="378.588" y="479.0123">SkjermingMetadata</text><!--MD5=[b0f10d74499ba8b682fbfa4f67451985]
+class Kodelister.Slettingstype--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="34.3856" id="Kodelister.Slettingstype" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="62.8295" x="550.1609" y="451.4863"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="41.8863" x="560.6324" y="465.847">«codelist»</text><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="57.9965" x="552.5774" y="479.0123">Slettingstype</text><!--MD5=[48f93a2ae0168e72a1513a451cf86756]
+class Kodelister.SystemID--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="34.3856" id="Kodelister.SystemID" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="76.5231" x="282.33" y="119.6177"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="37.8588" x="287.5658" y="133.9783">«simple»</text><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="43.4973" x="284.7465" y="147.1436">SystemID</text><rect fill="#FFFFFF" height="14.7763" style="stroke: #000000; stroke-width: 0.8055063913470993; stroke-dasharray: 2.0,2.0;" width="26.5817" x="334.6879" y="117.2012"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="24.9707" x="335.4934" y="128.3398">string</text><!--MD5=[d590bec51a0232cb17495abc33cf1fe5]
+class Kodelister.Tilgangskategori--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="34.3856" id="Kodelister.Tilgangskategori" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="79.7451" x="693.9438" y="451.4863"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="41.8863" x="712.8732" y="465.847">«codelist»</text><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="74.9121" x="696.3603" y="479.0123">Tilgangskategori</text><!--MD5=[eac196b36fd62f3785914c200abe219b]
+class Kodelister.Tilgangsrestriksjon--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="34.3856" id="Kodelister.Tilgangsrestriksjon" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="90.2167" x="854.6423" y="451.4863"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="41.8863" x="878.8075" y="465.847">«codelist»</text><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="85.3837" x="857.0588" y="479.0123">Tilgangsrestriksjon</text><!--MD5=[300c30f5524c4b6728bcc202569c9417]
+class Kodelister.TilknyttetRegistreringSom--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="34.3856" id="Kodelister.TilknyttetRegistreringSom" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="120.826" x="1025.4096" y="451.4863"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="41.8863" x="1064.8794" y="465.847">«codelist»</text><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="115.9929" x="1027.8262" y="479.0123">TilknyttetRegistreringSom</text><!--MD5=[686c9e14ce30bbfe9042f49c8b54aaab]
+class Kodelister.Variantformat--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="34.3856" id="Kodelister.Variantformat" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="67.6625" x="1226.7862" y="451.4863"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="41.8863" x="1239.6743" y="465.847">«codelist»</text><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="62.8295" x="1229.2028" y="479.0123">Variantformat</text><!--MD5=[5f0344ec513b1fc7836a789fba495278]
+class LoggingOgSporing.Endringslogg--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="21.2204" id="LoggingOgSporing.Endringslogg" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="63.635" x="3567.9906" y="126.4645"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="58.802" x="3570.4071" y="140.8251">Endringslogg</text><!--MD5=[2ba520c76cf4982898023b199abde661]
+class LoggingOgSporing.Hendelseslogg--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="21.2204" id="LoggingOgSporing.Hendelseslogg" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="132.103" x="3551.4777" y="209.4317"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="66.857" x="3553.8942" y="223.7923">Hendelseslogg</text><rect fill="#FFFFFF" height="14.7763" style="stroke: #000000; stroke-width: 0.8055063913470993; stroke-dasharray: 2.0,2.0;" width="58.802" x="3627.1953" y="207.0151"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="57.191" x="3628.0008" y="218.1538">Endringslogg</text><!--MD5=[a30222b4ad393904ffcccf51b18e072d]
+class Sakarkiv.Arkivnotat--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="21.2204" id="Sakarkiv.Arkivnotat" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="106.3268" x="3586.92" y="618.2262"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="45.9139" x="3589.3365" y="632.5868">Arkivnotat</text><rect fill="#FFFFFF" height="14.7763" style="stroke: #000000; stroke-width: 0.8055063913470993; stroke-dasharray: 2.0,2.0;" width="53.9689" x="3641.6944" y="615.8096"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="52.3579" x="3642.4999" y="626.9483">Registrering</text><!--MD5=[c6af8ee822666342b688fca195c2130c]
+class Sakarkiv.Avskrivning--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="21.2204" id="Sakarkiv.Avskrivning" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="56.3854" x="3753.6598" y="694.3465"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="51.5524" x="3756.0763" y="708.7071">Avskrivning</text><!--MD5=[7c92048d940987969f852eb2a77c0b2d]
+class Sakarkiv.Dokumentflyt--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="21.2204" id="Sakarkiv.Dokumentflyt" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="65.246" x="3607.4604" y="694.3465"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="60.413" x="3609.8769" y="708.7071">Dokumentflyt</text><!--MD5=[2f08e53298f8f090d026427c85b7c44d]
+class Sakarkiv.Journalpost--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="21.2204" id="Sakarkiv.Journalpost" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="111.1599" x="3773.7974" y="618.2262"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="50.7469" x="3776.214" y="632.5868">Journalpost</text><rect fill="#FFFFFF" height="14.7763" style="stroke: #000000; stroke-width: 0.8055063913470993; stroke-dasharray: 2.0,2.0;" width="53.9689" x="3833.4049" y="615.8096"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="52.3579" x="3834.2104" y="626.9483">Registrering</text><!--MD5=[78c3d25fd312ed748fedda403654b48a]
+class Sakarkiv.Presedens--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="21.2204" id="Sakarkiv.Presedens" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="52.3579" x="3811.2535" y="548.9526"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="47.5249" x="3813.67" y="563.3132">Presedens</text><!--MD5=[d3f949591156db6542fa63b25349ce5f]
+class Sakarkiv.Saksmappe--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="21.2204" id="Sakarkiv.Saksmappe" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="90.2167" x="3965.508" y="618.2262"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="52.3579" x="3967.9245" y="632.5868">Saksmappe</text><rect fill="#FFFFFF" height="14.7763" style="stroke: #000000; stroke-width: 0.8055063913470993; stroke-dasharray: 2.0,2.0;" width="31.4147" x="4026.7265" y="615.8096"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="29.8037" x="4027.532" y="626.9483">Mappe</text><!--MD5=[542a1184c041ea88fdd585d8ecd273a4]
+class VirksomhetsspesifikkeMetadata.VirksomhetsspesifikkeMetadata--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="34.3856" id="VirksomhetsspesifikkeMetadata.VirksomhetsspesifikkeMetadata" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="148.2132" x="1378.2214" y="778.1192"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="145.7967" x="1379.4297" y="792.4798">«VirksomhetsspesifikkeMetadata»</text><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="143.3801" x="1380.638" y="805.6451">VirksomhetsspesifikkeMetadata</text><!--MD5=[f467dac3a2b1807548e3a1c37bb79668]
+class string--><rect fill="#FEFECE" filter="url(#f1xtipgdblgjaw)" height="21.2204" id="string" style="stroke: #A80036; stroke-width: 1.208259587020649;" width="30.6092" x="305.2869" y="50.3441"/><text fill="#000000" font-family="sans-serif" font-size="9.6661" lengthAdjust="spacingAndGlyphs" textLength="25.7762" x="307.7034" y="64.7048">string</text><!--MD5=[a167e16cd62b3b60e16f873bf82d0d9a]
+link Admin.AdministrativEnhet to Admin.Bruker--><path d="M1155.2094,648.6905 C1155.2094,648.6905 1160.5333,673.2906 1162.829,683.9071 " fill="none" id="Admin.AdministrativEnhet-Admin.Bruker" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="1165.0683,694.266,1166.6873,686.4996,1164.2181,690.3292,1160.3885,687.86,1165.0683,694.266" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><line style="stroke: #A80036; stroke-width: 0.8055063913470993;" x1="1164.2181" x2="1162.8572" y1="690.3292" y2="684.036"/><polygon fill="#A80036" points="1153.171,639.2418,1151.0406,644.6456,1155.2094,648.6905,1157.3398,643.2867,1153.171,639.2418" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="110.3544" x="1022.5819" y="657.1218">administrativenhet 0..*</text><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="50.7469" x="1102.9843" y="684.6495">bruker 0..*</text><!--MD5=[8a4f86ea7f51f3bb693489ac1f77e4d4]
+reverse link Admin.AdministrativEnhet to VirksomhetsspesifikkeMetadata.VirksomhetsspesifikkeMetadata--><path d="M1133.8227,647.1438 C1113.4676,670.0685 1085.2265,710.0458 1109.1823,734.6218 C1118.8967,744.594 1346.2992,737.2881 1359.6948,741.0659 C1386.1557,748.5329 1412.979,765.2713 1430.9096,778.0628 " fill="none" id="Admin.AdministrativEnhet&lt;-VirksomhetsspesifikkeMetadata.VirksomhetsspesifikkeMetadata" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="1141.1126,639.266,1135.4653,640.6256,1134.5483,646.3613,1140.1956,645.0017,1141.1126,639.266" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[afcbdcfa4fe32635a65373175c480fae]
+link Arkivstruktur.Arkiv to Arkivstruktur.Arkivskaper--><path d="M2481.0442,153.9341 C2481.0442,153.9341 2440.0158,188.4724 2423.4546,202.4157 " fill="none" id="Arkivstruktur.Arkiv-Arkivstruktur.Arkivskaper" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2415.2787,209.2947,2422.8996,207.0903,2418.3596,206.7007,2418.7492,202.1608,2415.2787,209.2947" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><line style="stroke: #A80036; stroke-width: 0.8055063913470993;" x1="2418.3596" x2="2423.2935" y1="206.7007" y2="202.5526"/><polygon fill="#FFFFFF" points="2488.4428,147.7138,2482.6701,148.3577,2481.0442,153.9341,2486.817,153.2902,2488.4428,147.7138" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="41.8863" x="2434.8743" y="165.2385">arkiv 0..*</text><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="74.1066" x="2331.1686" y="199.9796">arkivskaper 1..*</text><!--MD5=[66dd975cb8377914d38b775c7372bfad]
+link Arkivstruktur.Arkiv to Arkivstruktur.Arkivdel--><path d="M2520.6693,153.4605 C2520.6693,153.4605 2566.3675,188.6899 2584.7492,202.8507 " fill="none" id="Arkivstruktur.Arkiv-Arkivstruktur.Arkivdel" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2593.0378,209.2464,2589.2646,202.2679,2589.8485,206.7869,2585.3294,207.3708,2593.0378,209.2464" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><line style="stroke: #A80036; stroke-width: 0.8055063913470993;" x1="2589.8485" x2="2584.7492" y1="206.7869" y2="202.8547"/><polygon fill="#FFFFFF" points="2513.0188,147.5527,2514.8748,153.0568,2520.6693,153.4605,2518.8134,147.9564,2513.0188,147.5527" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="31.4147" x="2502.0045" y="165.2402">arkiv 1</text><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="56.3854" x="2520.5212" y="199.9122">arkivdel 0..*</text><!--MD5=[736110ce5eaddccfbcf1c4db67d4a7d6]
+reverse link Arkivstruktur.Arkiv to Arkivstruktur.Arkiv--><path d="M2545.0941,124.7729 C2581.4547,119.8352 2619.104,123.8869 2619.104,136.9361 C2619.104,151.2419 2573.8507,154.7378 2534.6547,147.4157 " fill="none" id="Arkivstruktur.Arkiv&lt;-Arkivstruktur.Arkiv" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#FFFFFF" points="2534.6547,126.4564,2539.9365,128.8735,2544.1992,124.9276,2538.9173,122.5106,2534.6547,126.4564" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="63.635" x="2472.0697" y="116.8699">overarkiv 0..1</text><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="70.8846" x="2544.9074" y="161.1761">underarkiv 0..*</text><!--MD5=[103e55f9778739f9d4b7631e3f306756]
+link Arkivstruktur.Arkivdel to Arkivstruktur.Mappe--><path d="M2595.6583,238.8311 C2595.6583,238.8311 2503.8038,402.7854 2477.9551,448.9168 " fill="none" id="Arkivstruktur.Arkivdel-Arkivstruktur.Mappe" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2472.808,458.0995,2479.163,453.3507,2474.777,454.5862,2473.5416,450.2002,2472.808,458.0995" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><line style="stroke: #A80036; stroke-width: 0.8055063913470993;" x1="2474.777" x2="2477.931" y1="454.5862" y2="448.9691"/><polygon fill="#FFFFFF" points="2600.3841,230.399,2595.2105,233.0398,2595.6583,238.8311,2600.8319,236.1903,2600.3841,230.399" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="56.3854" x="2531.1803" y="248.2605">arkivdel 0..1</text><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="52.3579" x="2412.3242" y="448.7464">mappe 0..*</text><!--MD5=[4da2275cba6d22010c2bc4a73c7ab889]
+link Arkivstruktur.Arkivdel to Arkivstruktur.Registrering--><path d="M2605.3574,240.2461 C2605.3574,240.2461 2596.4371,410.1961 2564.7324,505.4553 C2560.6968,517.5781 2553.9627,530.1682 2547.9939,540.0518 " fill="none" id="Arkivstruktur.Arkivdel-Arkivstruktur.Registrering" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2542.4198,548.9123,2549.0098,544.4954,2544.5663,545.5045,2543.5573,541.061,2542.4198,548.9123" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><line style="stroke: #A80036; stroke-width: 0.8055063913470993;" x1="2544.5663" x2="2547.9939" y1="545.5045" y2="540.0558"/><polygon fill="#FFFFFF" points="2605.644,230.5843,2602.2801,235.3196,2605.3574,240.2461,2608.7213,235.5107,2605.644,230.5843" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="56.3854" x="2596.6833" y="248.2955">arkivdel 0..1</text><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="74.9121" x="2560.6283" y="539.3125">registrering 0..*</text><!--MD5=[faf8d25c917e13a34a054e3e41a53ec9]
+link Arkivstruktur.Arkivdel to Arkivstruktur.Klassifikasjonssystem--><path d="M2660.6279,230.5209 C2660.6279,230.5209 2946.3491,265.954 3109.2547,285.552 C3137.689,288.9754 3169.4663,292.8257 3199.3425,295.9511 " fill="none" id="Arkivstruktur.Arkivdel-Arkivstruktur.Klassifikasjonssystem" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="3209.8221,297.0224,3202.9356,293.0837,3205.8153,296.6151,3202.2839,299.4947,3209.8221,297.0224" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><line style="stroke: #A80036; stroke-width: 0.8055063913470993;" x1="3205.8153" x2="3199.4069" y1="296.6151" y2="295.9551"/><polygon fill="#FFFFFF" points="2651.0504,229.2149,2655.4038,233.0604,2660.6279,230.5209,2656.2745,226.6754,2651.0504,229.2149" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="56.3854" x="2657.3608" y="226.9398">arkivdel 1..*</text><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="120.826" x="3082.8223" y="293.9543">klassifikasjonssystem 0..1</text><!--MD5=[8e5e47ddf9666f1074c98833aaac3c3f]
+reverse link Arkivstruktur.Arkivdel to Arkivstruktur.Klassifikasjonssystem--><path d="M2661.5945,224.9296 C2768.5174,235.232 2998.1834,262.5065 3189.8053,285.552 C3208.1225,287.7591 3227.8252,290.1353 3245.2805,292.3908 " fill="none" id="Arkivstruktur.Arkivdel&lt;-Arkivstruktur.Klassifikasjonssystem" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#FFFFFF" points="2651.0182,223.9308,2655.5251,227.5951,2660.641,224.8442,2656.1341,221.1799,2651.0182,223.9308" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="171.5729" x="3264.0107" y="282.8043">sekundaerklassifikasjonssystem 0..*</text><!--MD5=[57d927562c16722c9a3c2dd11583f921]
+link Arkivstruktur.Arkivdel to Arkivstruktur.Arkivdel--><path d="M2647.5033,207.6023 C2647.5033,207.6023 2731.4722,205.1383 2731.4722,219.9032 C2731.4722,234.6682 2688.2004,238.8165 2648.3117,232.3644 " fill="none" id="Arkivstruktur.Arkivdel-Arkivstruktur.Arkivdel" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2638.0012,230.4312,2644.5368,234.9283,2641.9604,231.17,2645.7188,228.5936,2638.0012,230.4312" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><line style="stroke: #A80036; stroke-width: 0.8055063913470993;" x1="2641.9604" x2="2648.2916" y1="231.17" y2="232.3604"/><polygon fill="#FFFFFF" points="2638.0012,209.3753,2643.3433,211.6561,2647.5033,207.6023,2642.1612,205.3214,2638.0012,209.3753" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="82.9672" x="2657.8005" y="202.2455">nestearkivdel 0..1</text><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="88.6057" x="2657.602" y="246.115">forrigearkivdel 0..1</text><!--MD5=[ecf8260200da17f62a5d1ad1eea96395]
+reverse link Arkivstruktur.Arkivdel to Arkivstruktur.Gradering--><path d="M2661.675,226.9595 C2744.8114,236.7303 2905.7999,257.4479 3040.7866,285.552 C3098.8556,297.6427 3112.0659,306.0522 3169.6676,320.1888 C3265.8371,343.7821 3318.7508,296.9258 3387.1544,368.5192 C3474.8176,460.2825 3409.9583,583.0497 3296.1322,639.1693 C3228.6146,672.4609 2996.1374,695.0392 2917.7858,701.8538 " fill="none" id="Arkivstruktur.Arkivdel&lt;-Arkivstruktur.Gradering" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2651.2035,225.7351,2655.6284,229.4981,2660.8038,226.8608,2656.3788,223.0979,2651.2035,225.7351" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[9138f330c3dcee7e7441aaf3a69e7138]
+reverse link Arkivstruktur.Arkivdel to Arkivstruktur.Kassasjon--><path d="M2564.0235,233.5566 C2451.8084,268.3545 2152.3131,363.2512 2152.3131,385.0321 C2152.3131,385.0321 2152.3131,385.0321 2152.3131,560.2297 C2152.3131,617.2434 2337.8937,676.5287 2407.4894,696.755 " fill="none" id="Arkivstruktur.Arkivdel&lt;-Arkivstruktur.Kassasjon" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2574.2857,230.3829,2568.716,228.7341,2565.0519,233.2412,2570.6215,234.89,2574.2857,230.3829" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[4407848f0939b5ffeeb57511565a94ea]
+reverse link Arkivstruktur.Arkivdel to Arkivstruktur.Skjerming--><path d="M2661.6589,231.8408 C2754.3083,250.295 2945.6402,288.3552 3107.6437,320.1888 C3162.7564,331.0229 3320.0235,325.1668 3355.7396,368.5192 C3439.1418,469.7391 3347.7248,567.1248 3238.1357,639.1693 C3161.0326,689.8598 2916.8353,672.9361 2825.7164,687.4997 C2807.0689,690.4801 2786.2063,694.7332 2770.2734,698.1807 " fill="none" id="Arkivstruktur.Arkivdel&lt;-Arkivstruktur.Skjerming" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2651.131,229.7465,2655.2409,233.8512,2660.6106,231.6361,2656.5006,227.5314,2651.131,229.7465" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[ead2236c1cd9f090e0e7264853dda50c]
+reverse link Arkivstruktur.Arkivdel to Arkivstruktur.Sletting--><path d="M2564.4021,233.3794 C2544.4497,239.0904 2520.0912,245.4781 2497.8753,249.707 C2360.1821,275.9262 2317.6755,241.7244 2184.5333,285.552 C1999.4924,346.4644 1958.7096,387.0458 1809.1674,511.8993 C1737.9445,571.3618 1662.6377,652.726 1631.4726,687.3386 " fill="none" id="Arkivstruktur.Arkivdel&lt;-Arkivstruktur.Sletting" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2574.6884,230.3909,2569.1482,228.6457,2565.4064,233.0885,2570.9466,234.8337,2574.6884,230.3909" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[7d2f7b1b2d5113beedb051f3371ec2fc]
+reverse link Arkivstruktur.Arkivdel to Arkivstruktur.UtfoertKassasjon--><path d="M2562.9925,233.2747 C2543.2737,238.7843 2519.5032,245.0431 2497.8753,249.707 C2401.4159,270.4971 2371.8458,252.776 2278.7776,285.552 C2155.4384,328.9849 1828.6203,565.3527 1815.6114,581.1729 C1788.8686,613.6831 1774.0956,662.0538 1767.7885,687.3064 " fill="none" id="Arkivstruktur.Arkivdel&lt;-Arkivstruktur.UtfoertKassasjon" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2573.1902,230.3909,2567.6617,228.6089,2563.8904,233.0268,2569.4189,234.8088,2573.1902,230.3909" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[bfcafbdbdd35fa63f0c85a89ec99ca08]
+reverse link Arkivstruktur.Arkivenhet to LoggingOgSporing.Endringslogg--><path d="M2537.5062,61.7018 C2716.8603,62.1931 3485.3214,65.2943 3532.951,82.5644 C3557.5593,91.4894 3579.9282,113.4636 3591.5113,126.3195 " fill="none" id="Arkivstruktur.Arkivenhet&lt;-LoggingOgSporing.Endringslogg" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#FFFFFF" points="2527.0266,61.6776,2531.849,64.9156,2536.6926,61.7095,2531.8702,58.4715,2527.0266,61.6776" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="16.1101" x="2533.2235" y="58.138">0..1</text><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="82.9672" x="3488.9432" y="117.0012">endringslogg 0..*</text><!--MD5=[f954a0303a9576e61f6cad67784116f7]
+reverse link Arkivstruktur.Arkivenhet to Arkivstruktur.Arkiv--><path d="M2500.2918,87.5747 C2500.2918,100.9944 2500.2918,116.5729 2500.2918,126.384 " fill="none" id="Arkivstruktur.Arkivenhet&lt;-Arkivstruktur.Arkiv" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="none" points="2494.6533,87.4699,2500.2918,71.3598,2505.9304,87.4699,2494.6533,87.4699" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[3ebff0db22139d974f4a84f10ed55294]
+reverse link Arkivstruktur.Arkivenhet to Arkivstruktur.Arkivdel--><path d="M2543.1287,66.3012 C2564.3457,69.5474 2586.8677,74.7268 2593.7306,82.5644 C2625.8703,119.2633 2614.2871,184.7348 2608.3908,209.3672 " fill="none" id="Arkivstruktur.Arkivenhet&lt;-Arkivstruktur.Arkivdel" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="none" points="2542.299,71.8753,2527.083,64.1344,2543.8053,60.703,2542.299,71.8753" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[d527d2bcc8dc01d910205635ddc89aaa]
+reverse link Arkivstruktur.Arkivenhet to Arkivstruktur.Arkivskaper--><path d="M2457.455,64.0539 C2444.3736,66.9295 2431.0988,72.407 2422.1577,82.5644 C2389.7522,119.368 2397.3642,184.7832 2401.6817,209.3833 " fill="none" id="Arkivstruktur.Arkivenhet&lt;-Arkivstruktur.Arkivskaper" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="none" points="2456.8106,58.4475,2473.5812,61.6293,2458.4861,69.5958,2456.8106,58.4475" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[40174bb2e98b220dbd6a5d6e1881d6e7]
+reverse link Arkivstruktur.Arkivenhet to Arkivstruktur.Dokumentbeskrivelse--><path d="M2457.2375,61.3554 C2319.4395,60.7432 1894.9296,60.6546 1837.3601,82.5644 C1748.8752,116.2426 1673.8423,124.4185 1673.8423,219.0977 C1673.8423,219.0977 1673.8423,219.0977 1673.8423,469.6102 C1673.8423,578.6114 1824.4639,612.5554 1919.4815,623.1156 " fill="none" id="Arkivstruktur.Arkivenhet&lt;-Arkivstruktur.Dokumentbeskrivelse" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="none" points="2457.3906,55.7169,2473.4685,61.436,2457.3261,66.994,2457.3906,55.7169" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[c52bd6c571059901e72037a509703e30]
+reverse link Arkivstruktur.Arkivenhet to Arkivstruktur.Klasse--><path d="M2543.3542,62.0401 C2595.8491,63.2323 2687.0485,67.5337 2763.6924,82.5644 C3055.6724,139.8359 3226.0289,45.3661 3401.6535,285.552 C3433.5838,329.2266 3350.8985,360.5124 3298.452,375.3418 " fill="none" id="Arkivstruktur.Arkivenhet&lt;-Arkivstruktur.Klasse" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="none" points="2543.1126,67.6706,2527.1071,61.7421,2543.322,56.3935,2543.1126,67.6706" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[bdd936be911e27a62d19ee5227a1df44]
+reverse link Arkivstruktur.Arkivenhet to Arkivstruktur.Klassifikasjonssystem--><path d="M2543.0723,67.1228 C2567.3422,70.6671 2598.1528,75.8545 2625.1453,82.5644 C2878.751,145.5711 3175.2176,258.7609 3261.1732,292.3908 " fill="none" id="Arkivstruktur.Arkivenhet&lt;-Arkivstruktur.Klassifikasjonssystem" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="none" points="2542.2587,72.705,2527.083,64.8916,2543.8214,61.5407,2542.2587,72.705" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[2f446ca6ea80acd7d1b3ada71ce2dca7]
+reverse link Arkivstruktur.Arkivenhet to Arkivstruktur.Mappe--><path d="M2457.3503,62.3381 C2352.1512,64.2794 2087.357,70.3288 2049.2083,82.5644 C1942.8331,116.6776 1838.1656,107.3821 1838.1656,219.0977 C1838.1656,219.0977 1838.1656,219.0977 1838.1656,303.6759 C1838.1656,425.1704 2282.9259,458.5265 2424.5179,466.066 " fill="none" id="Arkivstruktur.Arkivenhet&lt;-Arkivstruktur.Mappe" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="none" points="2457.4389,56.6996,2473.6457,62.0482,2457.6403,67.9767,2457.4389,56.6996" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[36f1dd448b61471fc99033334e9b894f]
+reverse link Arkivstruktur.Arkivenhet to Arkivstruktur.Registrering--><path d="M2457.4872,67.9203 C2348.6955,85.1259 2070.1514,137.1858 2070.1514,219.0977 C2070.1514,219.0977 2070.1514,219.0977 2070.1514,386.6431 C2070.1514,473.4042 2358.2408,530.0796 2481.1852,550.322 " fill="none" id="Arkivstruktur.Arkivenhet&lt;-Arkivstruktur.Registrering" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="none" points="2456.9234,62.2979,2473.7101,65.4152,2458.6472,73.4461,2456.9234,62.2979" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[217d139989749d9cb28bf1d161c15709]
+reverse link Sakarkiv.Arkivnotat to Sakarkiv.Dokumentflyt--><path d="M3640.0834,649.8906 C3640.0834,664.3333 3640.0834,683.0533 3640.0834,694.266 " fill="none" id="Sakarkiv.Arkivnotat&lt;-Sakarkiv.Dokumentflyt" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="3640.0834,639.2418,3636.8614,644.0749,3640.0834,648.9079,3643.3054,644.0749,3640.0834,639.2418" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="84.5782" x="3538.061" y="684.6495">dokumentflyt 0..*</text><!--MD5=[42dc6f4f4460a1977912fb7020c070b8]
+reverse link Admin.Bruker to VirksomhetsspesifikkeMetadata.VirksomhetsspesifikkeMetadata--><path d="M1194.7512,718.1653 C1209.4517,724.2469 1228.0187,731.0132 1245.3129,734.6218 C1295.1576,745.029 1310.9053,726.4943 1359.6948,741.0659 C1385.8576,748.8793 1412.5199,765.3841 1430.4827,778.0225 " fill="none" id="Admin.Bruker&lt;-VirksomhetsspesifikkeMetadata.VirksomhetsspesifikkeMetadata" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="1185.0368,714.0009,1188.2134,718.8639,1193.9241,717.8021,1190.7476,712.9391,1185.0368,714.0009" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[3c1d46d3ec9a10498f4ac252d9564b36]
+link Arkivstruktur.Dokumentbeskrivelse to Arkivstruktur.Dokumentobjekt--><path d="M2012.8626,645.8061 C2012.8626,645.8061 2044.2786,674.8613 2057.3761,686.9842 " fill="none" id="Arkivstruktur.Dokumentbeskrivelse-Arkivstruktur.Dokumentobjekt" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2065.2539,694.266,2062.1205,686.9777,2062.2976,691.5309,2057.7444,691.7079,2065.2539,694.266" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><line style="stroke: #A80036; stroke-width: 0.8055063913470993;" x1="2062.2976" x2="2057.5694" y1="691.5309" y2="687.1614"/><polygon fill="#FFFFFF" points="2005.7673,639.2418,2007.1269,644.889,2012.8626,645.8061,2011.503,640.1588,2005.7673,639.2418" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="111.9654" x="1876.4723" y="657.1218">dokumentbeskrivelse 1</text><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="99.8828" x="1940.4242" y="684.6495">dokumentobjekt 0..*</text><!--MD5=[2fcca8919f66602fe993bc75f8041cab]
+reverse link Arkivstruktur.Dokumentbeskrivelse to Arkivstruktur.Merknad--><path d="M1975.8347,646.1289 C1958.5566,660.918 1933.8839,682.0545 1919.6184,694.266 " fill="none" id="Arkivstruktur.Dokumentbeskrivelse&lt;-Arkivstruktur.Merknad" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="1983.8656,639.2418,1978.0985,639.9353,1976.5206,645.5254,1982.2876,644.832,1983.8656,639.2418" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="62.024" x="1849.4936" y="684.6495">merknad 0..*</text><!--MD5=[a90156ac46a47ba2f06ff0f17de5c3f6]
+reverse link Arkivstruktur.Dokumentbeskrivelse to Arkivstruktur.Part--><path d="M2047.412,641.6583 C2123.8787,659.4761 2261.7895,691.6078 2303.0555,701.2255 " fill="none" id="Arkivstruktur.Dokumentbeskrivelse&lt;-Arkivstruktur.Part" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2037.0451,639.2418,2041.0229,643.4746,2046.4601,641.4308,2042.4823,637.198,2037.0451,639.2418" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="38.6643" x="2258.2287" y="696.6995">part 0..*</text><!--MD5=[ff386106a0302db0fba1364a255e7a3b]
+reverse link Arkivstruktur.Dokumentbeskrivelse to Arkivstruktur.ElektroniskSignatur--><path d="M2081.5574,634.5779 C2118.1999,641.5295 2157.6616,656.4072 2180.5058,687.4997 C2192.9106,704.3751 2192.6448,717.5531 2180.5058,734.6218 C2175.4553,741.7264 2169.849,737.3122 2161.9792,741.0659 C2139.8761,751.618 2116.3714,766.5038 2099.496,777.9017 " fill="none" id="Arkivstruktur.Dokumentbeskrivelse&lt;-Arkivstruktur.ElektroniskSignatur" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2071.0616,632.7817,2075.2798,636.775,2080.5883,634.4172,2076.3702,630.4239,2071.0616,632.7817" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[07bde10c10893a165bd1d79bf3e557f7]
+reverse link Arkivstruktur.Dokumentbeskrivelse to Arkivstruktur.Gradering--><path d="M2081.8313,631.9923 C2231.148,637.0992 2546.4474,651.4775 2810.4118,687.4997 C2829.1157,690.0532 2849.9863,694.3143 2865.9031,697.8746 " fill="none" id="Arkivstruktur.Dokumentbeskrivelse&lt;-Arkivstruktur.Gradering" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2071.1583,631.6298,2075.8826,635.0093,2080.8191,631.9483,2076.0949,628.5688,2071.1583,631.6298" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[a04fa683b87ddcf32f853ec86d7290ea]
+reverse link Arkivstruktur.Dokumentbeskrivelse to Arkivstruktur.Kassasjon--><path d="M2080.8647,640.6031 C2156.542,650.9539 2269.7559,667.7326 2367.3833,687.4997 C2380.7064,690.1982 2395.3907,693.8068 2407.5217,696.9564 " fill="none" id="Arkivstruktur.Dokumentbeskrivelse&lt;-Arkivstruktur.Kassasjon" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2070.4334,639.1935,2074.7862,643.0396,2080.0106,640.5009,2075.6578,636.6548,2070.4334,639.1935" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[17a0a7906928aaf79cde22f1a08b8f8d]
+reverse link Arkivstruktur.Dokumentbeskrivelse to Arkivstruktur.Skjerming--><path d="M2081.7185,632.4031 C2211.8964,637.7677 2465.6309,652.1219 2678.3088,687.4997 C2691.7204,689.731 2706.4048,693.2913 2718.5277,696.5294 " fill="none" id="Arkivstruktur.Dokumentbeskrivelse&lt;-Arkivstruktur.Skjerming" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2071.0375,631.9761,2075.7356,635.3919,2080.6956,632.3688,2075.9974,628.9531,2071.0375,631.9761" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[c7606007380ecbfa4e6e9ebf20184ce0]
+reverse link Arkivstruktur.Dokumentbeskrivelse to Arkivstruktur.Sletting--><path d="M1926.4571,641.0139 C1862.9752,651.9366 1766.1775,669.3355 1682.7029,687.4997 C1669.4201,690.3915 1654.7437,694.0163 1642.6047,697.1336 " fill="none" id="Arkivstruktur.Dokumentbeskrivelse&lt;-Arkivstruktur.Sletting" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="1937.1382,639.1854,1931.8296,636.8277,1927.6115,640.821,1932.92,643.1788,1937.1382,639.1854" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[7927e30cd48143386c9e06c800830fed]
+reverse link Arkivstruktur.Dokumentbeskrivelse to Arkivstruktur.UtfoertKassasjon--><path d="M1954.8754,642.5122 C1912.8844,656.0447 1847.4933,677.1248 1805.2123,690.7459 " fill="none" id="Arkivstruktur.Dokumentbeskrivelse&lt;-Arkivstruktur.UtfoertKassasjon" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="1965.0167,639.2418,1959.4285,637.6571,1955.8163,642.2059,1961.4046,643.7907,1965.0167,639.2418" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[b26ea43b7267a46d515940ca2f1b687c]
+reverse link Arkivstruktur.Dokumentbeskrivelse to VirksomhetsspesifikkeMetadata.VirksomhetsspesifikkeMetadata--><path d="M1908.9052,633.7644 C1797.6164,640.442 1611.2061,656.0125 1550.5998,687.4997 C1509.9459,708.6201 1477.5404,753.6398 1462.123,778.0628 " fill="none" id="Arkivstruktur.Dokumentbeskrivelse&lt;-VirksomhetsspesifikkeMetadata.VirksomhetsspesifikkeMetadata" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="1919.4331,633.1441,1914.4207,630.2089,1909.7834,633.7068,1914.7958,636.642,1919.4331,633.1441" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[278cd03bb3ef90f91843030adaa96bb2]
+reverse link Arkivstruktur.Dokumentobjekt to Arkivstruktur.ElektroniskSignatur--><path d="M2075.79,725.9949 C2075.79,741.7667 2075.79,763.3462 2075.79,778.0708 " fill="none" id="Arkivstruktur.Dokumentobjekt&lt;-Arkivstruktur.ElektroniskSignatur" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2075.79,715.4911,2072.5679,720.3241,2075.79,725.1571,2079.012,720.3241,2075.79,715.4911" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[e9ee3be1c78d911a93221e4bf7e27e50]
+reverse link Arkivstruktur.Dokumentobjekt to Arkivstruktur.Konvertering--><path d="M2037.1176,719.1319 C2021.9016,725.0524 2004.5349,732.592 1989.6008,741.0659 C1966.7647,754.0184 1942.8331,773.2136 1929.212,784.7646 " fill="none" id="Arkivstruktur.Dokumentobjekt&lt;-Arkivstruktur.Konvertering" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#FFFFFF" points="2047.0012,715.3863,2041.3406,714.0832,2037.9606,718.8071,2043.6211,720.1102,2047.0012,715.3863" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="81.3561" x="1836.2887" y="775.4241">konvertering 0..*</text><!--MD5=[beed085d5fd681cff38a53fb440d63ac]
+reverse link LoggingOgSporing.Endringslogg to LoggingOgSporing.Hendelseslogg--><path d="M3605.4224,163.5178 C3608.8136,179.0882 3612.9378,198.0257 3615.3946,209.2947 " fill="none" id="LoggingOgSporing.Endringslogg&lt;-LoggingOgSporing.Hendelseslogg" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="none" points="3599.8967,164.6616,3601.9829,147.7138,3610.916,162.2612,3599.8967,164.6616" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[aaeb9c01bf3794b31a78d6d58f3b4653]
+reverse link Sakarkiv.Journalpost to Sakarkiv.Avskrivning--><path d="M3817.4559,648.191 C3808.1201,662.827 3795.5058,682.6103 3788.071,694.266 " fill="none" id="Sakarkiv.Journalpost&lt;-Sakarkiv.Avskrivning" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="3823.1669,639.2418,3817.8519,641.585,3817.9706,647.3923,3823.2856,645.0492,3823.1669,639.2418" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="74.1066" x="3701.2451" y="684.6495">avskrivning 0..*</text><!--MD5=[f02d1f48c1f0300642168f999292887c]
+reverse link Sakarkiv.Journalpost to Sakarkiv.Dokumentflyt--><path d="M3794.8695,643.0841 C3757.2765,657.8812 3698.0718,681.1845 3664.8366,694.266 " fill="none" id="Sakarkiv.Journalpost&lt;-Sakarkiv.Dokumentflyt" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="3804.6322,639.2418,3798.9542,638.0174,3795.64,642.7877,3801.3181,644.0122,3804.6322,639.2418" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="84.5782" x="3679.2293" y="704.4152">dokumentflyt 0..*</text><!--MD5=[6ea6a639c54f3034762e7f204253efae]
+reverse link Sakarkiv.Journalpost to Arkivstruktur.ElektroniskSignatur--><path d="M3841.6614,648.191 C3855.4355,671.7118 3873.0761,711.7857 3850.3206,734.6218 C3842.048,742.9266 2173.2482,737.8277 2161.9792,741.0659 C2136.9199,748.2671 2112.0297,765.0458 2095.4846,777.9259 " fill="none" id="Sakarkiv.Journalpost&lt;-Arkivstruktur.ElektroniskSignatur" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="3836.1195,639.2257,3835.9176,645.0308,3841.1985,647.4499,3841.4004,641.6448,3836.1195,639.2257" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[fd6cad3daa3a7589931420633216fa83]
+link Arkivstruktur.Klasse to Arkivstruktur.Kryssreferanse--><path d="M3229.8206,400.8959 C3229.8206,400.8959 3177.6824,430.672 3155.974,451.4863 C3104.8647,500.4772 3062.5272,574.1166 3044.1617,608.689 " fill="none" id="Arkivstruktur.Klasse-Arkivstruktur.Kryssreferanse" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="3039.2481,618.0892,3045.4579,613.152,3041.111,614.5184,3039.7446,610.1715,3039.2481,618.0892" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><line style="stroke: #A80036; stroke-width: 0.8055063913470993;" x1="3041.111" x2="3044.1013" y1="614.5184" y2="608.8058"/><polygon fill="#A80036" points="3238.4015,396.4461,3232.6278,395.8107,3229.8206,400.8959,3235.5943,401.5313,3238.4015,396.4461" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="47.5249" x="3174.4895" y="414.1306">klasse 0..1</text><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="88.6057" x="2935.1297" y="608.7741">kryssreferanse 0..*</text><!--MD5=[6ad31a2a544e3c283a56919386d2c114]
+link Arkivstruktur.Klasse to Arkivstruktur.Mappe--><path d="M3207.7301,391.9165 C3207.7301,391.9165 2665.5254,447.628 2520.7759,462.4976 " fill="none" id="Arkivstruktur.Klasse-Arkivstruktur.Mappe" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2510.1835,463.5931,2517.7244,466.0572,2514.1899,463.1814,2517.0657,459.6469,2510.1835,463.5931" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><line style="stroke: #A80036; stroke-width: 0.8055063913470993;" x1="2514.1899" x2="2520.6027" y1="463.1814" y2="462.5177"/><polygon fill="#FFFFFF" points="3217.3456,390.9284,3212.2085,388.2173,3207.7301,391.9165,3212.8672,394.6276,3217.3456,390.9284" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="47.5249" x="3163.5781" y="388.2754">klasse 0..1</text><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="52.3579" x="2516.3373" y="460.0326">mappe 0..*</text><!--MD5=[28a2ceb9e6940c79255ac7d60562a8c2]
+link Arkivstruktur.Klasse to Arkivstruktur.Registrering--><path d="M3208.9735,398.5565 C3208.9735,398.5565 2719.7037,514.8797 2586.8113,546.4716 " fill="none" id="Arkivstruktur.Klasse-Arkivstruktur.Registrering" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2576.5169,548.9204,2584.3161,550.3733,2580.4346,547.9863,2582.8216,544.1049,2576.5169,548.9204" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><line style="stroke: #A80036; stroke-width: 0.8055063913470993;" x1="2580.4346" x2="2586.7025" y1="547.9863" y2="546.4998"/><polygon fill="#FFFFFF" points="3218.3766,396.3172,3212.9286,394.3025,3208.9735,398.5565,3214.4215,400.5712,3218.3766,396.3172" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="47.5249" x="3211.9183" y="414.1726">klasse 0..1</text><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="74.9121" x="2596.5656" y="559.2148">registrering 0..*</text><!--MD5=[120f06a279acce4c5fe3ddb6d1c4abb3]
+reverse link Arkivstruktur.Klasse to Arkivstruktur.Klasse--><path d="M3300.8444,373.2958 C3339.4442,366.9565 3381.1131,371.1371 3381.1131,385.8376 C3381.1131,401.8832 3331.4536,405.3953 3290.3325,396.3655 " fill="none" id="Arkivstruktur.Klasse&lt;-Arkivstruktur.Klasse" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#FFFFFF" points="3290.3325,375.3096,3295.6853,377.5652,3299.8261,373.4917,3294.4733,371.2361,3290.3325,375.3096" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="69.2735" x="3307.2169" y="368.3952">overklasse 0..1</text><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="76.5231" x="3307.2768" y="411.8303">underklasse 0..*</text><!--MD5=[5d1513ab2cb755b61aa6d21d9f58bf2e]
+reverse link Arkivstruktur.Klasse to Arkivstruktur.Gradering--><path d="M3268.761,405.7497 C3290.6708,451.9616 3337.7849,570.959 3280.022,639.1693 C3233.1496,694.5157 2997.1121,702.6593 2917.8019,703.8273 " fill="none" id="Arkivstruktur.Klasse&lt;-Arkivstruktur.Gradering" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="3264.1697,396.3333,3263.3926,402.0897,3268.4073,405.021,3269.1844,399.2646,3264.1697,396.3333" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[f5d26b0abccddebd53cdaeddf7d12406]
+reverse link Arkivstruktur.Klasse to Arkivstruktur.Kassasjon--><path d="M3252.3126,406.4263 C3233.2865,460.8302 3177.9483,610.5819 3135.8364,639.1693 C3018.6433,718.7131 2640.1439,665.0744 2500.2918,687.4997 C2486.5982,689.6987 2471.5836,693.2913 2459.2674,696.5697 " fill="none" id="Arkivstruktur.Klasse&lt;-Arkivstruktur.Kassasjon" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="3255.8085,396.3414,3251.1817,399.8531,3252.6437,405.4747,3257.2705,401.9629,3255.8085,396.3414" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[43b79eb43bad7e732b3f9bab06e51705]
+reverse link Arkivstruktur.Klasse to Arkivstruktur.Skjerming--><path d="M3261.0926,407.2399 C3264.5885,455.8522 3265.8209,578.2247 3197.8604,639.1693 C3135.78,694.8459 2907.9828,673.8303 2825.7164,687.4997 C2807.0931,690.5928 2786.2224,694.8459 2770.2895,698.2613 " fill="none" id="Arkivstruktur.Klasse&lt;-Arkivstruktur.Skjerming" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="3260.1985,396.5508,3257.3913,401.636,3261.0056,406.1831,3263.8128,401.0979,3260.1985,396.5508" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[8417ef12fd0c6c0adaf88fb9c070fb71]
+link Arkivstruktur.Klassifikasjonssystem to Arkivstruktur.Klasse--><path d="M3279.4022,322.8381 C3279.4022,322.8381 3269.7357,352.401 3265.6518,364.9266 " fill="none" id="Arkivstruktur.Klassifikasjonssystem-Arkivstruktur.Klasse" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="3262.2848,375.229,3267.6013,369.3408,3263.5371,371.4012,3261.4767,367.337,3262.2848,375.229" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><line style="stroke: #A80036; stroke-width: 0.8055063913470993;" x1="3263.5371" x2="3265.535" y1="371.4012" y2="365.277"/><polygon fill="#FFFFFF" points="3282.3983,313.6481,3277.8369,317.2444,3279.4022,322.8381,3283.9636,319.2418,3282.3983,313.6481" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="120.826" x="3138.888" y="331.1729">klassifikasjonssystem 0..1</text><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="47.5249" x="3206.6658" y="365.9139">klasse 0..*</text><!--MD5=[a10b3652527dafaec533008d40e3f50d]
+reverse link Arkivstruktur.Korrespondansepart to VirksomhetsspesifikkeMetadata.VirksomhetsspesifikkeMetadata--><path d="M2555.4771,719.1642 C2538.932,725.1652 2518.4721,731.5528 2499.4863,734.6218 C2448.1917,742.9105 1614.9195,729.3941 1564.2934,741.0659 C1533.1123,748.251 1500.4329,765.1264 1478.4828,778.0306 " fill="none" id="Arkivstruktur.Korrespondansepart&lt;-VirksomhetsspesifikkeMetadata.VirksomhetsspesifikkeMetadata" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2565.4815,715.4105,2559.8255,714.0877,2556.4291,718.7998,2562.0851,720.1226,2565.4815,715.4105" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[8a52f9f4d977094a6530463d7dafbafe]
+reverse link Arkivstruktur.Korrespondansepart to Arkivstruktur.KorrespondansepartEnhet--><path d="M2561.4781,724.8027 C2535.0092,743.3052 2496.0227,770.5796 2475.4742,784.9499 " fill="none" id="Arkivstruktur.Korrespondansepart&lt;-Arkivstruktur.KorrespondansepartEnhet" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="none" points="2558.6024,719.9294,2575.0348,715.3219,2565.0626,729.1686,2558.6024,719.9294" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[584bcbbd22b711934009ceff5d2eb008]
+reverse link Arkivstruktur.Korrespondansepart to Arkivstruktur.KorrespondansepartIntern--><path d="M2628.6976,720.8074 C2643.9942,726.0432 2661.7556,731.3917 2678.3088,734.6218 C2717.4161,742.258 2728.7415,732.8175 2767.72,741.0659 C2814.7857,751.0219 2867.1436,772.4001 2895.5619,784.9257 " fill="none" id="Arkivstruktur.Korrespondansepart&lt;-Arkivstruktur.KorrespondansepartIntern" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="none" points="2626.7966,726.1237,2613.5219,715.3944,2630.5906,715.4991,2626.7966,726.1237" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[eaee5f029b2c4bf55d71aab9ae7d464c]
+reverse link Arkivstruktur.Korrespondansepart to Arkivstruktur.KorrespondansepartPerson--><path d="M2627.6263,720.9604 C2643.1323,726.3654 2661.3126,731.7864 2678.3088,734.6218 C2763.2494,748.7746 2981.01,725.7935 3065.7573,741.0659 C3114.2005,749.7976 3167.8311,771.949 3196.4668,784.8693 " fill="none" id="Arkivstruktur.Korrespondansepart&lt;-Arkivstruktur.KorrespondansepartPerson" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="none" points="2625.5078,726.1882,2612.3297,715.3461,2629.3903,715.6038,2625.5078,726.1882" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[3460708016ec4ed815f263e3078a01cb]
+reverse link Arkivstruktur.KorrespondansepartEnhet to Arkivstruktur.NasjonaleIdentifikatorer.Enhetsidentifikator--><path d="M2419.2821,808.8573 C2389.873,817.0332 2349.6138,827.0617 2313.4144,832.0881 C1983.3903,877.9214 1897.1528,846.1361 1564.2934,861.0863 C1486.3204,864.5903 1397.7952,869.1575 1333.1614,872.597 " fill="none" id="Arkivstruktur.KorrespondansepartEnhet&lt;-Arkivstruktur.NasjonaleIdentifikatorer.Enhetsidentifikator" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2429.6006,805.9414,2424.0726,804.1577,2420.3001,808.5744,2425.828,810.3581,2429.6006,805.9414" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[ee0e35ed194e3e0c53df0b221f9c8ea6]
+reverse link Arkivstruktur.KorrespondansepartEnhet to Arkivstruktur.EnkelAdresse--><path d="M2465.8564,816.566 C2468.7079,830.2999 2472.4294,848.1902 2475.1037,861.0461 " fill="none" id="Arkivstruktur.KorrespondansepartEnhet&lt;-Arkivstruktur.EnkelAdresse" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2463.7057,806.2152,2461.5335,811.6024,2465.6708,815.6795,2467.843,810.2923,2463.7057,806.2152" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[4ae3c1ef400e758eb9bcd8f615d72389]
+reverse link Arkivstruktur.KorrespondansepartEnhet to Arkivstruktur.Kontaktinformasjon--><path d="M2496.6751,809.8078 C2532.9873,823.8558 2589.7917,845.8381 2628.8184,860.9413 " fill="none" id="Arkivstruktur.KorrespondansepartEnhet&lt;-Arkivstruktur.Kontaktinformasjon" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2486.7754,805.9736,2490.1226,810.7208,2495.792,809.457,2492.4449,804.7098,2486.7754,805.9736" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[3194c0ee39c6108e205d0c979d9740a2]
+reverse link Arkivstruktur.KorrespondansepartPerson to Arkivstruktur.EnkelAdresse--><path d="M3173.3891,808.7204 C3143.3518,816.7593 3102.4562,826.6751 3065.7573,832.0881 C2854.2877,863.2693 2798.2164,838.3388 2585.6755,861.0863 C2560.7854,863.7526 2532.8424,868.1023 2511.7381,871.6707 " fill="none" id="Arkivstruktur.KorrespondansepartPerson&lt;-Arkivstruktur.EnkelAdresse" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="3183.5304,805.9736,3178.0227,804.1282,3174.201,808.5025,3179.7087,810.3478,3183.5304,805.9736" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[5dce5f891b46b3e0d5ac97a06fbac0fd]
+reverse link Arkivstruktur.KorrespondansepartPerson to Arkivstruktur.Kontaktinformasjon--><path d="M3170.8195,808.7123 C3140.9916,816.3566 3101.3043,825.8454 3065.7573,832.0881 C2941.0005,853.9818 2792.0946,867.917 2718.2055,874.0228 " fill="none" id="Arkivstruktur.KorrespondansepartPerson&lt;-Arkivstruktur.Kontaktinformasjon" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="3181.3314,805.9897,3175.8452,804.0813,3171.9736,808.4115,3177.4597,810.3198,3181.3314,805.9897" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[cfe2a73eb8c78bf1f363b16f48e7b62d]
+link Arkivstruktur.Mappe to Arkivstruktur.Kryssreferanse--><path d="M2519.9445,470.3224 C2519.9445,470.3224 2844.1867,480.6215 2912.7111,511.8993 C2960.7032,533.801 3001.5746,582.6228 3021.4464,609.4139 " fill="none" id="Arkivstruktur.Mappe-Arkivstruktur.Kryssreferanse" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="3027.7938,618.202,3026.1613,610.4385,3025.4357,614.937,3020.9372,614.2114,3027.7938,618.202" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><line style="stroke: #A80036; stroke-width: 0.8055063913470993;" x1="3025.4357" x2="3021.6559" y1="614.937" y2="609.7079"/><polygon fill="#A80036" points="2510.2801,470.1419,2515.0521,473.4536,2519.9445,470.3224,2515.1725,467.0107,2510.2801,470.1419" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="52.3579" x="2516.4426" y="482.0779">mappe 0..1</text><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="88.6057" x="3043.3674" y="608.6088">kryssreferanse 0..*</text><!--MD5=[b06f07ca829b4fead78a2f1a47f4b1ee]
+link Arkivstruktur.Mappe to Arkivstruktur.Registrering--><path d="M2480.75,487.1373 C2480.75,487.1373 2509.8693,524.9968 2521.6619,540.3176 " fill="none" id="Arkivstruktur.Mappe-Arkivstruktur.Registrering" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2528.114,548.711,2526.2503,540.9997,2525.6595,545.5178,2521.1413,544.9269,2528.114,548.711" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><line style="stroke: #A80036; stroke-width: 0.8055063913470993;" x1="2525.6595" x2="2521.7264" y1="545.5178" y2="540.4102"/><polygon fill="#FFFFFF" points="2474.8539,479.4777,2475.2488,485.2728,2480.75,487.1373,2480.3552,481.3421,2474.8539,479.4777" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="52.3579" x="2487.3055" y="497.186">mappe 0..1</text><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="74.9121" x="2435.4532" y="539.3546">registrering 0..*</text><!--MD5=[8ed225f7dd4b972190769354784fe277]
+reverse link Arkivstruktur.Mappe to Arkivstruktur.Mappe--><path d="M2509.1927,456.3033 C2548.2517,449.9075 2590.5086,454.072 2590.5086,468.8047 C2590.5086,484.8504 2540.3577,488.3624 2498.8339,479.3327 " fill="none" id="Arkivstruktur.Mappe&lt;-Arkivstruktur.Mappe" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#FFFFFF" points="2498.8339,458.2768,2504.1837,460.5392,2508.3298,456.471,2502.9799,454.2086,2498.8339,458.2768" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="74.1066" x="2516.418" y="451.3623">overmappe 0..1</text><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="81.3561" x="2414.0044" y="497.2065">undermappe 0..*</text><!--MD5=[aede87e54d32d84a655bdc13a1fefcc8]
+reverse link Arkivstruktur.Mappe to Arkivstruktur.Merknad--><path d="M2413.8207,470.8104 C2276.796,475.1199 1918.6276,494.6051 1846.2206,581.1729 C1829.6836,600.948 1836.619,615.2458 1846.2206,639.1693 C1855.7901,663.0284 1878.7953,683.0694 1893.9308,694.2982 " fill="none" id="Arkivstruktur.Mappe&lt;-Arkivstruktur.Merknad" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2424.4615,470.4882,2419.5316,467.4164,2414.8,470.7855,2419.7298,473.8574,2424.4615,470.4882" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="62.024" x="1817.4592" y="704.368">merknad 0..*</text><!--MD5=[485c2dce76771a2167b51070a00cbd8e]
+reverse link Arkivstruktur.Mappe to Arkivstruktur.Part--><path d="M2442.6095,485.3337 C2431.993,492.7121 2419.8056,502.048 2410.0751,511.8993 C2383.3968,538.8999 2377.9354,547.6557 2360.1337,581.1729 C2339.0295,620.9004 2323.5879,672.6542 2317.6755,694.0726 " fill="none" id="Arkivstruktur.Mappe&lt;-Arkivstruktur.Part" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2451.4298,479.381,2445.6213,479.4058,2443.4101,484.7771,2449.2186,484.7523,2451.4298,479.381" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="38.6643" x="2326.0562" y="684.9217">part 0..*</text><!--MD5=[c958de8ad9fa3545dc0266410440ef40]
+reverse link Arkivstruktur.Mappe to Arkivstruktur.Gradering--><path d="M2520.5825,472.5503 C2564.6599,476.7631 2627.8438,487.0011 2677.5032,511.8993 C2767.2769,556.903 2848.1659,649.6731 2878.7751,687.4514 " fill="none" id="Arkivstruktur.Mappe&lt;-Arkivstruktur.Gradering" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2510.0868,471.624,2514.6181,475.2582,2519.7155,472.4733,2515.1842,468.8391,2510.0868,471.624" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[8262cadf6afb52e1468733db93bc25af]
+reverse link Arkivstruktur.Mappe to Arkivstruktur.Kassasjon--><path d="M2453.2342,488.0483 C2448.6267,495.1287 2444.0272,503.5301 2441.4899,511.8993 C2422.5363,574.3502 2427.8365,653.459 2431.3969,687.3547 " fill="none" id="Arkivstruktur.Mappe&lt;-Arkivstruktur.Kassasjon" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2459.3479,479.3407,2453.9358,481.45,2453.8013,487.257,2459.2134,485.1478,2459.3479,479.3407" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[11cd737c04d675b22addc690e7770e49]
+reverse link Arkivstruktur.Mappe to Arkivstruktur.Skjerming--><path d="M2520.6309,473.0095 C2554.9857,477.5445 2598.9986,487.9838 2630.7839,511.8993 C2692.8643,558.6026 2727.3721,649.9953 2739.4145,687.4272 " fill="none" id="Arkivstruktur.Mappe&lt;-Arkivstruktur.Skjerming" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2510.0787,471.7529,2514.4991,475.5212,2519.6777,472.8903,2515.2573,469.1219,2510.0787,471.7529" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[f29692ec4657dcd4e85b117a87804bf5]
+reverse link Arkivstruktur.Mappe to VirksomhetsspesifikkeMetadata.VirksomhetsspesifikkeMetadata--><path d="M2413.4099,471.5596 C2150.2832,481.3223 1010.5561,526.6562 960.1636,581.1729 C913.8712,631.2512 912.3326,686.0095 960.1636,734.6218 C967.9448,742.5319 1348.9977,738.1016 1359.6948,741.0659 C1386.1879,748.404 1413.0113,765.1586 1430.9257,777.9903 " fill="none" id="Arkivstruktur.Mappe&lt;-VirksomhetsspesifikkeMetadata.VirksomhetsspesifikkeMetadata" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2424.1956,471.1568,2419.2457,468.1175,2414.5363,471.5177,2419.4863,474.557,2424.1956,471.1568" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[e0018cf9e229c618f5d941e2b4482152]
+reverse link Arkivstruktur.Mappe to Sakarkiv.Saksmappe--><path d="M2526.3661,474.2338 C2710.5773,488.6202 3290.7353,533.801 3771.3809,569.8958 C3839.7523,575.0268 3859.4711,561.7682 3925.2326,581.1729 C3952.6199,589.2521 3981.0623,607.0296 3997.2288,618.1698 " fill="none" id="Arkivstruktur.Mappe&lt;-Sakarkiv.Saksmappe" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="none" points="2525.6653,479.8321,2510.0385,472.9531,2526.5433,468.5872,2525.6653,479.8321" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[17dbeb67644f38cf30f5a930cce96541]
+reverse link Arkivstruktur.Mappe to Arkivstruktur.NasjonaleIdentifikatorer.Nasjonalidentifikator--><path d="M2413.8449,471.5273 C2250.3352,477.3431 1742.2298,495.0159 1321.0305,505.4553 C1301.4808,505.9386 987.8167,506.4702 969.0242,511.8993 C824.2827,553.7373 778.6105,574.4147 679.0419,687.4997 C652.6857,717.4323 638.831,764.3289 633.7805,784.6679 " fill="none" id="Arkivstruktur.Mappe&lt;-Arkivstruktur.NasjonaleIdentifikatorer.Nasjonalidentifikator" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#FFFFFF" points="2424.3326,471.1568,2419.3893,468.1066,2414.6725,471.4965,2419.6158,474.5467,2424.3326,471.1568" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="117.6039" x="494.6212" y="775.5078">nasjonalidentifikator 0..*</text><!--MD5=[d60a90681cc9d37c2f2f3b744cc0092c]
+reverse link Arkivstruktur.NasjonaleIdentifikatorer.Nasjonalidentifikator to Arkivstruktur.NasjonaleIdentifikatorer.Bygning--><path d="M566.3113,806.1911 C463.1581,821.9307 263.6181,852.3708 161.6329,867.9331 " fill="none" id="Arkivstruktur.NasjonaleIdentifikatorer.Nasjonalidentifikator&lt;-Arkivstruktur.NasjonaleIdentifikatorer.Bygning" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="none" points="565.5299,800.6089,582.3086,803.7504,567.2295,811.7571,565.5299,800.6089" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[d576874cf24d57dc445fd08dacd54676]
+reverse link Arkivstruktur.NasjonaleIdentifikatorer.Nasjonalidentifikator to Arkivstruktur.NasjonaleIdentifikatorer.Enhetsidentifikator--><path d="M696.9322,804.9748 C811.8296,820.3035 1049.0029,851.9438 1168.7414,867.917 " fill="none" id="Arkivstruktur.NasjonaleIdentifikatorer.Nasjonalidentifikator&lt;-Arkivstruktur.NasjonaleIdentifikatorer.Enhetsidentifikator" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="none" points="696.1267,810.5489,680.9026,802.8321,697.6169,799.3765,696.1267,810.5489" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[317be2d75d5746b10634db3d17c3ebba]
+reverse link Arkivstruktur.NasjonaleIdentifikatorer.Nasjonalidentifikator to Arkivstruktur.NasjonaleIdentifikatorer.Matrikkel--><path d="M578.1442,810.0656 C514.638,826.514 410.2283,853.5468 354.7531,867.917 " fill="none" id="Arkivstruktur.NasjonaleIdentifikatorer.Nasjonalidentifikator&lt;-Arkivstruktur.NasjonaleIdentifikatorer.Matrikkel" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="none" points="576.9278,804.5559,593.9321,805.9736,579.7552,815.4705,576.9278,804.5559" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[d7d8ffaf70aedf29ec6a3de20ba972f4]
+reverse link Arkivstruktur.NasjonaleIdentifikatorer.Nasjonalidentifikator to Arkivstruktur.NasjonaleIdentifikatorer.Personidentifikator--><path d="M612.0801,818.5556 C598.0321,834.6738 579.731,855.6733 569.1708,867.7962 " fill="none" id="Arkivstruktur.NasjonaleIdentifikatorer.Nasjonalidentifikator&lt;-Arkivstruktur.NasjonaleIdentifikatorer.Personidentifikator" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="none" points="607.9882,814.665,622.8256,806.2152,616.4943,822.0676,607.9882,814.665" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[f9e6abefcc54fcb01d8acf7545a3e62a]
+reverse link Arkivstruktur.NasjonaleIdentifikatorer.Nasjonalidentifikator to Arkivstruktur.NasjonaleIdentifikatorer.Plan--><path d="M665.4047,813.3601 C698.1888,829.9132 746.7205,854.4248 773.3667,867.8768 " fill="none" id="Arkivstruktur.NasjonaleIdentifikatorer.Nasjonalidentifikator&lt;-Arkivstruktur.NasjonaleIdentifikatorer.Plan" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="none" points="662.7868,818.3542,650.9458,806.0541,667.8695,808.2854,662.7868,818.3542" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[a8496b2501b3edd3d8f932110a5b85af]
+reverse link Arkivstruktur.NasjonaleIdentifikatorer.Nasjonalidentifikator to Arkivstruktur.NasjonaleIdentifikatorer.Posisjon--><path d="M691.5997,809.4936 C765.9077,825.8776 890.6243,853.3857 956.5388,867.917 " fill="none" id="Arkivstruktur.NasjonaleIdentifikatorer.Nasjonalidentifikator&lt;-Arkivstruktur.NasjonaleIdentifikatorer.Posisjon" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="none" points="690.1659,814.955,675.6507,805.9736,692.5986,803.9357,690.1659,814.955" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[1dee3d67bb5bb7632fb805bc0e0b52a3]
+reverse link Arkivstruktur.Part to VirksomhetsspesifikkeMetadata.VirksomhetsspesifikkeMetadata--><path d="M2292.8739,711.8421 C2266.3969,718.9386 2220.6281,730.1352 2180.5058,734.6218 C2146.4812,738.4238 1597.6414,733.3169 1564.2934,741.0659 C1533.1284,748.3074 1500.4409,765.1747 1478.4909,778.0628 " fill="none" id="Arkivstruktur.Part&lt;-VirksomhetsspesifikkeMetadata.VirksomhetsspesifikkeMetadata" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2303.2811,708.9987,2297.769,707.1666,2293.9578,711.5501,2299.4699,713.3821,2303.2811,708.9987" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[16cccd284ed79473f23fa866fbfee4d4]
+reverse link Arkivstruktur.Part to Arkivstruktur.PartEnhet--><path d="M2295.7335,727.8314 C2279.8811,746.0761 2258.1727,771.0629 2246.3076,784.7243 " fill="none" id="Arkivstruktur.Part&lt;-Arkivstruktur.PartEnhet" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="none" points="2291.6335,723.9489,2306.4548,715.4911,2300.1477,731.3515,2291.6335,723.9489" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[367ecfbbeee3bea727d11e324502e4cd]
+reverse link Arkivstruktur.Part to Arkivstruktur.PartPerson--><path d="M2340.4472,722.8937 C2348.6875,727.5978 2358.1039,732.0925 2367.3833,734.6218 C2419.3868,748.7987 2558.538,724.553 2609.8407,741.0659 C2637.5904,749.9989 2664.4943,771.9651 2678.5987,784.821 " fill="none" id="Arkivstruktur.Part&lt;-Arkivstruktur.PartPerson" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="none" points="2337.4265,727.6542,2326.7858,714.315,2343.4275,718.1089,2337.4265,727.6542" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[488c399ddbb547a37e39a40f9cc1e447]
+reverse link Arkivstruktur.PartEnhet to Arkivstruktur.NasjonaleIdentifikatorer.Enhetsidentifikator--><path d="M2212.6858,811.153 C2198.3558,818.8939 2179.7486,827.6417 2161.9792,832.0881 C2032.9854,864.3809 1697.1053,854.4731 1564.2934,861.0863 C1486.3365,864.9689 1397.8114,869.5039 1333.1775,872.8387 " fill="none" id="Arkivstruktur.PartEnhet&lt;-Arkivstruktur.NasjonaleIdentifikatorer.Enhetsidentifikator" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2221.8524,806.0219,2216.0611,805.5741,2213.4204,810.7477,2219.2117,811.1955,2221.8524,806.0219" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[0f8f6ab72519a433d246ea1109b68d6f]
+reverse link Arkivstruktur.PartEnhet to Arkivstruktur.EnkelAdresse--><path d="M2265.3659,810.7583 C2279.4864,817.7984 2297.0948,826.0307 2313.4144,832.0881 C2358.1602,848.7057 2411.7022,862.3751 2445.4288,870.2611 " fill="none" id="Arkivstruktur.PartEnhet&lt;-Arkivstruktur.EnkelAdresse" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2255.9818,805.9978,2258.8338,811.0579,2264.6017,810.3714,2261.7496,805.3113,2255.9818,805.9978" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[e366e4913a8ce3aac003a5cb0fe8fcdf]
+reverse link Arkivstruktur.PartEnhet to Arkivstruktur.Kontaktinformasjon--><path d="M2263.6099,811.0563 C2277.8674,818.5475 2296.1282,827.0859 2313.4144,832.0881 C2415.9634,861.7549 2445.9765,847.3686 2551.8442,861.0863 C2576.1464,864.2359 2603.1872,867.9412 2625.4353,871.0424 " fill="none" id="Arkivstruktur.PartEnhet&lt;-Arkivstruktur.Kontaktinformasjon" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2254.2257,805.9816,2256.9402,811.117,2262.7245,810.5865,2260.0101,805.4511,2254.2257,805.9816" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[05d1f7394ff07ea97895380e6d63f8ba]
+reverse link Arkivstruktur.PartPerson to Arkivstruktur.EnkelAdresse--><path d="M2659.0008,810.5489 C2644.3405,817.3957 2626.3053,825.5152 2609.8407,832.0881 C2576.9036,845.242 2538.5051,858.2912 2511.7703,867.0229 " fill="none" id="Arkivstruktur.PartPerson&lt;-Arkivstruktur.EnkelAdresse" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2668.5621,806.0541,2662.8174,805.195,2659.8149,810.1674,2665.5596,811.0265,2668.5621,806.0541" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[a4f76bce3dca0f6f738c3727312cf0f7]
+reverse link Arkivstruktur.PartPerson to Arkivstruktur.Kontaktinformasjon--><path d="M2684.5514,816.566 C2681.6999,830.2999 2677.9785,848.1902 2675.3042,861.0461 " fill="none" id="Arkivstruktur.PartPerson&lt;-Arkivstruktur.Kontaktinformasjon" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2686.7021,806.2152,2682.5648,810.2923,2684.7371,815.6795,2688.8743,811.6024,2686.7021,806.2152" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[4feb24aca2b590285c18a5adcb3320a7]
+reverse link Arkivstruktur.NasjonaleIdentifikatorer.Personidentifikator to Arkivstruktur.NasjonaleIdentifikatorer.DNummer--><path d="M531.4651,897.6885 C508.3309,912.3488 476.9001,932.2609 458.4056,943.9729 " fill="none" id="Arkivstruktur.NasjonaleIdentifikatorer.Personidentifikator&lt;-Arkivstruktur.NasjonaleIdentifikatorer.DNummer" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="none" points="528.6297,892.8072,545.2553,888.9488,534.6629,902.3363,528.6297,892.8072" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[dcf5d8f0696b34b3ee4b2d36277cbbfc]
+reverse link Arkivstruktur.NasjonaleIdentifikatorer.Personidentifikator to Arkivstruktur.NasjonaleIdentifikatorer.Foedselsnummer--><path d="M589.5985,897.6885 C612.5796,912.3488 643.7929,932.2609 662.1585,943.9729 " fill="none" id="Arkivstruktur.NasjonaleIdentifikatorer.Personidentifikator&lt;-Arkivstruktur.NasjonaleIdentifikatorer.Foedselsnummer" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="none" points="586.4489,902.3685,575.9048,888.9488,592.5144,892.8636,586.4489,902.3685" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[088e66385af5865b5febf80e04c0503c]
+link Sakarkiv.Presedens to Sakarkiv.Journalpost--><path d="M3835.1444,579.5271 C3835.1444,579.5271 3832.7927,599.1759 3831.7778,607.7062 " fill="none" id="Sakarkiv.Presedens-Sakarkiv.Journalpost" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="3830.5293,618.2181,3834.5885,611.4019,3831.007,614.219,3828.19,610.6375,3830.5293,618.2181" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><line style="stroke: #A80036; stroke-width: 0.8055063913470993;" x1="3831.007" x2="3831.7697" y1="614.219" y2="607.819"/><polygon fill="#A80036" points="3836.2806,569.928,3832.5128,574.3488,3835.1444,579.5271,3838.9122,575.1063,3836.2806,569.928" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="68.468" x="3754.3217" y="587.7926">presedens 0..*</text><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="74.1066" x="3741.6133" y="608.6316">journalpost 0..*</text><!--MD5=[38eae8349ee5460221f6701c791867ed]
+link Sakarkiv.Presedens to Sakarkiv.Saksmappe--><path d="M3873.1993,566.5156 C3873.1993,566.5156 3908.8728,574.8738 3925.2326,581.1729 C3946.9813,589.5421 3970.0832,602.4543 3986.7653,612.5876 " fill="none" id="Sakarkiv.Presedens-Sakarkiv.Saksmappe" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="3995.7869,618.1778,3991.318,611.623,3992.3622,616.0584,3987.9268,617.1026,3995.7869,618.1778" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><line style="stroke: #A80036; stroke-width: 0.8055063913470993;" x1="3992.3622" x2="3986.8821" y1="616.0584" y2="612.6601"/><polygon fill="#A80036" points="3863.7242,564.6036,3867.8244,568.718,3873.1993,566.5156,3869.0991,562.4012,3863.7242,564.6036" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="68.468" x="3869.9659" y="561.9472">presedens 0..*</text><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="73.3011" x="3901.2504" y="608.5747">saksmappe 0..*</text><!--MD5=[491381fb8028db50b20b3ecc2cfde209]
+link Arkivstruktur.Registrering to Arkivstruktur.Kryssreferanse--><path d="M2600.0068,561.9519 C2600.0068,561.9519 2752.1979,569.4769 2830.5495,581.1729 C2885.8716,589.4293 2948.4273,604.6695 2989.4678,615.5035 " fill="none" id="Arkivstruktur.Registrering-Arkivstruktur.Kryssreferanse" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2999.6736,618.2181,2993.4969,613.2396,2995.7816,617.182,2991.8391,619.4667,2999.6736,618.2181" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><line style="stroke: #A80036; stroke-width: 0.8055063913470993;" x1="2995.7816" x2="2989.5564" y1="617.182" y2="615.5237"/><polygon fill="#A80036" points="2590.3475,561.591,2595.0568,564.9912,2600.0068,561.9519,2595.2974,558.5517,2590.3475,561.591" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="74.9121" x="2596.5334" y="573.4005">registrering 0..1</text><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="88.6057" x="2878.492" y="627.9738">kryssreferanse 0..*</text><!--MD5=[7229a444542d5ba4b44a9ac4e42b4ab4]
+link Arkivstruktur.Registrering to Arkivstruktur.Dokumentbeskrivelse--><path d="M2471.6429,564.6577 C2471.6429,564.6577 2354.761,574.0119 2295.6932,581.1729 C2214.4901,591.0161 2121.5186,606.063 2060.7673,616.4057 " fill="none" id="Arkivstruktur.Registrering-Arkivstruktur.Dokumentbeskrivelse" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2050.1829,618.21,2057.871,620.1673,2054.1531,617.5329,2056.7875,613.8149,2050.1829,618.21" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><line style="stroke: #A80036; stroke-width: 0.8055063913470993;" x1="2054.1531" x2="2060.5055" y1="617.5329" y2="616.45"/><polygon fill="#FFFFFF" points="2481.2819,563.935,2476.2215,561.0833,2471.6429,564.6577,2476.7033,567.5094,2481.2819,563.935" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="74.9121" x="2399.9075" y="561.2815">registrering 1..*</text><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="122.437" x="1925.1576" y="608.6202">dokumentbeskrivelse 0..*</text><!--MD5=[377bfd120cfca2a261659a52726a6c37]
+reverse link Arkivstruktur.Registrering to Arkivstruktur.Korrespondansepart--><path d="M2543.0562,580.029 C2554.5749,611.186 2576.525,670.5438 2585.2164,694.0646 " fill="none" id="Arkivstruktur.Registrering&lt;-Arkivstruktur.Korrespondansepart" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2539.3911,570.1133,2538.0487,575.7646,2542.749,579.1774,2544.0914,573.526,2539.3911,570.1133" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="117.6039" x="2443.7908" y="684.9106">korrespondansepart 0..*</text><!--MD5=[ace26b433c886e7828572c4bcfd1e300]
+reverse link Arkivstruktur.Registrering to Arkivstruktur.Merknad--><path d="M2470.5848,562.5576 C2413.7724,564.5714 2329.1459,567.5195 2255.4179,569.8958 C2244.9705,570.2341 1886.5282,573.6736 1879.2464,581.1729 C1848.4197,612.934 1884.2969,671.0593 1900.8018,694.1612 " fill="none" id="Arkivstruktur.Registrering&lt;-Arkivstruktur.Merknad" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2481.2094,562.179,2476.266,559.129,2471.5493,562.5191,2476.4927,565.5691,2481.2094,562.179" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="62.024" x="1910.0821" y="684.8271">merknad 0..*</text><!--MD5=[5ba502961413dd9246e01706a2247057]
+reverse link Arkivstruktur.Registrering to Arkivstruktur.Part--><path d="M2478.8251,573.3353 C2472.5985,575.5826 2466.4767,578.1844 2460.822,581.1729 C2401.714,612.4265 2345.111,670.8418 2323.8618,694.0968 " fill="none" id="Arkivstruktur.Registrering&lt;-Arkivstruktur.Part" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2488.9825,569.9683,2483.3818,568.4282,2479.8061,573.0058,2485.4068,574.5458,2488.9825,569.9683" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="38.6643" x="2333.1926" y="704.0558">part 0..*</text><!--MD5=[b8996d6b8374fad466ba0cab9189c51b]
+reverse link Arkivstruktur.Registrering to Arkivstruktur.Gradering--><path d="M2600.5452,571.4423 C2612.3539,574.1569 2624.4526,577.387 2635.6169,581.1729 C2723.4252,610.9524 2820.4081,663.2379 2865.734,688.9174 " fill="none" id="Arkivstruktur.Registrering&lt;-Arkivstruktur.Gradering" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2590.283,569.195,2594.318,573.3734,2599.7268,571.2558,2595.6919,567.0775,2590.283,569.195" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[175607666de808e12306992718e1e7d5]
+reverse link Arkivstruktur.Registrering to Arkivstruktur.Kassasjon--><path d="M2522.3788,579.006 C2502.2331,607.3115 2464.4226,660.4669 2445.2355,687.4272 " fill="none" id="Arkivstruktur.Registrering&lt;-Arkivstruktur.Kassasjon" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2528.702,570.1133,2523.2734,572.1795,2523.0928,577.9853,2528.5214,575.919,2528.702,570.1133" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[b9d4f073e7d8fe4fa8f2b4b9511227ad]
+reverse link Arkivstruktur.Registrering to Arkivstruktur.Skjerming--><path d="M2564.676,574.9785 C2568.2605,576.9842 2571.845,579.0785 2575.2039,581.1729 C2630.7758,615.858 2692.0749,662.6982 2723.401,687.3144 " fill="none" id="Arkivstruktur.Registrering&lt;-Arkivstruktur.Skjerming" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2555.316,569.928,2558.0354,575.0607,2563.8192,574.5246,2561.0998,569.3919,2555.316,569.928" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[f40b3a3e516bc58f2141ef9afa89e016]
+reverse link Arkivstruktur.Registrering to VirksomhetsspesifikkeMetadata.VirksomhetsspesifikkeMetadata--><path d="M2470.8264,560.1411 C2323.0724,560.278 1965.2584,562.5818 1846.2206,581.1729 C1676.9435,607.6096 1592.8486,562.4932 1475.6877,687.4997 C1452.5133,712.2207 1450.274,754.3567 1451.0553,777.7406 " fill="none" id="Arkivstruktur.Registrering&lt;-VirksomhetsspesifikkeMetadata.VirksomhetsspesifikkeMetadata" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="2481.3061,560.133,2476.4695,556.9163,2471.64,560.1437,2476.4766,563.3604,2481.3061,560.133" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[057c5b408b6a4da3b59d483d6ae35eca]
+reverse link Arkivstruktur.Registrering to Sakarkiv.Arkivnotat--><path d="M2606.7476,560.125 C2819.6348,560.0444 3443.4109,561.5105 3532.951,581.1729 C3566.6454,588.5674 3602.8287,606.7477 3623.345,618.1214 " fill="none" id="Arkivstruktur.Registrering&lt;-Sakarkiv.Arkivnotat" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="none" points="2606.4898,565.7635,2590.3716,560.1411,2606.4817,554.4864,2606.4898,565.7635" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[639ab7f2aeb9e2ce2f438430a44a4e45]
+reverse link Arkivstruktur.Registrering to Sakarkiv.Journalpost--><path d="M2606.377,560.6244 C2855.1416,562.1065 3678.6269,568.0028 3733.5221,581.1729 C3764.1233,588.5191 3796.3516,606.7074 3814.5561,618.1053 " fill="none" id="Arkivstruktur.Registrering&lt;-Sakarkiv.Journalpost" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="none" points="2606.232,566.2549,2590.1541,560.5277,2606.2965,554.9778,2606.232,566.2549" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[3b7807e1444b086ee20acb49dbce54ee]
+reverse link Arkivstruktur.Registrering to Arkivstruktur.NasjonaleIdentifikatorer.Nasjonalidentifikator--><path d="M2470.7136,560.0847 C2182.7612,559.5772 1033.3922,558.9489 960.1636,581.1729 C818.2414,624.2433 679.7105,748.7504 641.7067,784.7646 " fill="none" id="Arkivstruktur.Registrering&lt;-Arkivstruktur.NasjonaleIdentifikatorer.Nasjonalidentifikator" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#FFFFFF" points="2481.1852,560.1008,2476.3557,556.8735,2471.5192,560.0902,2476.3487,563.3175,2481.1852,560.1008" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="117.6039" x="668.8721" y="775.4241">nasjonalidentifikator 0..*</text><!--MD5=[7b760a1294b76e2959e49fd2c743b104]
+reverse link Sakarkiv.Saksmappe to Arkivstruktur.Klasse--><path d="M3999.162,609.2609 C3981.9886,583.0416 3946.9894,535.7987 3904.2895,511.8993 C3699.6747,397.3644 3407.7995,385.9987 3300.6108,385.9745 " fill="none" id="Sakarkiv.Saksmappe&lt;-Arkivstruktur.Klasse" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="#A80036" points="4004.8489,618.1859,4004.971,612.3786,3999.6574,610.0323,3999.5353,615.8396,4004.8489,618.1859" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><text fill="#000000" font-family="sans-serif" font-size="10.4716" lengthAdjust="spacingAndGlyphs" textLength="132.103" x="3307.1666" y="383.075">sekundaerklassifikasjon 0..*</text><!--MD5=[2a4b359b5f3c10bf447b66d4044a3014]
+reverse link string to Kodelister.SystemID--><path d="M320.5915,87.6874 C320.5915,98.2718 320.5915,110.1852 320.5915,119.5533 " fill="none" id="string&lt;-Kodelister.SystemID" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><polygon fill="none" points="314.953,87.4699,320.5915,71.3598,326.2301,87.4699,314.953,87.4699" style="stroke: #A80036; stroke-width: 0.8055063913470993;"/><!--MD5=[a2520132d2fe7b04aaed7392cf6ff10f]
+link Kodelister.Arkivdelstatus to Kodelister.Arkivstatus--><!--MD5=[1ede9b974828577249e9efddb496009f]
+link Kodelister.Arkivstatus to Kodelister.Avskrivningsmaate--><!--MD5=[6d264e8d2013954a48fd294977900433]
+link Kodelister.Avskrivningsmaate to Kodelister.Dokumentmedium--><!--MD5=[9383f1c3e7ce6ae9954c7b046269e15d]
+link Kodelister.Dokumentmedium to Kodelister.Dokumentstatus--><!--MD5=[2eff18c0a5f502d8f1b3bc4501469edd]
+link Kodelister.Dokumentstatus to Kodelister.Dokumenttype--><!--MD5=[809321c97770de83eb20f0c9bd0a4801]
+link Kodelister.Arkivdelstatus to Kodelister.ElektroniskSignaturSikkerhetsnivaa--><!--MD5=[5e301a29c585c113510f8e0cb1a9ca39]
+link Kodelister.ElektroniskSignaturSikkerhetsnivaa to Kodelister.ElektroniskSignaturVerifisert--><!--MD5=[ce4c1933d6d58aaf18003ad712eb66bd]
+link Kodelister.ElektroniskSignaturVerifisert to Kodelister.FlytStatus--><!--MD5=[7de37ee0f18ede9e6a9bd92d58c1c3f6]
+link Kodelister.FlytStatus to Kodelister.Format--><!--MD5=[48fd89c80a26d54bb0243aeb2c4dd9e7]
+link Kodelister.Format to Kodelister.Graderingskode--><!--MD5=[3cebbb745f20dca729fab0545afe8a45]
+link Kodelister.Graderingskode to Kodelister.Hendelsetype--><!--MD5=[b181a95a15a715320237268c7a843abb]
+link Kodelister.ElektroniskSignaturSikkerhetsnivaa to Kodelister.Journalposttype--><!--MD5=[6968d4c81432dd6ce4c4b0280fc25a2b]
+link Kodelister.Journalposttype to Kodelister.Journalstatus--><!--MD5=[91aad0a9032ca37b22c280853f64e07d]
+link Kodelister.Journalstatus to Kodelister.Kassasjonsvedtak--><!--MD5=[576f99db1ce70f2378b8fee3d00e3b97]
+link Kodelister.Kassasjonsvedtak to Kodelister.Klassifikasjonstype--><!--MD5=[6ecfcb68b01fb07e5b8047bedbdf1bd4]
+link Kodelister.Klassifikasjonstype to Kodelister.Korrespondanseparttype--><!--MD5=[661509fae6121e00fd0e2a49868ae7b3]
+link Kodelister.Korrespondanseparttype to Kodelister.Land--><!--MD5=[4e0460ed41782e45865c2dfd38260b66]
+link Kodelister.Journalposttype to Kodelister.Merknadstype--><!--MD5=[9f1469ab4de33487bd5d0f62060360bf]
+link Kodelister.Merknadstype to Kodelister.PartRolle--><!--MD5=[b23556281a5cfc032ce0f3eb99b992a5]
+link Kodelister.PartRolle to Kodelister.Postnummer--><!--MD5=[c20b2c003c4247ab8b05c8dfdd615229]
+link Kodelister.Postnummer to Kodelister.PresedensStatus--><!--MD5=[2ead45825ec8d2ca0f3ab2a3cef4e5dd]
+link Kodelister.PresedensStatus to Kodelister.Saksstatus--><!--MD5=[3c7f8bc1f2cbed7efe96c50db0dd65bd]
+link Kodelister.Saksstatus to Kodelister.SkjermingDokument--><!--MD5=[821353cefc114120882f4f4225b6aee4]
+link Kodelister.Merknadstype to Kodelister.SkjermingMetadata--><!--MD5=[f8e116a8d072d72d4835f0b7b62a6443]
+link Kodelister.SkjermingMetadata to Kodelister.Slettingstype--><!--MD5=[1a9495c6f7ea385e6b46719e21a50247]
+link Kodelister.Slettingstype to Kodelister.Tilgangskategori--><!--MD5=[49588a0e247a35c02bb3c4f6b661163a]
+link Kodelister.Tilgangskategori to Kodelister.Tilgangsrestriksjon--><!--MD5=[824d1f11bc2e4c7acf11146b335b01b0]
+link Kodelister.Tilgangsrestriksjon to Kodelister.TilknyttetRegistreringSom--><!--MD5=[3b61e05c8c519dc1359f45c0292aab86]
+link Kodelister.TilknyttetRegistreringSom to Kodelister.Variantformat--><!--MD5=[b66487dcb1aad0004112fc61ed5e1e33]
+@startuml
+scale max 4096 width
+skinparam nodesep 100
+hide members
+hide circle
+class Admin.AdministrativEnhet {
+  +systemID : SystemID [0..1] [1..1]
+  +administrativEnhetNavn : string
+  +kortnavn : string [0..1]
+  +opprettetDato : datetime [0..1] [1..1]
+  +opprettetAv : string [0..1] [1..1]
+  +avsluttetDato : datetime [0..1]
+  +administrativEnhetsstatus : string
+  +referanseOverordnetEnhet : SystemID [0..1]
+  +virksomhetsspesifikkeMetadata : VirksomhetsspesifikkeMetadata [0..1]
+}
+
+class Admin.Bruker {
+  +systemID : SystemID [0..1] [1..1]
+  +brukerNavn : string
+  +opprettetDato : datetime [0..1] [1..1]
+  +opprettetAv : string [0..1] [1..1]
+  +avsluttetDato : datetime [0..1]
+  +virksomhetsspesifikkeMetadata : VirksomhetsspesifikkeMetadata [0..1]
+  +kortnavn : string [0..1]
+}
+
+class Admin.Tilgang {
+  +systemID : SystemID [0..1] [1..1]
+  +rolle : string
+  +tilgangskategori : Tilgangskategori
+  +referanseArkivenhet : SystemID [0..1]
+  +tilgangsrestriksjon : Tilgangsrestriksjon [0..1]
+  +les : boolean
+  +ny : boolean
+  +endre : boolean
+  +slett : boolean
+}
+
+class Arkivstruktur.Arkiv <Arkivenhet> {
+  +tittel : string
+  +beskrivelse : string [0..1]
+  +arkivstatus : Arkivstatus [0..1] [1..1]
+  +dokumentmedium : Dokumentmedium [0..1] [1..1]
+  +oppbevaringssted : string [0..*]
+  +avsluttetDato : datetime [0..1]
+  +avsluttetAv : string [0..1]
+  +referanseAvsluttetAv : SystemID [0..1]
+}
+
+class Arkivstruktur.Arkivdel <Arkivenhet> {
+  +tittel : string
+  +beskrivelse : string [0..1]
+  +arkivdelstatus : Arkivdelstatus [0..1] [1..1]
+  +dokumentmedium : Dokumentmedium [0..1] [1..1]
+  +oppbevaringssted : string [0..*]
+  +avsluttetDato : datetime [0..1]
+  +avsluttetAv : string [0..1]
+  +referanseAvsluttetAv : SystemID [0..1]
+  +arkivperiodeStartDato : datetime [0..1] [1..1]
+  +arkivperiodeSluttDato : datetime [0..1]
+  +referanseForloeper : SystemID [0..1]
+  +referanseArvtaker : SystemID [0..1]
+  +kassasjon : Kassasjon [0..1]
+  +utfoertKassasjon : UtfoertKassasjon [0..1]
+  +sletting : Sletting [0..1]
+  +skjerming : Skjerming [0..1]
+  +gradering : Gradering [0..1]
+}
+
+class Arkivstruktur.Arkivenhet {
+  +systemID : SystemID [0..1] [1..1]
+  +endretDato : datetime [0..1]
+  +opprettetDato : datetime [0..1] [1..1]
+  +opprettetAv : string [0..1] [1..1]
+  +endretAv : string [0..1] [1..1]
+  +referanseEndretAv : SystemID [0..1] [1..1]
+  +referanseOpprettetAv : SystemID [0..1] [1..1]
+}
+
+class Arkivstruktur.Arkivskaper <Arkivenhet> {
+  +arkivskaperID : string
+  +arkivskaperNavn : string
+  +beskrivelse : string [0..1]
+}
+
+class Arkivstruktur.Dokumentbeskrivelse <Arkivenhet> {
+  +dokumenttype : Dokumenttype [0..1] [1..1]
+  +dokumentstatus : Dokumentstatus [0..1] [1..1]
+  +tittel : string
+  +beskrivelse : string [0..1]
+  +forfatter : string [0..*]
+  +dokumentmedium : Dokumentmedium [0..1] [1..1]
+  +oppbevaringssted : string [0..1]
+  +tilknyttetRegistreringSom : TilknyttetRegistreringSom [0..1] [1..1]
+  +dokumentnummer : integer [0..1] [1..1]
+  +tilknyttetDato : datetime [0..1] [1..1]
+  +tilknyttetAv : string [0..1] [1..1]
+  +referanseTilknyttetAv : SystemID [0..1] [1..1]
+  +kassasjon : Kassasjon [0..1]
+  +utfoertKassasjon : UtfoertKassasjon [0..1]
+  +sletting : Sletting [0..1]
+  +skjerming : Skjerming [0..1]
+  +gradering : Gradering [0..1]
+  +elektroniskSignatur : ElektroniskSignatur [0..1]
+  +eksternReferanse : string [0..1]
+  +virksomhetsspesifikkeMetadata : VirksomhetsspesifikkeMetadata [0..1]
+}
+
+class Arkivstruktur.Dokumentobjekt <Arkivenhet> {
+  +versjonsnummer : integer [0..1] [1..1]
+  +variantformat : Variantformat [0..1] [1..1]
+  +format : Format [0..1] [1..1]
+  +formatDetaljer : string [0..1]
+  +referanseDokumentfil : string [0..1] [1..1]
+  +filnavn : string [0..1]
+  +sjekksum : string [0..1] [1..1]
+  +mimeType : string [0..1] [1..1]
+  +sjekksumAlgoritme : string [0..1] [1..1]
+  +filstoerrelse : integer [0..1] [1..1]
+  +elektroniskSignatur : ElektroniskSignatur [0..1]
+}
+
+class Arkivstruktur.ElektroniskSignatur <<dataType>> {
+  +elektroniskSignaturSikkerhetsnivaa : ElektroniskSignaturSikkerhetsnivaa
+  +elektroniskSignaturVerifisert : ElektroniskSignaturVerifisert
+  +verifisertDato : datetime
+  +verifisertAv : string [0..1] [1..1]
+  +referanseVerifisertAv : SystemID [0..1] [1..1]
+}
+
+class Arkivstruktur.EnkelAdresse <<dataType>> {
+  +adresselinje1 : string [0..1]
+  +adresselinje2 : string [0..1]
+  +adresselinje3 : string [0..1]
+  +postnr : Postnummer [0..1]
+  +poststed : string
+  +landkode : Land [0..1] [1..1]
+}
+
+class Arkivstruktur.Gradering <<dataType>> {
+  +graderingskode : Graderingskode [0..1] [1..1]
+  +graderingsdato : datetime [0..1] [1..1]
+  +gradertAv : string [0..1] [1..1]
+  +referanseGradertAv : SystemID [0..1] [1..1]
+  +nedgraderingsdato : datetime [0..1]
+  +nedgradertAv : string [0..1]
+  +referanseNedgradertAv : SystemID [0..1]
+}
+
+class Arkivstruktur.Kassasjon <<dataType>> {
+  +kassasjonsvedtak : Kassasjonsvedtak
+  +kassasjonshjemmel : string [0..1]
+  +bevaringstid : integer
+  +kassasjonsdato : datetime
+}
+
+class Arkivstruktur.Klasse <Arkivenhet> {
+  +klasseID : string
+  +tittel : string
+  +beskrivelse : string [0..1]
+  +noekkelord : string [0..*]
+  +avsluttetDato : datetime [0..1]
+  +avsluttetAv : string [0..1]
+  +referanseAvsluttetAv : SystemID [0..1]
+  +skjerming : Skjerming [0..1]
+  +kassasjon : Kassasjon [0..1]
+  +gradering : Gradering [0..1]
+}
+
+class Arkivstruktur.Klassifikasjonssystem <Arkivenhet> {
+  +klassifikasjonstype : Klassifikasjonstype [0..1]
+  +tittel : string
+  +beskrivelse : string [0..1]
+  +avsluttetDato : datetime [0..1]
+  +avsluttetAv : string [0..1]
+  +referanseAvsluttetAv : SystemID [0..1]
+}
+
+class Arkivstruktur.Kontaktinformasjon <<dataType>> {
+  +epostadresse : string [0..1]
+  +mobiltelefon : string [0..1]
+  +telefon : string [0..1]
+}
+
+class Arkivstruktur.Konvertering {
+  +systemID : SystemID [0..1] [1..1]
+  +konvertertDato : datetime [0..1] [1..1]
+  +konvertertAv : string [0..1] [1..1]
+  +konvertertFraFormat : Format [0..1] [1..1]
+  +konvertertTilFormat : Format [0..1] [1..1]
+  +konverteringsverktoey : string [0..1]
+  +konverteringskommentar : string [0..1]
+}
+
+class Arkivstruktur.Korrespondansepart {
+  +systemID : SystemID [0..1] [1..1]
+  +korrespondanseparttype : Korrespondanseparttype [0..1] [1..1]
+  +virksomhetsspesifikkeMetadata : VirksomhetsspesifikkeMetadata [0..1]
+}
+
+class Arkivstruktur.KorrespondansepartEnhet <Korrespondansepart> {
+  +enhetsidentifikator : Enhetsidentifikator [0..1]
+  +navn : string
+  +forretningsadresse : EnkelAdresse [0..1]
+  +postadresse : EnkelAdresse [0..1]
+  +kontaktinformasjon : Kontaktinformasjon [0..1]
+  +kontaktperson : string [0..1]
+}
+
+class Arkivstruktur.KorrespondansepartIntern <Korrespondansepart> {
+  +administrativEnhet : string [0..1]
+  +referanseAdministrativEnhet : SystemID [0..1]
+  +saksbehandler : string [0..1]
+  +referanseSaksbehandler : SystemID [0..1]
+}
+
+class Arkivstruktur.KorrespondansepartPerson <Korrespondansepart> {
+  +personidentifikator : Personidentifikator [0..*]
+  +navn : string
+  +postadresse : EnkelAdresse [0..1]
+  +bostedsadresse : EnkelAdresse [0..1]
+  +kontaktinformasjon : Kontaktinformasjon [0..1]
+}
+
+class Arkivstruktur.Kryssreferanse <Arkivenhet> {
+}
+
+class Arkivstruktur.Mappe <Arkivenhet> {
+  +mappeID : string [0..1] [1..1]
+  +tittel : string
+  +offentligTittel : string [0..1]
+  +beskrivelse : string [0..1]
+  +noekkelord : string [0..*]
+  +dokumentmedium : Dokumentmedium [0..1] [1..1]
+  +oppbevaringssted : string [0..*]
+  +avsluttetDato : datetime [0..1]
+  +avsluttetAv : string [0..1]
+  +referanseAvsluttetAv : SystemID [0..1]
+  +kassasjon : Kassasjon [0..1]
+  +skjerming : Skjerming [0..1]
+  +gradering : Gradering [0..1]
+  +referanseForelderMappe : SystemID [0..1]
+  +virksomhetsspesifikkeMetadata : VirksomhetsspesifikkeMetadata [0..1]
+}
+
+class Arkivstruktur.Merknad {
+  +systemID : SystemID [0..1] [1..1]
+  +merknadstekst : string
+  +merknadstype : Merknadstype [0..1]
+  +merknadsdato : datetime [0..1] [1..1]
+  +merknadRegistrertAv : string [0..1] [1..1]
+  +referanseMerknadRegistrertAv : SystemID [0..1] [1..1]
+}
+
+class Arkivstruktur.NasjonaleIdentifikatorer.Bygning <Nasjonalidentifikator> {
+  +bygningsnummer : integer
+  +endringsloepenummer : integer [0..1]
+}
+
+class Arkivstruktur.NasjonaleIdentifikatorer.DNummer <Personidentifikator> {
+  +dNummer : string
+}
+
+class Arkivstruktur.NasjonaleIdentifikatorer.Enhetsidentifikator <Nasjonalidentifikator> {
+  +organisasjonsnummer : string
+}
+
+class Arkivstruktur.NasjonaleIdentifikatorer.Foedselsnummer <Personidentifikator> {
+  +foedselsnummer : string
+}
+
+class Arkivstruktur.NasjonaleIdentifikatorer.Koordinatsystem <<codelist>> {
+  +UTM32N = EPSG:32632
+  +WGS84 = EPSG:4326
+}
+
+class Arkivstruktur.NasjonaleIdentifikatorer.Matrikkel <Nasjonalidentifikator> {
+  +kommunenummer : string
+  +gaardsnummer : integer
+  +bruksnummer : integer
+  +festenummer : integer [0..1]
+  +seksjonsnummer : integer [0..1]
+}
+
+class Arkivstruktur.NasjonaleIdentifikatorer.Nasjonalidentifikator {
+  +systemID : SystemID [0..1] [1..1]
+}
+
+class Arkivstruktur.NasjonaleIdentifikatorer.Personidentifikator <Nasjonalidentifikator> {
+}
+
+class Arkivstruktur.NasjonaleIdentifikatorer.Plan <Nasjonalidentifikator> {
+  +kommunenummer : string [0..1]
+  +fylkesnummer : string [0..1]
+  +landkode : Land [0..1]
+  +planidentifikasjon : string
+}
+
+class Arkivstruktur.NasjonaleIdentifikatorer.Posisjon <Nasjonalidentifikator> {
+  +koordinatsystem : Koordinatsystem
+  +x : decimal
+  +y : decimal
+  +z : decimal [0..1]
+}
+
+class Arkivstruktur.Part {
+  +systemID : SystemID [0..1] [1..1]
+  +partRolle : PartRolle [0..1] [1..1]
+  +virksomhetsspesifikkeMetadata : VirksomhetsspesifikkeMetadata [0..1]
+}
+
+class Arkivstruktur.PartEnhet <Part> {
+  +enhetsidentifikator : Enhetsidentifikator [0..1]
+  +navn : string
+  +forretningsadresse : EnkelAdresse [0..1]
+  +postadresse : EnkelAdresse [0..1]
+  +kontaktinformasjon : Kontaktinformasjon [0..1]
+  +kontaktperson : string [0..1]
+}
+
+class Arkivstruktur.PartPerson <Part> {
+  +personidentifikator : Personidentifikator [0..*]
+  +navn : string
+  +postadresse : EnkelAdresse [0..1]
+  +bostedsadresse : EnkelAdresse [0..1]
+  +kontaktinformasjon : Kontaktinformasjon [0..1]
+}
+
+class Arkivstruktur.Registrering <Arkivenhet> {
+  +arkivertDato : datetime [0..1] [1..1]
+  +arkivertAv : string [0..1] [1..1]
+  +referanseArkivertAv : SystemID [0..1] [1..1]
+  +kassasjon : Kassasjon [0..1]
+  +skjerming : Skjerming [0..1]
+  +gradering : Gradering [0..1]
+  +referanseArkivdel : SystemID [0..1] [1..1]
+  +registreringsID : string [0..1] [1..1]
+  +tittel : string
+  +offentligTittel : string [0..1]
+  +beskrivelse : string [0..1]
+  +noekkelord : string [0..*]
+  +forfatter : string [0..*]
+  +dokumentmedium : Dokumentmedium [0..1] [1..1]
+  +oppbevaringssted : string [0..*]
+  +virksomhetsspesifikkeMetadata : VirksomhetsspesifikkeMetadata [0..1]
+}
+
+class Arkivstruktur.Skjerming <<dataType>> {
+  +tilgangsrestriksjon : Tilgangsrestriksjon
+  +skjermingshjemmel : string
+  +skjermingMetadata : SkjermingMetadata [1..*]
+  +skjermingDokument : SkjermingDokument [0..1] [1..1]
+  +skjermingsvarighet : integer [0..1] [1..1]
+  +skjermingOpphoererDato : datetime [0..1] [1..1]
+}
+
+class Arkivstruktur.Sletting <<dataType>> {
+  +slettingstype : Slettingstype
+  +slettetDato : datetime [0..1] [1..1]
+  +slettetAv : string [0..1] [1..1]
+  +referanseSlettetAv : SystemID [0..1] [1..1]
+}
+
+class Arkivstruktur.UtfoertKassasjon <<dataType>> {
+  +kassertDato : datetime [0..1] [1..1]
+  +kassertAv : string [0..1] [1..1]
+  +referanseKassertAv : SystemID [0..1] [1..1]
+}
+
+class Kodelister.Arkivdelstatus <<codelist>> {
+  +Aktiv periode = A
+  +Overlappingsperiode = O
+  +Avsluttet periode = P
+  +Uaktuelle mapper = U
+}
+
+class Kodelister.Arkivstatus <<codelist>> {
+  +Opprettet = O
+  +Avsluttet = A
+}
+
+class Kodelister.Avskrivningsmaate <<codelist>> {
+  +Besvart med brev = BU
+  +Besvart med e-post = BE
+  +Besvart på telefon = TLF
+  +Tatt til etterretning = TE
+  +Tatt til orientering = TO
+  +Besvart med notat = BN
+  +Saken ble avsluttet = SA
+}
+
+class Kodelister.Dokumentmedium <<codelist>> {
+  +Fysisk medium = F
+  +Elektronisk arkiv = E
+  +Blandet fysisk og elektronisk arkiv = B
+}
+
+class Kodelister.Dokumentstatus <<codelist>> {
+  +Dokumentet er under redigering = B
+  +Dokumentet er ferdigstilt = F
+}
+
+class Kodelister.Dokumenttype <<codelist>> {
+  +Brev = B
+  +Rundskriv = R
+  +Faktura = F
+  +Ordrebekreftelse = O
+}
+
+class Kodelister.ElektroniskSignaturSikkerhetsnivaa <<codelist>> {
+  +Symmetrisk kryptert = SK
+  +Sendt med PKI/virksomhetssertifikat = V
+  +Sendt med PKI/"person standard"-sertifikat = PS
+  +Sendt med PKI/"person høy"-sertifikat = PH
+}
+
+class Kodelister.ElektroniskSignaturVerifisert <<codelist>> {
+  +Signatur påført, ikke verifisert = I
+  +Signatur påført og verifisert = V
+}
+
+class Kodelister.FlytStatus <<codelist>> {
+  +Godkjent = G
+  +Ikke godkjent = I
+  +Sendt tilbake til saksbehandler med kommentarer = S
+}
+
+class Kodelister.Format <<codelist>> {
+  +Ukjent format = av/0
+  +Ren tekst = x-fmt/111
+  +TIFF versjon 6 = fmt/353
+  +PDF/A 1a - ISO 19005-1:2005 = fmt/95
+  +PDF/A 1b - ISO 19005-1:2005 = fmt/354
+  +XML = fmt/101
+  +JPEG = fmt/42
+  +SOSI = av/1
+  +MPEG-2 = x-fmt/386
+  +MP3 = fmt/134
+  +PNG = fmt/11
+}
+
+class Kodelister.Graderingskode <<codelist>> {
+  {field} +Strengt hemmelig (sikkerhetsgrad) = SH
+  {field} +Hemmelig (sikkerhetsgrad) = H
+  {field} +Konfidensielt (sikkerhetsgrad) = K
+  {field} +Begrenset (sikkerhetsgrad) = B
+  {field} +Fortrolig (beskyttelsesgrad) = F
+  {field} +Strengt fortrolig (beskyttelsesgrad) = SF
+}
+
+class Kodelister.Hendelsetype <<codelist>> {
+  +Opprettet = C
+  +Lest = R
+  +Endret = U
+  +Slettet = D
+}
+
+class Kodelister.Journalposttype <<codelist>> {
+  +Inngående dokument = I
+  +Utgående dokument = U
+  +Organinternt dokument for oppfølging = N
+  +Organinternt dokument uten oppfølging = X
+  +Saksframlegg = S
+}
+
+class Kodelister.Journalstatus <<codelist>> {
+  +Journalført = J
+  +Ferdigstilt fra saksbehandler = F
+  +Godkjent av leder = G
+  +Ekspedert = E
+  +Arkivert = A
+  +Utgår = U
+  +Midlertidig registrering av innkommet dokument = M
+  +Saksbehandler har registrert innkommet dokument = S
+  +Reservert dokument = R
+}
+
+class Kodelister.Kassasjonsvedtak <<codelist>> {
+  +Bevares = B
+  +Kasseres = K
+  +Vurderes senere = G
+}
+
+class Kodelister.Klassifikasjonstype <<codelist>> {
+  +Gårds- og bruksnummer = GBN
+  +Funksjonsbasert, hierarkisk = FH
+  +Emnebasert, hierarkisk arkivnøkkel = EH
+  +Emnebasert, ett nivå = E1
+  +K-koder = KK
+  +Mangefasettert, ikke hierarki = MF
+  +Objektbasert = UO
+  +Fødselsnummer = PNR
+}
+
+class Kodelister.Korrespondanseparttype <<codelist>> {
+  +Avsender = EA
+  +Mottaker = EM
+  +Kopimottaker = EK
+  +Gruppemottaker = GM
+  +Intern avsender = IA
+  +Intern mottaker = IM
+  +Intern kopimottaker = IK
+  +Medavsender = IS
+}
+
+class Kodelister.Land <<codelist>> {
+}
+
+class Kodelister.Merknadstype <<codelist>> {
+  +Merknad fra saksbehandler = MS
+  +Merknad fra leder = ML
+  +Merknad fra arkivansvarlig = MA
+}
+
+class Kodelister.PartRolle <<codelist>> {
+  +Klient = KLI
+  +Pårørende = PAA
+  +Formynder = FORM
+  +Advokat = ADV
+}
+
+class Kodelister.Postnummer <<codelist>> {
+}
+
+class Kodelister.PresedensStatus <<codelist>> {
+  +Gjeldende = G
+  +Foreldet = F
+}
+
+class Kodelister.Saksstatus <<codelist>> {
+  +Under behandling = B
+  +Avsluttet = A
+  +Utgår = U
+  +Opprettet av saksbehandler = R
+  +Avsluttet av saksbehandler = S
+  +Unntatt prosesstyring = P
+  +Ferdig fra saksbehandler = F
+}
+
+class Kodelister.SkjermingDokument <<codelist>> {
+  +Skjerming av hele dokumentet = H
+  +Skjerming av deler av dokumentet = D
+}
+
+class Kodelister.SkjermingMetadata <<codelist>> {
+  +Skjerming klasseID = KID
+  +Skjerming tittel klasse = TKL
+  +Skjerming tittel mappe - unntatt første linje = TM1
+  +Skjerming tittel mappe - utvalgte ord = TMO
+  +Skjerming navn part i sak = NPS
+  +Skjerming tittel registrering - unntatt første linje = TR1
+  +Skjerming tittel registrering - utvalgte ord = TRO
+  +Skjerming navn avsender = NA
+  +Skjerming navn mottaker = NM
+  +Skjerming tittel dokumentbeskrivelse = TD
+  +Skjerming merknadstekst = MT
+  +Midlertidig skjerming = M
+}
+
+class Kodelister.Slettingstype <<codelist>> {
+  +Sletting av produksjonsformat = SP
+  +Sletting av tidligere versjon = SV
+  +Sletting av variant med sladdet informasjon = SS
+  +Sletting av hele innholdet i arkivdelen = SA
+}
+
+class Kodelister.SystemID <string> <<simple>> {
+}
+
+class Kodelister.Tilgangskategori <<codelist>> {
+  +arkivdel = A
+  +klasse = K
+  +mappe = M
+  +registrering = R
+  +dokumentbeskrivelse = D
+}
+
+class Kodelister.Tilgangsrestriksjon <<codelist>> {
+  +Begrenset etter sikkerhetsinstruksen = B
+  +Konfidensielt etter sikkerhetsinstruksen = K
+  +Hemmelig etter sikkerhetsinstruksen = H
+  +Fortrolig etter beskyttelsesinstruksen = F
+  +Strengt fortrolig etter beskyttelsesinstruksen = SF
+  +Unntatt etter offentlighetsloven § 5 = 5
+  +Unntatt etter offentlighetsloven § 5a = 5a
+  +Unntatt etter offentlighetsloven § 6 = 6
+  +Unntatt etter offentlighetsloven § 11 = 11
+  +Midlertidig sperret = XX
+  +Personalsaker = P
+  +Klientsaker = KL
+}
+
+class Kodelister.TilknyttetRegistreringSom <<codelist>> {
+  +Hoveddokument = H
+  +Vedlegg = V
+}
+
+class Kodelister.Variantformat <<codelist>> {
+  +Produksjonsformat = P
+  +Arkivformat = A
+  +Dokument hvor deler av innholdet er skjermet = O
+}
+
+class LoggingOgSporing.Endringslogg {
+  +systemID : SystemID [0..1] [1..1]
+  +referanseArkivenhet : SystemID [0..1]
+  +referanseMetadata : string [0..1]
+  +endretDato : datetime [0..1] [1..1]
+  +endretAv : string [0..1] [1..1]
+  +referanseEndretAv : SystemID [0..1] [1..1]
+  +tidligereVerdi : string [0..1]
+  +nyVerdi : string [0..1]
+}
+
+class LoggingOgSporing.Hendelseslogg <Endringslogg> {
+  +hendelsetype : Hendelsetype
+  +beskrivelse : string [0..1]
+  +hendelseDato : datetime [0..1] [1..1]
+}
+
+class Sakarkiv.Arkivnotat <Registrering> {
+  +dokumentetsDato : datetime [0..1] [1..1]
+  +mottattDato : datetime [0..1] [1..1]
+  +sendtDato : datetime [0..1] [1..1]
+  +forfallsdato : datetime [0..1]
+  +offentlighetsvurdertDato : datetime [0..1]
+  +antallVedlegg : integer [0..1]
+  +utlaantDato : datetime [0..1]
+  +utlaantTil : string [0..1]
+  +referanseUtlaantTil : SystemID [0..1]
+}
+
+class Sakarkiv.Avskrivning {
+  +systemID : SystemID [0..1] [1..1]
+  +avskrivningsdato : datetime [0..1] [1..1]
+  +avskrevetAv : string [0..1] [1..1]
+  +referanseAvskrevetAv : SystemID [0..1] [1..1]
+  +avskrivningsmaate : Avskrivningsmaate [0..1] [1..1]
+  +referanseAvskrivesAvJournalpost : SystemID [0..1]
+  +referanseAvskrivesAvKorrespondansepart : SystemID [0..1]
+}
+
+class Sakarkiv.Dokumentflyt {
+  +systemID : SystemID [0..1] [1..1]
+  +flytTil : string [0..1] [1..1]
+  +referanseFlytTil : SystemID [0..1] [1..1]
+  +flytFra : string [0..1] [1..1]
+  +referanseFlytFra : SystemID [0..1] [1..1]
+  +flytMottattDato : datetime
+  +flytSendtDato : datetime [0..1] [1..1]
+  +flytStatus : FlytStatus [0..1] [1..1]
+  +flytMerknad : string [0..1]
+}
+
+class Sakarkiv.Journalpost <Registrering> {
+  +journalaar : integer [0..1] [1..1]
+  +journalsekvensnummer : integer [0..1] [1..1]
+  +journalpostnummer : integer [0..1] [1..1]
+  +journalposttype : Journalposttype [0..1] [1..1]
+  +journalstatus : Journalstatus [0..1] [1..1]
+  +journaldato : datetime [0..1] [1..1]
+  +dokumentetsDato : datetime [0..1] [1..1]
+  +mottattDato : datetime [0..1] [1..1]
+  +sendtDato : datetime [0..1]
+  +forfallsdato : datetime [0..1]
+  +offentlighetsvurdertDato : datetime [0..1]
+  +antallVedlegg : integer [0..1]
+  +utlaantDato : datetime [0..1]
+  +utlaantTil : string [0..1]
+  +referanseUtlaantTil : SystemID [0..1]
+  +journalenhet : string [0..1] [1..1]
+  +elektroniskSignatur : ElektroniskSignatur [0..1]
+}
+
+class Sakarkiv.Presedens {
+  +systemID : SystemID [0..1] [1..1]
+  +presedensDato : datetime [0..1] [1..1]
+  +opprettetDato : datetime [0..1] [1..1]
+  +opprettetAv : string [0..1] [1..1]
+  +referanseOpprettetAv : SystemID [0..1] [1..1]
+  +tittel : string
+  +beskrivelse : string [0..1]
+  +presedensHjemmel : string [0..1]
+  +rettskildefaktor : string
+  +presedensGodkjentDato : datetime [0..1]
+  +presedensGodkjentAv : string [0..1]
+  +referansePresedensGodkjentAv : SystemID [0..1]
+  +avsluttetDato : datetime [0..1]
+  +avsluttetAv : string [0..1]
+  +referanseAvsluttetAv : SystemID [0..1]
+  +presedensStatus : PresedensStatus [0..1]
+}
+
+class Sakarkiv.Saksmappe <Mappe> {
+  +saksaar : integer [0..1] [1..1]
+  +sakssekvensnummer : integer [0..1] [1..1]
+  +saksdato : datetime [0..1] [1..1]
+  +administrativEnhet : string [0..1] [1..1]
+  +referanseAdministrativEnhet : SystemID [0..1] [1..1]
+  +saksansvarlig : string [0..1] [1..1]
+  +referanseSaksansvarlig : SystemID [0..1] [1..1]
+  +journalenhet : string [0..1] [1..1]
+  +saksstatus : Saksstatus [0..1] [1..1]
+  +utlaantDato : datetime [0..1]
+  +utlaantTil : string [0..1]
+  +referanseUtlaantTil : SystemID [0..1]
+}
+
+class VirksomhetsspesifikkeMetadata.VirksomhetsspesifikkeMetadata <<VirksomhetsspesifikkeMetadata>> {
+  +systemID : SystemID [0..1] [1..1]
+  +navn : string
+  +type : string
+  +beskrivelse : string [0..1]
+  +kilde : string [0..1]
+  +utdatert : datetime [0..1]
+}
+
+Admin.AdministrativEnhet "administrativenhet 0..*" *- -> "bruker 0..*" Admin.Bruker
+Admin.AdministrativEnhet *- - VirksomhetsspesifikkeMetadata.VirksomhetsspesifikkeMetadata
+Arkivstruktur.Arkiv "arkiv 0..*" o- -> "arkivskaper 1..*" Arkivstruktur.Arkivskaper
+Arkivstruktur.Arkiv "arkiv 1" o- -> "arkivdel 0..*" Arkivstruktur.Arkivdel
+Arkivstruktur.Arkiv "overarkiv 0..1" o- - "underarkiv 0..*" Arkivstruktur.Arkiv
+Arkivstruktur.Arkivdel "arkivdel 0..1" o- -> "mappe 0..*" Arkivstruktur.Mappe
+Arkivstruktur.Arkivdel "arkivdel 0..1" o- -> "registrering 0..*" Arkivstruktur.Registrering
+Arkivstruktur.Arkivdel "arkivdel 1..*" o- -> "klassifikasjonssystem 0..1" Arkivstruktur.Klassifikasjonssystem
+Arkivstruktur.Arkivdel "nestearkivdel 0..1" o- -> "forrigearkivdel 0..1" Arkivstruktur.Arkivdel
+Arkivstruktur.Arkivdel *- - Arkivstruktur.Gradering
+Arkivstruktur.Arkivdel *- - Arkivstruktur.Kassasjon
+Arkivstruktur.Arkivdel *- - Arkivstruktur.Skjerming
+Arkivstruktur.Arkivdel *- - Arkivstruktur.Sletting
+Arkivstruktur.Arkivdel *- - Arkivstruktur.UtfoertKassasjon
+Arkivstruktur.Arkivdel o- - "sekundaerklassifikasjonssystem 0..*" Arkivstruktur.Klassifikasjonssystem
+Arkivstruktur.Arkivenhet "0..1" o- - "endringslogg 0..*" LoggingOgSporing.Endringslogg
+Arkivstruktur.Arkivenhet <|- - Arkivstruktur.Arkiv
+Arkivstruktur.Arkivenhet <|- - Arkivstruktur.Arkivdel
+Arkivstruktur.Arkivenhet <|- - Arkivstruktur.Arkivskaper
+Arkivstruktur.Arkivenhet <|- - Arkivstruktur.Dokumentbeskrivelse
+Arkivstruktur.Arkivenhet <|- - Arkivstruktur.Klasse
+Arkivstruktur.Arkivenhet <|- - Arkivstruktur.Klassifikasjonssystem
+Arkivstruktur.Arkivenhet <|- - Arkivstruktur.Mappe
+Arkivstruktur.Arkivenhet <|- - Arkivstruktur.Registrering
+Sakarkiv.Arkivnotat *- - "dokumentflyt 0..*" Sakarkiv.Dokumentflyt
+Admin.Bruker *- - VirksomhetsspesifikkeMetadata.VirksomhetsspesifikkeMetadata
+Arkivstruktur.Dokumentbeskrivelse "dokumentbeskrivelse 1" o- -> "dokumentobjekt 0..*" Arkivstruktur.Dokumentobjekt
+Arkivstruktur.Dokumentbeskrivelse *- - "merknad 0..*" Arkivstruktur.Merknad
+Arkivstruktur.Dokumentbeskrivelse *- - "part 0..*" Arkivstruktur.Part
+Arkivstruktur.Dokumentbeskrivelse *- - Arkivstruktur.ElektroniskSignatur
+Arkivstruktur.Dokumentbeskrivelse *- - Arkivstruktur.Gradering
+Arkivstruktur.Dokumentbeskrivelse *- - Arkivstruktur.Kassasjon
+Arkivstruktur.Dokumentbeskrivelse *- - Arkivstruktur.Skjerming
+Arkivstruktur.Dokumentbeskrivelse *- - Arkivstruktur.Sletting
+Arkivstruktur.Dokumentbeskrivelse *- - Arkivstruktur.UtfoertKassasjon
+Arkivstruktur.Dokumentbeskrivelse *- - VirksomhetsspesifikkeMetadata.VirksomhetsspesifikkeMetadata
+Arkivstruktur.Dokumentobjekt *- - Arkivstruktur.ElektroniskSignatur
+Arkivstruktur.Dokumentobjekt o- - "konvertering 0..*" Arkivstruktur.Konvertering
+LoggingOgSporing.Endringslogg <|- - LoggingOgSporing.Hendelseslogg
+Sakarkiv.Journalpost *- - "avskrivning 0..*" Sakarkiv.Avskrivning
+Sakarkiv.Journalpost *- - "dokumentflyt 0..*" Sakarkiv.Dokumentflyt
+Sakarkiv.Journalpost *- - Arkivstruktur.ElektroniskSignatur
+Arkivstruktur.Klasse "klasse 0..1" *- -> "kryssreferanse 0..*" Arkivstruktur.Kryssreferanse
+Arkivstruktur.Klasse "klasse 0..1" o- -> "mappe 0..*" Arkivstruktur.Mappe
+Arkivstruktur.Klasse "klasse 0..1" o- -> "registrering 0..*" Arkivstruktur.Registrering
+Arkivstruktur.Klasse "overklasse 0..1" o- - "underklasse 0..*" Arkivstruktur.Klasse
+Arkivstruktur.Klasse *- - Arkivstruktur.Gradering
+Arkivstruktur.Klasse *- - Arkivstruktur.Kassasjon
+Arkivstruktur.Klasse *- - Arkivstruktur.Skjerming
+Arkivstruktur.Klassifikasjonssystem "klassifikasjonssystem 0..1" o- -> "klasse 0..*" Arkivstruktur.Klasse
+Arkivstruktur.Korrespondansepart *- - VirksomhetsspesifikkeMetadata.VirksomhetsspesifikkeMetadata
+Arkivstruktur.Korrespondansepart <|- - Arkivstruktur.KorrespondansepartEnhet
+Arkivstruktur.Korrespondansepart <|- - Arkivstruktur.KorrespondansepartIntern
+Arkivstruktur.Korrespondansepart <|- - Arkivstruktur.KorrespondansepartPerson
+Arkivstruktur.KorrespondansepartEnhet *- - Arkivstruktur.NasjonaleIdentifikatorer.Enhetsidentifikator
+Arkivstruktur.KorrespondansepartEnhet *- - Arkivstruktur.EnkelAdresse
+Arkivstruktur.KorrespondansepartEnhet *- - Arkivstruktur.Kontaktinformasjon
+Arkivstruktur.KorrespondansepartPerson *- - Arkivstruktur.EnkelAdresse
+Arkivstruktur.KorrespondansepartPerson *- - Arkivstruktur.Kontaktinformasjon
+Arkivstruktur.Mappe "mappe 0..1" *- -> "kryssreferanse 0..*" Arkivstruktur.Kryssreferanse
+Arkivstruktur.Mappe "mappe 0..1" o- -> "registrering 0..*" Arkivstruktur.Registrering
+Arkivstruktur.Mappe "overmappe 0..1" o- - "undermappe 0..*" Arkivstruktur.Mappe
+Arkivstruktur.Mappe *- - "merknad 0..*" Arkivstruktur.Merknad
+Arkivstruktur.Mappe *- - "part 0..*" Arkivstruktur.Part
+Arkivstruktur.Mappe *- - Arkivstruktur.Gradering
+Arkivstruktur.Mappe *- - Arkivstruktur.Kassasjon
+Arkivstruktur.Mappe *- - Arkivstruktur.Skjerming
+Arkivstruktur.Mappe *- - VirksomhetsspesifikkeMetadata.VirksomhetsspesifikkeMetadata
+Arkivstruktur.Mappe <|- - Sakarkiv.Saksmappe
+Arkivstruktur.Mappe o- - "nasjonalidentifikator 0..*" Arkivstruktur.NasjonaleIdentifikatorer.Nasjonalidentifikator
+Arkivstruktur.NasjonaleIdentifikatorer.Nasjonalidentifikator <|- - Arkivstruktur.NasjonaleIdentifikatorer.Bygning
+Arkivstruktur.NasjonaleIdentifikatorer.Nasjonalidentifikator <|- - Arkivstruktur.NasjonaleIdentifikatorer.Enhetsidentifikator
+Arkivstruktur.NasjonaleIdentifikatorer.Nasjonalidentifikator <|- - Arkivstruktur.NasjonaleIdentifikatorer.Matrikkel
+Arkivstruktur.NasjonaleIdentifikatorer.Nasjonalidentifikator <|- - Arkivstruktur.NasjonaleIdentifikatorer.Personidentifikator
+Arkivstruktur.NasjonaleIdentifikatorer.Nasjonalidentifikator <|- - Arkivstruktur.NasjonaleIdentifikatorer.Plan
+Arkivstruktur.NasjonaleIdentifikatorer.Nasjonalidentifikator <|- - Arkivstruktur.NasjonaleIdentifikatorer.Posisjon
+Arkivstruktur.Part *- - VirksomhetsspesifikkeMetadata.VirksomhetsspesifikkeMetadata
+Arkivstruktur.Part <|- - Arkivstruktur.PartEnhet
+Arkivstruktur.Part <|- - Arkivstruktur.PartPerson
+Arkivstruktur.PartEnhet *- - Arkivstruktur.NasjonaleIdentifikatorer.Enhetsidentifikator
+Arkivstruktur.PartEnhet *- - Arkivstruktur.EnkelAdresse
+Arkivstruktur.PartEnhet *- - Arkivstruktur.Kontaktinformasjon
+Arkivstruktur.PartPerson *- - Arkivstruktur.EnkelAdresse
+Arkivstruktur.PartPerson *- - Arkivstruktur.Kontaktinformasjon
+Arkivstruktur.NasjonaleIdentifikatorer.Personidentifikator <|- - Arkivstruktur.NasjonaleIdentifikatorer.DNummer
+Arkivstruktur.NasjonaleIdentifikatorer.Personidentifikator <|- - Arkivstruktur.NasjonaleIdentifikatorer.Foedselsnummer
+Sakarkiv.Presedens "presedens 0..*" *- -> "journalpost 0..*" Sakarkiv.Journalpost
+Sakarkiv.Presedens "presedens 0..*" *- -> "saksmappe 0..*" Sakarkiv.Saksmappe
+Arkivstruktur.Registrering "registrering 0..1" *- -> "kryssreferanse 0..*" Arkivstruktur.Kryssreferanse
+Arkivstruktur.Registrering "registrering 1..*" o- -> "dokumentbeskrivelse 0..*" Arkivstruktur.Dokumentbeskrivelse
+Arkivstruktur.Registrering *- - "korrespondansepart 0..*" Arkivstruktur.Korrespondansepart
+Arkivstruktur.Registrering *- - "merknad 0..*" Arkivstruktur.Merknad
+Arkivstruktur.Registrering *- - "part 0..*" Arkivstruktur.Part
+Arkivstruktur.Registrering *- - Arkivstruktur.Gradering
+Arkivstruktur.Registrering *- - Arkivstruktur.Kassasjon
+Arkivstruktur.Registrering *- - Arkivstruktur.Skjerming
+Arkivstruktur.Registrering *- - VirksomhetsspesifikkeMetadata.VirksomhetsspesifikkeMetadata
+Arkivstruktur.Registrering <|- - Sakarkiv.Arkivnotat
+Arkivstruktur.Registrering <|- - Sakarkiv.Journalpost
+Arkivstruktur.Registrering o- - "nasjonalidentifikator 0..*" Arkivstruktur.NasjonaleIdentifikatorer.Nasjonalidentifikator
+Sakarkiv.Saksmappe *- - "sekundaerklassifikasjon 0..*" Arkivstruktur.Klasse
+string <|- - Kodelister.SystemID
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 11:22:07 CET 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 17.0.6+10-Debian-1
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

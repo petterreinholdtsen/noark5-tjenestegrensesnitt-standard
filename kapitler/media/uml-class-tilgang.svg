@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="267px" preserveAspectRatio="none" style="width:338px;height:267px;" version="1.1" viewBox="0 0 338 267" width="338px" zoomAndPan="magnify"><defs><filter height="300%" id="f18z63kl2oazv3" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[da0cc52003e83f0d614cc4ab23641ff5]
+cluster Admin--><polygon fill="#FFFFFF" filter="url(#f18z63kl2oazv3)" points="22,24,74,24,81,49.0679,316,49.0679,316,255,22,255,22,24" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="22" x2="81" y1="49.0679" y2="49.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="46" x="26" y="40.9659">Admin</text><!--MD5=[b0c07475e2391f95e5a92a06f51d8ef0]
+class Admin.Tilgang--><rect fill="#FEFECE" filter="url(#f18z63kl2oazv3)" height="177.1811" id="Admin.Tilgang" style="stroke: #A80036; stroke-width: 1.5;" width="262" x="38" y="62"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="41" x="148.5" y="79.8281">Tilgang</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="39" x2="299" y1="88.3441" y2="88.3441"/><ellipse cx="49" cy="99.3441" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="164" x="58" y="104.103">systemID : SystemID [0..1] [1..1]</text><ellipse cx="49" cy="114.326" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="64" x="58" y="119.0849">rolle : string</text><ellipse cx="49" cy="129.3079" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="183" x="58" y="134.0668">tilgangskategori : Tilgangskategori</text><ellipse cx="49" cy="144.2898" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="194" x="58" y="149.0487">referanseArkivenhet : SystemID [0..1]</text><ellipse cx="49" cy="159.2717" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="236" x="58" y="164.0306">tilgangsrestriksjon : Tilgangsrestriksjon [0..1]</text><ellipse cx="49" cy="174.2536" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="66" x="58" y="179.0125">les : boolean</text><ellipse cx="49" cy="189.2354" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="65" x="58" y="193.9944">ny : boolean</text><ellipse cx="49" cy="204.2173" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="83" x="58" y="208.9762">endre : boolean</text><ellipse cx="49" cy="219.1992" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="74" x="58" y="223.9581">slett : boolean</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="39" x2="299" y1="231.1811" y2="231.1811"/><!--MD5=[4f4c4a0d5a60b0ec3c6fdf62b6158f4c]
+@startuml
+skinparam nodesep 100
+hide circle
+class Admin.Tilgang {
+  +systemID : SystemID [0..1] [1..1]
+  +rolle : string
+  +tilgangskategori : Tilgangskategori
+  +referanseArkivenhet : SystemID [0..1]
+  +tilgangsrestriksjon : Tilgangsrestriksjon [0..1]
+  +les : boolean
+  +ny : boolean
+  +endre : boolean
+  +slett : boolean
+}
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 11:22:07 CET 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 17.0.6+10-Debian-1
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

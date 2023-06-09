@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="224px" preserveAspectRatio="none" style="width:336px;height:224px;" version="1.1" viewBox="0 0 336 224" width="336px" zoomAndPan="magnify"><defs><filter height="300%" id="f1dr1unr90gzvd" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[68eac0387a028fbb729470faa528465a]
+cluster Kodelister--><polygon fill="#FFFFFF" filter="url(#f1dr1unr90gzvd)" points="22,24,98,24,105,49.0679,314,49.0679,314,212,22,212,22,24" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="22" x2="105" y1="49.0679" y2="49.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="70" x="26" y="40.9659">Kodelister</text><!--MD5=[81c1213fc4713bb18437fef78e8beaff]
+class Kodelister.Journalposttype--><rect fill="#FEFECE" filter="url(#f1dr1unr90gzvd)" height="133.5977" id="Kodelister.Journalposttype" style="stroke: #A80036; stroke-width: 1.5;" width="260" x="38" y="62"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="52" x="142" y="79.8281">«codelist»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="87" x="124.5" y="96.1722">Journalposttype</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="39" x2="297" y1="104.6882" y2="104.6882"/><ellipse cx="49" cy="115.6882" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="130" x="58" y="120.4471">Inngående dokument = I</text><ellipse cx="49" cy="130.6701" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="128" x="58" y="135.429">Utgående dokument = U</text><ellipse cx="49" cy="145.652" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="228" x="58" y="150.4109">Organinternt dokument for oppfølging = N</text><ellipse cx="49" cy="160.6339" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="234" x="58" y="165.3928">Organinternt dokument uten oppfølging = X</text><ellipse cx="49" cy="175.6158" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="89" x="58" y="180.3747">Saksframlegg = S</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="39" x2="297" y1="187.5977" y2="187.5977"/><!--MD5=[350c4cd75b77cd7eaf782db740523056]
+@startuml
+skinparam nodesep 100
+hide circle
+class Kodelister.Journalposttype <<codelist>> {
+  +Inngående dokument = I
+  +Utgående dokument = U
+  +Organinternt dokument for oppfølging = N
+  +Organinternt dokument uten oppfølging = X
+  +Saksframlegg = S
+}
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 11:22:07 CET 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 17.0.6+10-Debian-1
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="223px" preserveAspectRatio="none" style="width:231px;height:223px;" version="1.1" viewBox="0 0 231 223" width="231px" zoomAndPan="magnify"><defs><filter height="300%" id="fhuffja9uxkcb" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[7325655a5fd6aedbee1a8e26bf6bece2]
+cluster class Tjenester--><rect fill="#FFFFFF" filter="url(#fhuffja9uxkcb)" height="188" style="stroke: #000000; stroke-width: 1.5;" width="198" x="22" y="24"/><path d="M133,25 L133,36.0679 L123,46.0679 L22,46.0679 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="101" x="25" y="39.9659">class Tjenester</text><!--MD5=[50d010e409328e113f6474dca9177fff]
+class REST-tjenester--><rect fill="#FEFECE" filter="url(#fhuffja9uxkcb)" height="133.5977" id="REST-tjenester" style="stroke: #A80036; stroke-width: 1.5;" width="166" x="38" y="62"/><ellipse cx="76.4" cy="83.3441" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M75.8688,90.266 Q74.1188,90.266 72.9781,89.5316 Q71.8531,88.7816 71.2906,87.4379 Q70.7438,86.0785 70.7438,84.2816 Q70.7438,82.2504 71.4,80.7972 Q72.0563,79.3441 73.3375,78.5629 Q74.6188,77.7816 76.4938,77.7816 Q77.3844,77.7816 78.0563,77.9691 Q78.7281,78.141 79.4156,78.4847 L78.6031,80.5004 Q77.9781,80.1879 77.4313,80.0629 Q76.9,79.9379 76.4156,79.9379 Q75.2438,79.9379 74.5406,80.4691 Q73.8375,81.0004 73.5406,81.9535 Q73.2438,82.9066 73.2438,84.1722 Q73.2438,86.1879 73.9625,87.1566 Q74.6813,88.1097 76.275,88.1097 Q76.8688,88.1097 77.4938,87.9535 Q78.1188,87.7972 78.9469,87.4222 L78.9469,89.641 Q78.2125,89.9535 77.4156,90.1097 Q76.6344,90.266 75.8688,90.266 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="59" x="107.1" y="79.8281">«interface»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="82" x="95.6" y="96.1722">REST-tjenester</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="39" x2="203" y1="104.6882" y2="104.6882"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="39" x2="203" y1="112.6882" y2="112.6882"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="136" x="44" y="128.4471">+GET (Request) : Response</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="132" x="44" y="143.429">+PUT (Request) : Reponse</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="144" x="44" y="158.4109">+POST (Request) : Response</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="151" x="44" y="173.3928">+PATCH (Request) : Response</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="154" x="44" y="188.3747">+DELETE (Request) : Response</text><!--MD5=[8816f7b85d78d8079fea446f21c304a7]
+@startuml
+skinparam classAttributeIconSize 0
+
+package "class Tjenester" <<Frame>> {
+
+class REST-tjenester << interface >> {
+  +GET (Request) : Response
+  +PUT (Request) : Reponse
+  +POST (Request) : Response
+  +PATCH (Request) : Response
+  +DELETE (Request) : Response
+}
+
+}
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 11:22:07 CET 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 17.0.6+10-Debian-1
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

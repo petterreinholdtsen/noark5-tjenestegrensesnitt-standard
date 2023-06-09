@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="179px" preserveAspectRatio="none" style="width:329px;height:179px;" version="1.1" viewBox="0 0 329 179" width="329px" zoomAndPan="magnify"><defs><filter height="300%" id="f196h22o6ldzml" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[6f57009a4a608e6bd88d18f07024e663]
+cluster Arkivstruktur.NasjonaleIdentifikatorer--><polygon fill="#FFFFFF" filter="url(#f196h22o6ldzml)" points="22,24,297,24,304,49.0679,307,49.0679,307,167,22,167,22,24" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="22" x2="304" y1="49.0679" y2="49.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="269" x="26" y="40.9659">Arkivstruktur.NasjonaleIdentifikatorer</text><!--MD5=[24e93cbd327a761ba0c3a82ef78f3a42]
+class Arkivstruktur.NasjonaleIdentifikatorer.Koordinatsystem--><rect fill="#FEFECE" filter="url(#f196h22o6ldzml)" height="88.652" id="Arkivstruktur.NasjonaleIdentifikatorer.Koordinatsystem" style="stroke: #A80036; stroke-width: 1.5;" width="142" x="93" y="62"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="52" x="138" y="79.8281">«codelist»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="94" x="117" y="96.1722">Koordinatsystem</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="94" x2="234" y1="104.6882" y2="104.6882"/><ellipse cx="104" cy="115.6882" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="116" x="113" y="120.4471">UTM32N = EPSG:32632</text><ellipse cx="104" cy="130.6701" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="102" x="113" y="135.429">WGS84 = EPSG:4326</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="94" x2="234" y1="142.652" y2="142.652"/><!--MD5=[8795221a5f445943bf29232910271fef]
+@startuml
+skinparam nodesep 100
+hide circle
+class Arkivstruktur.NasjonaleIdentifikatorer.Koordinatsystem <<codelist>> {
+  +UTM32N = EPSG:32632
+  +WGS84 = EPSG:4326
+}
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 11:22:07 CET 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 17.0.6+10-Debian-1
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

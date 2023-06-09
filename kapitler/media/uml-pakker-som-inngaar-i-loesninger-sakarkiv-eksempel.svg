@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="221px" preserveAspectRatio="none" style="width:389px;height:221px;" version="1.1" viewBox="0 0 389 221" width="389px" zoomAndPan="magnify"><defs><filter height="300%" id="fmd531rpuaeef" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[bd1568459f0256853e706bca1a9cba3e]
+entity Sakarkiv--><polygon fill="#FEFECE" filter="url(#fmd531rpuaeef)" points="105,8,171,8,178,33.0679,268,33.0679,268,69.1358,105,69.1358,105,8" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="105" x2="178" y1="33.0679" y2="33.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="60" x="109" y="25.9659">Sakarkiv</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="133" x="115" y="55.0339">«applicationSchema»</text><!--MD5=[56385fa8bec653ba0255c66544421df1]
+entity Arkivstruktur--><polygon fill="#FEFECE" filter="url(#fmd531rpuaeef)" points="6,148,107,148,114,173.0679,169,173.0679,169,209.1358,6,209.1358,6,148" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="6" x2="114" y1="173.0679" y2="173.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="95" x="10" y="165.9659">Arkivstruktur</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="133" x="16" y="195.0339">«applicationSchema»</text><!--MD5=[6359a4ead081a408ffdd165379257c74]
+entity Kodelister--><polygon fill="#FEFECE" filter="url(#fmd531rpuaeef)" points="204,148,280,148,287,173.0679,367,173.0679,367,209.1358,204,209.1358,204,148" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="204" x2="287" y1="173.0679" y2="173.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="70" x="208" y="165.9659">Kodelister</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="133" x="214" y="195.0339">«applicationSchema»</text><!--MD5=[0be316ce4502a9c1e7384ac2383877bc]
+link Sakarkiv to Arkivstruktur--><path d="M165.26,69.1 C148.56,92.39 125.4,124.67 108.7,147.94 " fill="none" id="Sakarkiv-Arkivstruktur" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="55" x="144.5" y="113.897">«import»</text><!--MD5=[9409d99324d90f2a70796d208d59b513]
+link Sakarkiv to Kodelister--><path d="M207.74,69.1 C224.44,92.39 247.6,124.67 264.3,147.94 " fill="none" id="Sakarkiv-Kodelister" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="55" x="242.5" y="113.897">«import»</text><!--MD5=[6240e1206471cf2e677453fba4545e7b]
+@startuml
+package Sakarkiv <<applicationSchema>>
+package Arkivstruktur <<applicationSchema>>
+package Kodelister <<applicationSchema>>
+
+Sakarkiv .. Arkivstruktur : <<import>>
+Sakarkiv .. Kodelister : <<import>>
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 11:22:07 CET 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 17.0.6+10-Debian-1
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="296px" preserveAspectRatio="none" style="width:476px;height:296px;" version="1.1" viewBox="0 0 476 296" width="476px" zoomAndPan="magnify"><defs><filter height="300%" id="fmepq2kljfxyz" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[232c485b1f52e07d9ce0910f7499e2a6]
+cluster Arkivstruktur--><polygon fill="#FFFFFF" filter="url(#fmepq2kljfxyz)" points="22,24,123,24,130,49.0679,454,49.0679,454,284,22,284,22,24" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="22" x2="130" y1="49.0679" y2="49.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="95" x="26" y="40.9659">Arkivstruktur</text><!--MD5=[f46ec140c7955aeb4943f8872f29cabd]
+class Arkivstruktur.UtfoertKassasjon--><rect fill="#FEFECE" filter="url(#fmepq2kljfxyz)" height="103.6339" id="Arkivstruktur.UtfoertKassasjon" style="stroke: #A80036; stroke-width: 1.5;" width="243" x="116.5" y="164"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="62" x="207" y="181.8281">«dataType»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="96" x="190" y="198.1722">UtfoertKassasjon</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="117.5" x2="358.5" y1="206.6882" y2="206.6882"/><ellipse cx="127.5" cy="217.6882" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="175" x="136.5" y="222.4471">kassertDato : datetime [0..1] [1..1]</text><ellipse cx="127.5" cy="232.6701" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="148" x="136.5" y="237.429">kassertAv : string [0..1] [1..1]</text><ellipse cx="127.5" cy="247.652" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="217" x="136.5" y="252.4109">referanseKassertAv : SystemID [0..1] [1..1]</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="117.5" x2="358.5" y1="259.6339" y2="259.6339"/><!--MD5=[7aad5f711e1ff9ffc23e4b1d771a24c1]
+class Arkivstruktur.Arkivdel--><rect fill="#FEFECE" filter="url(#fmepq2kljfxyz)" height="42.3441" id="Arkivstruktur.Arkivdel" style="stroke: #A80036; stroke-width: 1.5;" width="112" x="326" y="62"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="45" x="329" y="79.8281">Arkivdel</text><rect fill="#FFFFFF" height="18.3441" style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" width="59" x="382" y="59"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="57" x="383" y="72.8281">Arkivenhet</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="327" x2="437" y1="88.3441" y2="88.3441"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="327" x2="437" y1="96.3441" y2="96.3441"/><!--MD5=[92ed2197edf38a39acf5ab443fdd08de]
+class Arkivstruktur.Dokumentbeskrivelse--><rect fill="#FEFECE" filter="url(#fmepq2kljfxyz)" height="42.3441" id="Arkivstruktur.Dokumentbeskrivelse" style="stroke: #A80036; stroke-width: 1.5;" width="188" x="38" y="62"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="121" x="41" y="79.8281">Dokumentbeskrivelse</text><rect fill="#FFFFFF" height="18.3441" style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" width="59" x="170" y="59"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="57" x="171" y="72.8281">Arkivenhet</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="39" x2="225" y1="88.3441" y2="88.3441"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="39" x2="225" y1="96.3441" y2="96.3441"/><!--MD5=[7d2f7b1b2d5113beedb051f3371ec2fc]
+reverse link Arkivstruktur.Arkivdel to Arkivstruktur.UtfoertKassasjon--><path d="M350.15,112.97 C333.7,127.94 313.13,146.66 294.11,163.95 " fill="none" id="Arkivstruktur.Arkivdel&lt;-Arkivstruktur.UtfoertKassasjon" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="359.82,104.18,352.689,105.2521,350.9359,112.2468,358.0669,111.1748,359.82,104.18" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[7927e30cd48143386c9e06c800830fed]
+reverse link Arkivstruktur.Dokumentbeskrivelse to Arkivstruktur.UtfoertKassasjon--><path d="M156.83,114.68 C168.7,129.35 183.23,147.31 196.69,163.95 " fill="none" id="Arkivstruktur.Dokumentbeskrivelse&lt;-Arkivstruktur.UtfoertKassasjon" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="148.33,104.18,148.9942,111.3605,155.8777,113.5091,155.2136,106.3286,148.33,104.18" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[050e2ef9821a8a8922a07ca535cadea7]
+@startuml
+skinparam nodesep 100
+hide circle
+class Arkivstruktur.UtfoertKassasjon <<dataType>> {
+  +kassertDato : datetime [0..1] [1..1]
+  +kassertAv : string [0..1] [1..1]
+  +referanseKassertAv : SystemID [0..1] [1..1]
+}
+class Arkivstruktur.Arkivdel <Arkivenhet> {
+}
+Arkivstruktur.Arkivdel *- - Arkivstruktur.UtfoertKassasjon
+class Arkivstruktur.Dokumentbeskrivelse <Arkivenhet> {
+}
+Arkivstruktur.Dokumentbeskrivelse *- - Arkivstruktur.UtfoertKassasjon
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 11:22:07 CET 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 17.0.6+10-Debian-1
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
