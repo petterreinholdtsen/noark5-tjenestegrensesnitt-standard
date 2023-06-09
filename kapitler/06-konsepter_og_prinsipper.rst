@@ -35,7 +35,10 @@ og HATEOAS-relasjoner, slik at disse har entydig definerte navn som
 ikke er avhengig av språkspesifikke regler for konvertering mellom
 små og store tegn.
 
-|image0|
+|uml-http-metoder|
+
+.. |uml-http-metoder| image:: ./media/uml-klasse-http-metoder.svg
+   :width: 40.0%
 
 Under følger eksempler fra tjenestene.
 
@@ -1841,6 +1844,4 @@ på feltet skoleaar, brukt i ppt-v1:skoleaar, må det brukes
 
    .../mappe?$filter=ppt-v1:skoleaar eq '2018/2019'
    .../saksmappe?$filter=contains(vnd-nikita-v1:eksempelfelt, ‘verdi’)
-
-.. |image0| image:: ./media/uml-klasse-http-metoder.png
 

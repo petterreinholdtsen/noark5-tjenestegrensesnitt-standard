@@ -1,14 +1,14 @@
 #!/usr/bin/make -f
 
 IMG_PUML := $(wildcard kapitler/media/*.puml)
-IMG_PNG := $(IMG_PUML:.puml=.png)
+IMG_SVG := $(IMG_PUML:.puml=.svg)
 
 PANDOC_TYPE = rst
 
 all: avledet/spesifikasjon.pdf avledet/spesifikasjon.html
 pdf: avledet/spesifikasjon.pdf
 
-images: $(IMG_PNG)
+images: $(IMG_SVG)
 
 kapitler/media/uml-complete.puml: bin/text2uml kapitler/07-tjenester_og_informasjonsmodell.rst
 	bin/text2uml > $@.new && mv $@.new $@
@@ -53,7 +53,7 @@ avledet/spesifikasjon.html: docbook images
 .SUFFIXES: .rst .pdf .docx .puml .png .svg
 
 clean:
-	$(RM) $(IMG_PNG)
+	$(RM) $(IMG_SVG)
 
 XMLLINTOPTS = --nonet --noout  --xinclude --postvalid
 lint: docbook

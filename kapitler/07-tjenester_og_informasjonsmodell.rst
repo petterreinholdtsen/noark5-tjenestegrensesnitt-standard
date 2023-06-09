@@ -104,24 +104,24 @@ Om UML og notasjon som er benyttet
 Noark5v5
 --------
 
-.. figure:: ./media/uml-pakker-som-inngaar-i-loesninger-geointegrasjon-eksempel.png
+.. figure:: ./media/uml-pakker-som-inngaar-i-loesninger-geointegrasjon-eksempel.svg
    :alt: Noark5 kjerne arkivstruktur (diagram) Diagrammet viser pakkene som inngår i arkivstruktur kjernen.
    :width: 80.0%
 
    Noark5 kjerne arkivstruktur (diagram) Diagrammet viser pakkene som inngår i arkivstruktur kjernen.
 
-.. figure:: ./media/uml-pakker-som-inngaar-i-loesninger-sakarkiv-eksempel.png
+.. figure:: ./media/uml-pakker-som-inngaar-i-loesninger-sakarkiv-eksempel.svg
    :alt: Noark5 spesialisering sakarkiv - (diagram) Diagrammet viser oversikt over spesialiseringen sakarkiv.
    :width: 80.0%
 
    Noark5 spesialisering sakarkiv - (diagram) Diagrammet viser oversikt over spesialiseringen sakarkiv.
 
-.. figure:: ./media/uml-pakker-som-inngaar-i-loesninger-noark5-kjerne.png
+.. figure:: ./media/uml-pakker-som-inngaar-i-loesninger-noark5-kjerne.svg
    :alt: Noark5 struktur - (diagram) Diagrammet viser oversikt over pakker som kan inngå i en noark kjerne.
 
    Noark5 struktur - (diagram) Diagrammet viser oversikt over pakker som kan inngå i en noark kjerne.
 
-.. figure:: ./media/uml-pakker-og-tilhoerende-klasser.png
+.. figure:: ./media/uml-pakker-og-tilhoerende-klasser.svg
    :alt: Noark5 elementlister - (diagram) Diagrammet viser oversikt over alle klasser og hvor de er definert.
 
    Noark5 elementlister - (diagram) Diagrammet viser oversikt over alle klasser og hvor de er definert.
@@ -184,42 +184,42 @@ brukere etter innlogging:
 
 Basis skjema for arkivstruktur og indre kjerne
 
-.. figure:: ./media/uml-arkivstruktur-arkivenhet-som-basis-klasse.png
+.. figure:: ./media/uml-arkivstruktur-arkivenhet-som-basis-klasse.svg
    :alt: Arkivenheter - (diagram)
 
    Arkivenheter - (diagram)
 
-.. figure:: ./media/uml-arkivenheter-som-har-noe-med-bevaring-og-kassasjon-aa-gjoere.png
+.. figure:: ./media/uml-arkivenheter-som-har-noe-med-bevaring-og-kassasjon-aa-gjoere.svg
    :alt: BevaringOgKassasjon - (diagram)
 
    BevaringOgKassasjon - (diagram)
 
-.. figure:: ./media/uml-arkivstruktur-forklart-som-hovedmodell.png
+.. figure:: ./media/uml-arkivstruktur-forklart-som-hovedmodell.svg
    :alt: Hovedmodell - (diagram)
 
    Hovedmodell - (diagram)
 
-.. figure:: ./media/uml-arkivstruktur-forenklet-modell.png
+.. figure:: ./media/uml-arkivstruktur-forenklet-modell.svg
    :alt: Forenklet struktur - (diagram)
 
    Forenklet struktur - (diagram)
 
-.. figure:: ./media/uml-arkivstruktur-arkiv-og-arkivdel.png
+.. figure:: ./media/uml-arkivstruktur-arkiv-og-arkivdel.svg
    :alt: Arkiv og arkivdel - (diagram)
 
    Arkiv og arkivdel - (diagram)
 
-.. figure:: ./media/uml-arkivstruktur-mappe-til-saksmappe.png
+.. figure:: ./media/uml-arkivstruktur-mappe-til-saksmappe.svg
    :alt: Mappestrukturen - (diagram)
 
    Mappestrukturen - (diagram)
 
-.. figure:: ./media/uml-arkivstruktur-mappe.png
+.. figure:: ./media/uml-arkivstruktur-mappe.svg
    :alt: Mappe - (diagram)
 
    Mappe - (diagram)
 
-.. figure:: ./media/uml-arkivstruktur-klassifikasjon.png
+.. figure:: ./media/uml-arkivstruktur-klassifikasjon.svg
    :alt: Klassifikasjonssystem - (diagram)
 
    Klassifikasjonssystem - (diagram)
@@ -243,37 +243,37 @@ registreringstypene. Metadata for registrering er derfor
 obligatorisk, selv om det i selve løsningen ikke er implementert noen
 funksjon for "arkivering uten journalføring".
 
-.. figure:: ./media/uml-arkivstruktur-registrering-til-journalpost.png
+.. figure:: ./media/uml-arkivstruktur-registrering-til-journalpost.svg
    :alt: Registrering - (diagram)
 
    Registrering - (diagram)
 
-.. figure:: ./media/uml-arkivstruktur-merknad.png
+.. figure:: ./media/uml-arkivstruktur-merknad.svg
    :alt: Merknad - (diagram)
 
    Merknad - (diagram)
 
-.. figure:: ./media/uml-arkivstruktur-dokumentbeskrivelse-og-dokumentobjekt.png
+.. figure:: ./media/uml-arkivstruktur-dokumentbeskrivelse-og-dokumentobjekt.svg
    :alt: Dokumentbeskrivelse - (diagram)
 
    Dokumentbeskrivelse - (diagram)
 
-.. figure:: ./media/uml-arkivstruktur-attributter.png
+.. figure:: ./media/uml-arkivstruktur-attributter.svg
    :alt: Arkivstruktur med attributter - (diagram)
 
    Arkivstruktur med attributter - (diagram)
 
-.. figure:: ./media/uml-arkivstruktur-kryssreferanse.png
+.. figure:: ./media/uml-arkivstruktur-kryssreferanse.svg
    :alt: Kryssreferanse - (diagram)
 
    Kryssreferanse - (diagram)
 
-.. figure:: ./media/uml-arkivstruktur-omfattende-forklart.png
+.. figure:: ./media/uml-arkivstruktur-omfattende-forklart.svg
    :alt: Arkivstruktur alternativ - (diagram) henter korrespondansepart objekt
 
    Arkivstruktur alternativ - (diagram) henter korrespondansepart objekt
 
-.. figure:: ./media/uml-arkivstruktur-skjerming.png
+.. figure:: ./media/uml-arkivstruktur-skjerming.svg
    :alt: Skjerming - (diagram)
    :width: 80.0%
 
@@ -910,7 +910,7 @@ Arkivenhet
 
 |umlarkivenhet|
 
-.. |umlarkivenhet| image:: ./media/uml-class-arkivenhet.png
+.. |umlarkivenhet| image:: ./media/uml-class-arkivenhet.svg
    :width: 100.0%
 
 *Type:* **Class**
@@ -1481,7 +1481,7 @@ Dokumentbeskrivelse
 
 |umldokumentbeskrivelse|
 
-.. |umldokumentbeskrivelse| image:: ./media/uml-class-dokumentbeskrivelse.png
+.. |umldokumentbeskrivelse| image:: ./media/uml-class-dokumentbeskrivelse.svg
    :width: 100.0%
 
 *Type:* **Class**
@@ -1988,7 +1988,7 @@ ElektroniskSignatur
 
 |umlelektronisksignatur|
 
-.. |umlelektronisksignatur| image:: ./media/uml-datatype-elektronisksignatur.png
+.. |umlelektronisksignatur| image:: ./media/uml-datatype-elektronisksignatur.svg
    :width: 80.0%
 
 *Type:* **Class «dataType»**
@@ -2064,7 +2064,7 @@ EnkelAdresse
 
 |umlenkeladresse|
 
-.. |umlenkeladresse| image:: ./media/uml-datatype-enkeladresse.png
+.. |umlenkeladresse| image:: ./media/uml-datatype-enkeladresse.svg
    :width: 80.0%
 
 *Type:* **Class «dataType»**
@@ -2125,7 +2125,7 @@ Gradering
 
 |umlgradering|
 
-.. |umlgradering| image:: ./media/uml-datatype-gradering.png
+.. |umlgradering| image:: ./media/uml-datatype-gradering.svg
    :width: 80.0%
 
 *Type:* **Class «dataType»**
@@ -2198,7 +2198,7 @@ Kassasjon
 
 |umlkassasjon|
 
-.. |umlkassasjon| image:: ./media/uml-datatype-kassasjon.png
+.. |umlkassasjon| image:: ./media/uml-datatype-kassasjon.svg
    :width: 80.0%
 
 *Type:* **Class «dataType»**
@@ -2282,7 +2282,7 @@ Klasse
 
 |umlklasse|
 
-.. |umlklasse| image:: ./media/uml-class-klasse.png
+.. |umlklasse| image:: ./media/uml-class-klasse.svg
    :width: 100.0%
 
 *Type:* **Class**
@@ -2612,7 +2612,7 @@ Kontaktinformasjon
 
 |umlkontaktinformasjon|
 
-.. |umlkontaktinformasjon| image:: ./media/uml-datatype-kontaktinformasjon.png
+.. |umlkontaktinformasjon| image:: ./media/uml-datatype-kontaktinformasjon.svg
    :width: 80.0%
 
 *Type:* **Class «dataType»**
@@ -2776,7 +2776,7 @@ Korrespondansepart
 
 |umlkorrespondansepart|
 
-.. |umlkorrespondansepart| image:: ./media/uml-class-korrespondansepart.png
+.. |umlkorrespondansepart| image:: ./media/uml-class-korrespondansepart.svg
    :width: 100.0%
 
 *Type:* **Class**
@@ -3700,7 +3700,7 @@ Part
 
 |umlpart|
 
-.. |umlpart| image:: ./media/uml-class-part.png
+.. |umlpart| image:: ./media/uml-class-part.svg
    :width: 80.0%
 
 *Type:* **Class**
@@ -3941,7 +3941,7 @@ Skjerming
 
 |umlskjerming|
 
-.. |umlskjerming| image:: ./media/uml-datatype-skjerming.png
+.. |umlskjerming| image:: ./media/uml-datatype-skjerming.svg
    :width: 100.0%
 
 *Type:* **Class «dataType»**
@@ -4028,7 +4028,7 @@ Sletting
 
 |umlsletting|
 
-.. |umlsletting| image:: ./media/uml-datatype-sletting.png
+.. |umlsletting| image:: ./media/uml-datatype-sletting.svg
    :width: 50.0%
 
 *Type:* **Class «dataType»**
@@ -4142,7 +4142,7 @@ UtfoertKassasjon
 
 |umlutfoertkassasjon|
 
-.. |umlutfoertkassasjon| image:: ./media/uml-datatype-utfoertkassasjon.png
+.. |umlutfoertkassasjon| image:: ./media/uml-datatype-utfoertkassasjon.svg
    :width: 80.0%
 
 *Type:* **Class «dataType»**
@@ -4198,9 +4198,9 @@ NasjonaleIdentifikatorer
 
 |umlni|
 
-.. |umlni| image:: ./media/uml-class-nasjonalidentifikator.png
+.. |umlni| image:: ./media/uml-class-nasjonalidentifikator.svg
 
-.. figure:: ./media/uml-bruken-av-nasjonalidentifikator.png
+.. figure:: ./media/uml-bruken-av-nasjonalidentifikator.svg
    :alt: Nasjonale identifikatorer - (diagram)
 
    Nasjonale identifikatorer - (diagram)
@@ -4288,7 +4288,7 @@ Bygning
 
 |umlbygning|
 
-.. |umlbygning| image:: ./media/uml-class-bygning.png
+.. |umlbygning| image:: ./media/uml-class-bygning.svg
    :width: 50.0%
 
 *Type:* **Class**
@@ -4865,12 +4865,12 @@ tidspunktet for når den ikke lenger skal brukes ved opprettelse og
 endring av aktuell kodeverdi.  Hvis «utdatert» ikke er satt så anses
 verdien å ikke være utdatert.
 
-.. figure:: ./media/uml-kodelister-entiter.png
+.. figure:: ./media/uml-kodelister-entiter.svg
    :alt: Kodelister - (diagram)
 
    Kodelister - (diagram)
 
-.. figure:: ./media/uml-metadata-entitet.png
+.. figure:: ./media/uml-metadata-entitet.svg
    :alt: Metadata - (diagram)
 
    Metadata - (diagram)
@@ -6376,47 +6376,47 @@ Sakarkiv-pakken:
 
 Utvidelse for sakarkiv metadata
 
-.. figure:: ./media/uml-sakarkiv-entiteter.png
+.. figure:: ./media/uml-sakarkiv-entiteter.svg
    :alt: Sakarkiv - (diagram)
 
    Sakarkiv - (diagram)
 
-.. figure:: ./media/uml-sakarkiv-entiteter-forenklet.png
+.. figure:: ./media/uml-sakarkiv-entiteter-forenklet.svg
    :alt: Sakarkiv kun - (diagram)
 
    Sakarkiv kun - (diagram)
 
-.. figure:: ./media/uml-klasse-saksbehandling.png
+.. figure:: ./media/uml-klasse-saksbehandling.svg
    :alt: Saksbehandling - (diagram)
 
    Saksbehandling - (diagram)
 
-.. figure:: ./media/uml-klasse-avskrivning.png
+.. figure:: ./media/uml-klasse-avskrivning.svg
    :alt: Avskrivning - (diagram)
 
    Avskrivning - (diagram)
 
-.. figure:: ./media/uml-klasse-person-og-organisasjonsdata.png
+.. figure:: ./media/uml-klasse-person-og-organisasjonsdata.svg
    :alt: Person og organisasjonsdata - (diagram)
 
    Person og organisasjonsdata - (diagram)
 
-.. figure:: ./media/uml-hovedmodell-saksbehandling.png
+.. figure:: ./media/uml-hovedmodell-saksbehandling.svg
    :alt: Hovedmodell - (diagram)
 
    Hovedmodell - (diagram)
 
-.. figure:: ./media/uml-saksmappe.png
+.. figure:: ./media/uml-saksmappe.svg
    :alt: Saksmappe - (diagram)
 
    Saksmappe - (diagram)
 
-.. figure:: ./media/uml-journalpost.png
+.. figure:: ./media/uml-journalpost.svg
    :alt: Journalpost - (diagram)
 
    Journalpost - (diagram)
 
-.. figure:: ./media/uml-elektronisk-signatur.png
+.. figure:: ./media/uml-elektronisk-signatur.svg
    :alt: Elektronisk signatur - (diagram)
 
    Elektronisk signatur - (diagram)
@@ -7575,7 +7575,7 @@ brukere etter innlogging:
  * - https://rel.arkivverket.no/noark5/v5/api/admin/ny-rettighet/
 
 
-.. figure:: ./media/uml-administrasjon.png
+.. figure:: ./media/uml-administrasjon.svg
    :alt: Admin - (diagram)
 
    Admin - (diagram)
@@ -7949,7 +7949,7 @@ implementasjon som støtter LoggingOgSporing-pakken:
 
 Skjema for logging og sporing
 
-.. figure:: ./media/uml-endringslogg.png
+.. figure:: ./media/uml-endringslogg.svg
    :alt: LoggingOgSporing - (diagram)
 
    LoggingOgSporing - (diagram)
@@ -8097,83 +8097,83 @@ Hendelseslogg
    -
    - datetime
 
-.. |image0| image:: ./media/uml-forklaring-om-notasjon-som-er-brukt.png
+.. |image0| image:: ./media/uml-forklaring-om-notasjon-som-er-brukt.svg
    :width: 90.0%
-.. |image1| image:: ./media/uml-klasse-konspetet-bruker-registrering-som-eksempel.png
+.. |image1| image:: ./media/uml-klasse-konspetet-bruker-registrering-som-eksempel.svg
    :width: 90.0%
-.. |image2| image:: ./media/uml-assosiasjoner-brukt-med-klasser.png
+.. |image2| image:: ./media/uml-assosiasjoner-brukt-med-klasser.svg
    :width: 90.0%
-.. |image3| image:: ./media/uml-generalisering-brukt-med-klasser.png
+.. |image3| image:: ./media/uml-generalisering-brukt-med-klasser.svg
    :width: 90.0%
-.. |image4| image:: ./media/uml-komposisjon-brukt-med-klasser.png
+.. |image4| image:: ./media/uml-komposisjon-brukt-med-klasser.svg
    :width: 90.0%
-.. |image5| image:: ./media/uml-multiplisitet-brukt-med-klasser.png
+.. |image5| image:: ./media/uml-multiplisitet-brukt-med-klasser.svg
    :width: 90.0%
-.. |image6| image:: ./media/uml-simple-datatyper-eller-primitiver.png
+.. |image6| image:: ./media/uml-simple-datatyper-eller-primitiver.svg
    :width: 90.0%
-.. |image7| image:: ./media/uml-class-arkiv.png
+.. |image7| image:: ./media/uml-class-arkiv.svg
    :width: 50.0%
-.. |image8| image:: ./media/uml-class-arkivdel.png
+.. |image8| image:: ./media/uml-class-arkivdel.svg
    :width: 50.0%
-.. |image10| image:: ./media/uml-class-arkivskaper.png
+.. |image10| image:: ./media/uml-class-arkivskaper.svg
    :width: 50.0%
-.. |image11| image:: ./media/uml-class-registrering.png
+.. |image11| image:: ./media/uml-class-registrering.svg
    :width: 100.0%
-.. |image13| image:: ./media/uml-class-dokumentobjekt.png
+.. |image13| image:: ./media/uml-class-dokumentobjekt.svg
    :width: 50.0%
-.. |image15| image:: ./media/uml-class-klassifikasjonssystem.png
+.. |image15| image:: ./media/uml-class-klassifikasjonssystem.svg
    :width: 50.0%
-.. |image16| image:: ./media/uml-class-konvertering.png
+.. |image16| image:: ./media/uml-class-konvertering.svg
    :width: 50.0%
-.. |image18| image:: ./media/uml-class-korrespondansepartenhet.png
+.. |image18| image:: ./media/uml-class-korrespondansepartenhet.svg
    :width: 50.0%
-.. |image19| image:: ./media/uml-class-korrespondansepartintern.png
+.. |image19| image:: ./media/uml-class-korrespondansepartintern.svg
    :width: 50.0%
-.. |image20| image:: ./media/uml-class-korrespondansepartperson.png
+.. |image20| image:: ./media/uml-class-korrespondansepartperson.svg
    :width: 50.0%
-.. |image21| image:: ./media/uml-class-kryssreferanse.png
+.. |image21| image:: ./media/uml-class-kryssreferanse.svg
    :width: 50.0%
-.. |image22| image:: ./media/uml-class-mappe.png
+.. |image22| image:: ./media/uml-class-mappe.svg
    :width: 100.0%
-.. |image23| image:: ./media/uml-class-merknad.png
+.. |image23| image:: ./media/uml-class-merknad.svg
    :width: 50.0%
-.. |image25| image:: ./media/uml-class-partenhet.png
+.. |image25| image:: ./media/uml-class-partenhet.svg
    :width: 50.0%
-.. |image26| image:: ./media/uml-class-partperson.png
+.. |image26| image:: ./media/uml-class-partperson.svg
    :width: 50.0%
-.. |image29| image:: ./media/uml-class-enhetsidentifikator.png
+.. |image29| image:: ./media/uml-class-enhetsidentifikator.svg
    :width: 50.0%
-.. |image30| image:: ./media/uml-class-matrikkel.png
+.. |image30| image:: ./media/uml-class-matrikkel.svg
    :width: 50.0%
-.. |image31| image:: ./media/uml-class-personidentifikator.png
+.. |image31| image:: ./media/uml-class-personidentifikator.svg
    :width: 50.0%
-.. |image32| image:: ./media/uml-class-foedselsnummer.png
+.. |image32| image:: ./media/uml-class-foedselsnummer.svg
    :width: 50.0%
-.. |image33| image:: ./media/uml-class-dnummer.png
+.. |image33| image:: ./media/uml-class-dnummer.svg
    :width: 50.0%
-.. |image34| image:: ./media/uml-class-plan.png
+.. |image34| image:: ./media/uml-class-plan.svg
    :width: 50.0%
-.. |image35| image:: ./media/uml-class-posisjon.png
+.. |image35| image:: ./media/uml-class-posisjon.svg
    :width: 50.0%
-.. |image36| image:: ./media/uml-class-avskrivning.png
+.. |image36| image:: ./media/uml-class-avskrivning.svg
    :width: 50.0%
-.. |image37| image:: ./media/uml-class-dokumentflyt.png
+.. |image37| image:: ./media/uml-class-dokumentflyt.svg
    :width: 50.0%
-.. |image38| image:: ./media/uml-class-arkivnotat.png
+.. |image38| image:: ./media/uml-class-arkivnotat.svg
    :width: 50.0%
-.. |image39| image:: ./media/uml-class-journalpost.png
+.. |image39| image:: ./media/uml-class-journalpost.svg
    :width: 50.0%
-.. |image40| image:: ./media/uml-class-presedens.png
+.. |image40| image:: ./media/uml-class-presedens.svg
    :width: 50.0%
-.. |image41| image:: ./media/uml-class-saksmappe.png
+.. |image41| image:: ./media/uml-class-saksmappe.svg
    :width: 50.0%
-.. |image42| image:: ./media/uml-class-administrativenhet.png
+.. |image42| image:: ./media/uml-class-administrativenhet.svg
    :width: 50.0%
-.. |image43| image:: ./media/uml-class-bruker.png
+.. |image43| image:: ./media/uml-class-bruker.svg
    :width: 50.0%
-.. |image44| image:: ./media/uml-class-tilgang.png
+.. |image44| image:: ./media/uml-class-tilgang.svg
    :width: 50.0%
-.. |image45| image:: ./media/uml-class-endringslogg.png
+.. |image45| image:: ./media/uml-class-endringslogg.svg
    :width: 50.0%
-.. |image46| image:: ./media/uml-class-hendelseslogg.png
+.. |image46| image:: ./media/uml-class-hendelseslogg.svg
    :width: 50.0%
