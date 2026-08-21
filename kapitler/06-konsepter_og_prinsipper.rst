@@ -564,7 +564,7 @@ aktuelle ressurslenke kan være
 https://n5.example.com/api/arkivstruktur/Arkivdel/12345/ny-mappe .
 Denne kan brukes til både GET og POST forespørsel.
 
-GET-forespørselen forhånds utfyller en lovlig objektstruktur og gir
+GET-forespørselen forhåndsutfyller en lovlig objektstruktur og gir
 relasjonslenker til aktuelle kodelister. En slik forespørsel
 oppretter ikke noe objekt og returverdien refererer ikke heller til et
 objekt i databasen, og er derfor uten «self»-relasjon. Strukturen
